@@ -1,0 +1,229 @@
+{
+  "title": "Seguridad",
+  "items": {
+    "security-key": {
+      "title": "Tu clave",
+      "change-key": "Cambia tu clave",
+      "transactions-key": "Clave en transacciones"
+    },
+    "biometry": {
+      "title": "Llaves de seguridad",
+      "voice": "Voz"
+    },
+    "auth-method": {
+      "title": "Llave para entrar a Nequi",
+      "fingerprint": "Huella / FaceID"
+    },
+    "your-data": {
+      "title": "Tus datos",
+      "text": "Tratamiento de datos personales"
+    }
+  },
+  "change-password": {
+    "crate": {
+      "title": "Escribe tu nueva clave",
+      "description": "Fácil de recordar, pero secreta... No se la dices ni al espejo."
+    },
+    "confirm": {
+      "title": "Confirma tu clave",
+      "description": "Confirma tu clave."
+    },
+    "errors": {
+      "repeated": "¡Ups! No puedes usar el mismo número 3 veces.",
+      "different": "¡Ups! Las claves deben ser iguales.",
+      "default": "¡Ups! Algo falló. Vuelve a intentar porfa."
+    },
+    "toast": {
+      "info": "¡Recuerda! La clave de tu Nequi no debe ser la misma para desbloquear tu cel ;)",
+      "confirm": "Vuelve a escribir tu clave para confirmarla",
+      "success": "¡Ya tienes una nueva clave! Ahora la puedes usar ;)"
+    }
+  },
+  "password-on-transactions": {
+    "alert-activate-password": {
+      "header": "¿Seguro quieres activar esta clave?",
+      "message": "Si activas esta opción, te  pediremos la clave siempre que hagas un movimiento en Nequi.",
+      "buttons": {
+        "accept": "Acepta",
+        "cancel": "Cancela"
+      }
+    },
+
+    "alert-deactivate-password": {
+      "header": "¡Solo para entrar! ;)",
+      "message": "Solo tendrás que usar tu clave para entrar a la app Nequi.",
+      "buttons": {
+        "accept": "Acepta",
+        "cancel": "Mejor no"
+      }
+    },
+
+    "successActivated": "Listo, tu clave en todas las transacciones",
+    "successDeactivated": "Listo, tu clave solo al iniciar tu Nequi"
+  },
+
+  "activate-fingerprint": {
+    "title": "Términos y condiciones",
+    "description": "<p> La identificación de tu huella solo la hace tu cel. Nequi no controla esta funcionalidad ni puede acceder a esta info.<p> <p>Puedes usar cualquier huella que guardes en tu cel, para entrar a Nequi. ¡Tú eliges!</p>",
+    "buttons": {
+      "accept": "Entendido"
+    }
+  },
+
+  "biometry-facial-modal-settings": {
+    "title": "¿Para qué el reconocimiento facial?",
+    "image": "/assets/images/icons/facial-biometry.svg",
+    "content": "Vamos a confirmar que seas tú y solo tú quien entra a tu Nequi.",
+    "buttons": {
+      "accept": "Listo",
+      "cancel": "Ahora no"
+    }
+  },
+
+  "show-biometry-by-voice": {
+    "title": "Reconocimiento por voz",
+    "image": "/assets/images/icons/facial-biometry.svg",
+    "description": "<p>Para comenzar, toca el botón rojo para comenzar a grabar. Lee la frase y cuando termines, toca otra vez el botón rojo para dejar de grabar.</p> <p>¡Son tres veces! Tranqui... Queremos reconocer bien tu voz.<p>",
+    "success": "¡Listo el reconocimiento de voz! Más seguridad para tu Nequi.",
+    "buttons": {
+      "accept": "Listo"
+    },
+    "items": {
+      "noise": "Busca un sitio sin ruido.",
+      "speak": "¡No grites! Habla normal."
+    },
+    "cancel-alert": {
+      "header": "¿Quieres cancelar el proceso?",
+      "message": "Quedate y proteje tu Nequi con tu voz",
+      "buttons": {
+        "accept": "Sigue",
+        "cancel": "Ahora no"
+      }
+    },
+    "permissions-denied": {
+      "title": "Configura tus permisos",
+      "image": "/assets/images/icons/fingerprint_alert.svg",
+      "message": "No podemos reconocerte, por favor revisa los permisos de tu Micrófono en los ajustes de tu celular.",
+      "buttons": {
+        "accept": "Configuración",
+        "cancel": "Más tarde"
+      }
+    }
+  },
+
+  "unregister-voice-biometry-settings": {
+    "header": "¿Seguro quieres quitar el reconocimiento de voz?",
+    "message": "Si desactivas el reconocimiento de voz, tu Nequi ya no tendrá esta llave de seguridad.",
+    "buttons": {
+      "accept": "Acepta",
+      "cancel": "Mejor no"
+    },
+    "toast": {
+      "enabled": "¡Listo el reconocimiento de voz! Más seguridad para tu Nequi",
+      "disabled": "Ya no está activo el reconocimiento de voz"
+    }
+  },
+
+  "facial-biometry": {
+    "title": "¿Cómo quieres que te reconozcamos hoy?"
+  },
+
+  "fingerprint-modal-settings": {
+    "enroll-touch-id": {
+      "title": "Registra tu huella",
+      "image": "/assets/images/icons/fingerprint_alert.svg",
+      "content": "Para registrar tu huella debes ir a Ajustes en la opción de configuración de huella de tu celu. Una vez la guardes vuelve para activarla",
+      "buttons": {
+        "accept": "Registrarla",
+        "cancel": "Más tarde"
+      }
+    },
+    "enroll-face-id": {
+      "title": "Registra tu rostro",
+      "image": "/assets/images/icons/fingerprint_alert.svg",
+      "content": "Para registrar tu rostro debes ir a Ajustes en la opción de configuración de Face ID de tu celu. Una vez lo guardes vuelve para activarlo",
+      "buttons": {
+        "accept": "Configuración",
+        "cancel": "Más tarde"
+      }
+    },
+    "user-has-denied-face-id": {
+      "title": "Configura tus permisos",
+      "image": "/assets/images/icons/fingerprint_alert.svg",
+      "content": "No podemos configurar tu Face ID, por favor revisa los permisos de Face ID en los ajustes de tu celular.",
+      "buttons": {
+        "accept": "Configuración",
+        "cancel": "Más tarde"
+      }
+    }
+  },
+  "phone-number": {
+    "new-number": {
+      "title": "Cambia tu cel",
+      "description": "Tu cel actual es <strong>{{phoneNumber}}.</strong><br/> Lo vas a cambiar por:",
+      "message": "Al escribir tu número de cel, autorizas a Nequi para enviarte mensajes de texto con info del servicio, cuando sea necesario.",
+      "input": {
+        "placeholder": "Nuevo número de cel"
+      },
+      "validators": {
+        "phone-number": {
+          "required": "¡Ups! Debes llenar esto.",
+          "pattern": "¡Ups! Debes ingresar un número valido."
+        }
+      },
+      "agree-message": "Marca esta opción para enviarte el mensaje de texto que te permitirá vincular tu cel con Nequi.",
+      "button": "Acepta"
+    },
+    "token-validation": {
+      "title": "Escribe el código",
+      "modal": {
+        "title": "¡Listo tu nuevo número de cel! ;)",
+        "content": "Vamos a cerrar tu sesión en Nequi para que, cuando vuelvas a entrar, se active tu nuevo número de cel ;)",
+        "imgPath": "/assets/images/transversal/blue-ok.svg",
+        "buttons": {
+          "accept": "Listo"
+        }
+      }
+    }
+  },
+  "email": {
+    "title": "Tu correo",
+    "not-confirmed-context": "¡Confirma porfa tu correo! Nos sirve para mantener seguro tu Nequi y comunicarnos ;)",
+    "changed-context": "Si cambias tu correo y lo confirmas, ya no vamos a enlazar con tu Nequi el que tenías antes.",
+    "button": "Confirma tu correo",
+    "success": "Revisa ya porfa tu correo y confírmalo",
+    "input": {
+      "placeholder": "Correo electrónico",
+      "errors": {
+        "pattern": "¿Escribiste bien tu correo? Parece que no existe...",
+        "required": "¡Tu correo es súper importante! Escríbelo para mantener tu Nequi seguro y comunicarnos."
+      }
+    },
+    "pin-challenge": {
+      "title": "Pon tu clave",
+      "message": "No dudamos de que seas tú... Pero es mejor confirmar ;)"
+    },
+    "alert": {
+      "header": "¡Confirma tu correo!",
+      "content": "Te envíamos un mensaje para que confirmes tu correo y lo usemos para comunicarnos.",
+      "buttons": {
+        "cancel": "Mejor no",
+        "accept": "Reenvía"
+      }
+    }
+  },
+  "contingency-app-gate": "Opción deshabilitada temporalmente, porfa intenta más tarde.",
+  "data-treatment": {
+    "title": "Tus datos son tu decisión",
+    "description": "Respetamos tu información y la usamos para protegerte, así como para ofrecerte una mejor experiencia. </br> Los siguientes items son:",
+    "button": "Acepta"
+  },
+  "data-treatment-minors-modal-settings": {
+    "title": "¡Aún no puedes hacer esto!",
+    "image": "/assets/images/icons/clock-blue-three.svg",
+    "content": "Tendremos desactivadas nuestras comunicaciones comerciales contigo hasta que cumplas 18 años.",
+    "buttons": {
+      "accept": "Listo"
+    }
+  }
+}

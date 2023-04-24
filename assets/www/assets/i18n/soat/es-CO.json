@@ -1,0 +1,428 @@
+{
+  "home": {
+    "title": "¿Qué quieres hacer?",
+    "bottom-sheet": {
+      "welcome": {
+        "message": "Consulta y compra tu SOAT",
+        "content": "Tu SOAT ahora es digital. Consúltalo, cómpralo y llévalo en tu celu.",
+        "image": "/assets/images/soat/world-insurance.svg",
+        "leftImage": "/assets/images/soat/left-superintendence.svg",
+        "button": "Listo",
+        "url": {
+          "label": "¿Más info?",
+          "link": "https://ayuda.nequi.com.co/hc/es/sections/360002738211-SOAT-Digital"
+        }
+      }
+    },
+    "nav-buttons": {
+      "buy-digital": {
+        "title": "Compra SOAT digital"
+      },
+      "see-bought": {
+        "title": "Ver SOAT comprados"
+      },
+      "see-quoted-list": "Ir a cotizaciones anteriores"
+    }
+  },
+  "conditions": {
+    "title": "Condiciones del SOAT",
+    "checkbox": "Acepto términos y condiciones del SOAT",
+    "accept": "Acepto",
+    "pin-challenge": {
+      "title": "Pon tu clave",
+      "message": "No dudamos de que seas tú... Pero es mejor confirmar ;)"
+    },
+    "modals": {
+      "success": {
+        "header": "¡A manejar relax!",
+        "content": "Todo salió bien y tu SOAT llegará a tu correo en 5 minutos. Imprímelo o guardalo en tu cel. <div class='margin-top-8'>Y mientras tanto... ¿Qué tal si creas una Meta para el SOAT del próximo año?</div>",
+        "image": "/assets/images/transversal/blue-ok.svg",
+        "buttons": {
+          "accept": "Crea Meta para SOAT",
+          "cancel": "Ahora no"
+        }
+      }
+    }
+  },
+  "buy": {
+    "title": "Comprar SOAT digital",
+    "form": {
+      "document-type": "Tipo de documento",
+      "document-number": "Número de documento",
+      "business-name": "Razón Social",
+      "license-plate": "Placa del vehículo",
+      "email": "Correo",
+      "phone": "Número de celular",
+      "info": "Solo puedes comprar el SOAT de los vehículos que estén a tu nombre."
+    },
+    "controls-errors": {
+      "document-number": {
+        "required": "¡Ups! Debes llenar esto.",
+        "wrong-document": "Revisa tu número de documento porfa."
+      },
+      "business-name": {
+        "required": "¡Ups! Debes llenar esto."
+      },
+      "license-plate": {
+        "required": "¡Ups! Debes llenar esto.",
+        "wrong-plate": "¡Ups! Eso no parece una placa."
+      },
+      "email": {
+        "required": "¡Ups! Debes llenar esto.",
+        "wrong-email": "Eso no parece un correo. Revísalo porfa.",
+        "emailInfo": "Este será el correo al que Seguros Mundial mandará tu SOAT digital.",
+        "help": "Este será el correo al que Seguros Mundial mandará tu SOAT digital."
+      },
+      "phoneNumber": {
+        "required": "¡Ups! Debes llenar esto.",
+        "wrong-phoneNumber": "¡Ups! Porfa revisa tu número de celular."
+      }
+    },
+    "document-type-selector": {
+      "NIT": {
+        "value": "50001",
+        "code": "NIT",
+        "description": "NIT"
+      },
+      "CC": {
+        "value": "50002",
+        "code": "CC",
+        "description": "Cédula de ciudadanía"
+      },
+      "CE": {
+        "value": "50003",
+        "code": "CE",
+        "description": "Cédula de extranjería"
+      }
+    },
+    "button": "Cotiza"
+  },
+  "quote": {
+    "title": "Cotización SOAT digital",
+    "title-ap": "Cotización SOAT + <br />Seguro accidentes personales",
+    "subtitle": "Info del SOAT",
+    "details": {
+      "date": {
+        "label": "Fecha de inicio del SOAT",
+        "help": "¡Ojo! Tu nuevo SOAT estará vigente solo a partir de esta fecha."
+      },
+      "amount": "SOAT",
+      "vehicle": "Vehículo",
+      "insurance": "Seguro accidentes personales",
+      "totalamount": "Total a pagar"
+    },
+    "form": {
+      "first-name": "Nombre(s) del tomador",
+      "last-name": "Apellidos del tomador",
+      "phone": "Número de celular",
+      "email": "Correo",
+      "address": "Dirección",
+      "business-name": "Razón social",
+      "vehicle-type": "Tipo de vehículo",
+      "license-plate": "Placa del vehiculo",
+      "document-number": "Número de documento",
+      "model": "Modelo",
+      "city": "Ciudad",
+      "service-type": "Tipo de servicio",
+      "passengers": "Cantidad de pasajeros",
+      "engine-number": "Número de motor",
+      "chassis": "Número de chasis",
+      "vin": "Número de VIN"
+    },
+    "controls-errors": {
+      "first-name": {
+        "required": "¡Ups! Debes llenar esto.",
+        "min-length": "¡Ups! texto muy corto.",
+        "max-length": "¡Ups! texto muy largo."
+      },
+      "last-name": {
+        "required": "¡Ups! Debes llenar esto.",
+        "min-length": "¡Ups! texto muy corto.",
+        "max-length": "¡Ups! texto muy largo."
+      },
+      "address": {
+        "required": "¡Ups! Debes llenar esto.",
+        "min-length": "¡Ups! texto muy corto.",
+        "help": "Esta es la dirección de Nequi. Te recomendamos poner la dirección de tu casa."
+      },
+      "vehicle-type": {
+        "required": "¡Ups! Este campo debe ir lleno para poder cotizar"
+      }
+    },
+    "label-ap": "Seguro accidentes personales <br /> {{ valueAp }}",
+    "owner": "Dueñ@ del vehículo y quien toma el SOAT",
+    "origin-money": "¿De dónde saldrá la plata?",
+    "button": "Compra",
+    "bottom-sheet": {
+      "title": "Confirma",
+      "subtitle": "Info del SOAT",
+      "date": "Fecha de inicio del SOAT",
+      "amount": "Valor total a pagar SOAT",
+      "amountap": "Valor total a pagar SOAT + Seguro",
+      "vehicle": "Vehículo",
+      "ownerInfo": "Datos del propietario del vehículo",
+      "name": "Nombre del tomador",
+      "lastname": "Apellidos del tomador",
+      "phone": "Número de celular",
+      "email": "Correo",
+      "address": "Dirección",
+      "type": "Tipo de vehículo",
+      "document": "Número de documento",
+      "businessname": "Razón Social",
+      "pocket": "La plata saldrá de:",
+      "button": "Confirma"
+    }
+  },
+  "errors": {
+    "ready-button": {
+      "accept": "Listo"
+    },
+    "modals": {
+      "timeout": {
+        "header": "¡Falta poco!",
+        "content": "Estamos procesando tu SOAT te avisaremos en breve si todo salió bien. <div class='margin-top-8'>Y mientras tanto... ¿Qué tal si creas una Meta para el SOAT del próximo año?</div>",
+        "image": "/assets/images/soat/yellow-clock.svg",
+        "buttons": {
+          "accept": "Crea Meta para SOAT",
+          "cancel": "Ahora no"
+        }
+      }
+    },
+    "recharge-timeout": {
+      "header": "Hay un trancón",
+      "message": "Porfa vuelve a intentar",
+      "buttons": {
+        "accept": "Listo"
+      }
+    },
+    "wrong-owner": {
+      "header": "Número de documento no coincide",
+      "message": "El número que nos diste no coincide con los del propietario del vehículo, revisa porfa, deben ser iguales.",
+      "buttons": {
+        "accept": "Listo"
+      }
+    },
+    "no-document": {
+      "header": "Ups no podemos continuar",
+      "message": "Debes actualizar la info de tu cédula para poder continuar",
+      "buttons": {
+        "accept": "Listo"
+      }
+    },
+    "wrong-document": {
+      "title": "¡Perdón! No se puede...",
+      "content": "Solo vendemos SOAT a personas naturales con Cédula de ciudadanía. ",
+      "buttons": {
+        "accept": "Listo"
+      }
+    },
+    "default": "¡Ups! Tenemos un problema, inténtalo más tarde."
+  },
+  "purchased": {
+    "title": "SOAT digital",
+    "subtitle": "Aquí solo ves los SOAT que compraste en Nequi",
+    "additional-message": "La fecha y el valor son aproximados a tu próximo SOAT",
+    "empty-case": {
+      "image": "/assets/images/soat/purchased/empty-case.svg",
+      "message": "Aún no has comprado ningún SOAT Digital por Nequi",
+      "action": "Cotiza vehículo"
+    },
+    "quotes-cards": {
+      "icons": {
+        "cars": "/assets/images/soat/purchased/car-icon.svg",
+        "motos": "/assets/images/soat/purchased/moto-icon.svg",
+        "others": "/assets/images/soat/purchased/wheel-icon.svg"
+      },
+      "messages": {
+        "startAt": "Desde: ",
+        "endAt": "Hasta: "
+      },
+      "retry-message": "Algo falló... Porfa vuelve a intentar",
+      "status": {
+        "2": "Activo",
+        "3": "Vencido",
+        "4": "Aún no vigente",
+        "5": "Prox. a vencer"
+      }
+    },
+    "button": "Cotiza otro vehículo",
+    "show-pdf": {
+      "image": "/assets/images/soat/purchased/plate-icon.svg",
+      "title": "Tu placa en MAYÚSCULAS",
+      "content": "Para abrir el archivo PDF de tu SOAT necesitas una clave <b>que es la placa de tu vehículo en MAYÚSCULAS.</b>",
+      "button": "Listo"
+    },
+    "cards-modals": {
+      "red-light": {
+        "header": "¡Bip Bip! Luz Roja",
+        "image": "/assets/images/icons/red-light.svg",
+        "content": "Ya está vencido. Renueva de una vez tu SOAT y ábrelo en tu cel cuando lo necesites.",
+        "buttons": {
+          "accept": "Renovar SOAT",
+          "cancel": "Ahora no"
+        }
+      },
+      "yellow-light": {
+        "header": "¡Bip Bip! Luz Amarilla",
+        "image": "/assets/images/soat/purchased/yellow-light.svg",
+        "content": "Rueda con precaución, tu SOAT está próximo a vencerse. Renuévalo de una vez.",
+        "buttons": {
+          "accept": "Renovar SOAT",
+          "cancel": "Ver SOAT"
+        }
+      }
+    },
+    "toast": {
+      "zero-stress": "Cero estrés, ya casi tienes luz verde para ver tu SOAT digital"
+    }
+  },
+  "quoted": {
+    "empty-case": {
+      "image": "/assets/images/soat/quoted/empty-case.svg",
+      "message": "Aún no tienes cotizaciones realizadas para tu SOAT",
+      "action": "Cotiza vehículo"
+    },
+    "delete": {
+      "header": "¿La eliminamos?",
+      "message": "¿Seguro que quieres eliminar esta cotización?<br>Podrás volver a realizarla cuando quieras",
+      "buttons": {
+        "accept": "Elimina",
+        "cancel": "Cancela"
+      }
+    },
+    "delete-success": "Eliminado exitosamente",
+    "retry-message": "Algo falló... Porfa vuelve a intentar",
+    "title": "Cotizaciones SOAT digital",
+    "subtitle": "Aquí puedes ver las cotizaciones que has hecho",
+    "button": "Cotiza otro vehículo"
+  },
+  "alert-max-currents": {
+    "header": "Has llegado al máximo de SOAT vigentes",
+    "message": "Parece que has llegado al máximo de SOAT vigentes, sólo puedes tener en tu cuenta Nequi máximo 5.",
+    "buttons": {
+      "accept": "Listo"
+    }
+  },
+  "soat-ap": {
+    "info": {
+      "title": "¿Quieres más <br />protección?",
+      "content": [
+        {
+          "image": "/assets/images/soat/ap/shield.svg",
+          "title": "1. Solo por {0} más",
+          "content": "Compra una póliza de accidentes personales para que te proteja en todo momento, y proteja a tus beneficiarios por si falleces. Además, te ayudamos con asistencias para tu vehículo (moto o carro)."
+        },
+        {
+          "image": "/assets/images/soat/ap/cash.svg",
+          "title": "2. ¿Cuánto te aseguramos?",
+          "content": "Tendrás un valor asegurado de {0}, que  le entregaremos a tus beneficiarios de ley si llegaras a fallecer."
+        },
+        {
+          "image": "/assets/images/soat/ap/motorcycle.svg",
+          "title": "3. Asistencias para motos",
+          "content": "Farolas y stops. ",
+          "link": "Ver más.",
+          "detail": {
+            "title": "¿Qué asistencias me dan si tengo moto?",
+            "description": "Seguros Mundial te repone hasta 1/2 SMMLV por un daño súbito (no desgaste) en las farolas y stops de la moto, durante el año de la vigencia del seguro. Estas son tus asistencias:",
+            "items": [
+              {
+                "image": "/assets/images/soat/ap/man.svg",
+                "title": "Mano de obra",
+                "titleClass": "text--midnight",
+                "content": "La aseguradora te indica el proveedor que hará el montaje."
+              },
+              {
+                "image": "/assets/images/soat/ap/globe.svg",
+                "title": "Marca",
+                "titleClass": "text--midnight",
+                "content": "Igual a la original."
+              },
+              {
+                "image": "/assets/images/soat/ap/hammer.svg",
+                "title": "Reparaciones",
+                "titleClass": "text--midnight",
+                "content": "Solo reposición. No se reembolsa plata por reparaciones hechas por la persona asegurada. No se cubren partes ya reparadas."
+              },
+              {
+                "image": "/assets/images/soat/ap/golf.svg",
+                "title": "Ciudades",
+                "titleClass": "text--midnight",
+                "content": "En todas las ciudades del país."
+              },
+              {
+                "image": "/assets/images/soat/ap/warning.svg",
+                "title": "¡Ten en cuenta! ",
+                "titleClass": "text--guayaba",
+                "content": "<ul><li>Una vez afectada la cobertura del amparo básico, no se podrá presentar reclamación para servicio de asistencia.</li><li>Debes asumir y pagar el excedente cuando se sobrepasa la cobertura de 1/2 SMMLV.</li></ul>"
+              }
+            ]
+          }
+        },
+        {
+          "image": "/assets/images/soat/ap/car.svg",
+          "title": "4. Asistencias para carros",
+          "content": "Vidrios laterales y película de seguridad. ",
+          "link": "Ver más.",
+          "detail": {
+            "title": "¿Qué asistencias me dan si tengo carro?",
+            "description": "Seguros Mundial te repone 1/2 SMMLV por un daño súbito (no desgaste) en tus vidrios laterales y película de seguridad, durante el año de la vigencia del seguro. Estas son tus asistencias:",
+            "items": [
+              {
+                "image": "/assets/images/soat/ap/pencil.svg",
+                "title": "Diseño",
+                "titleClass": "text--midnight",
+                "content": "Se cubre vidrio original. No aplica para blindados ni modificados antes. "
+              },
+              {
+                "image": "/assets/images/soat/ap/globe.svg",
+                "title": "Película de seguridad",
+                "titleClass": "text--midnight",
+                "content": "Solo si el vehículo la tiene."
+              },
+              {
+                "image": "/assets/images/soat/ap/hand-right.svg",
+                "title": "Montaje",
+                "titleClass": "text--midnight",
+                "content": "La aseguradora te indica el proveedor que hará la instalación."
+              },
+              {
+                "image": "/assets/images/soat/ap/golf.svg",
+                "title": "Ciudades",
+                "titleClass": "text--midnight",
+                "content": "En todas las ciudades del país."
+              },
+              {
+                "image": "/assets/images/soat/ap/hammer.svg",
+                "title": "Reparaciones",
+                "titleClass": "text--midnight",
+                "content": "Solo reposición. No se reembolsa plata por reparaciones hechas por la persona asegurada. Tampoco se cubren partes ya reparadas."
+              },
+              {
+                "image": "/assets/images/soat/ap/warning.svg",
+                "title": "¡Ojo!",
+                "titleClass": "text--guayaba",
+                "content": "<ul><li>Una vez afectada la cobertura del amparo básico, no se podrá presentar reclamación para servicio de asistencia.</li><li>Debes asumir y pagar el excedente cuando se sobrepasa la cobertura de 1/2 SMMLV.</li><li>No aplica para vehículos de transporte público ni de carga pesada.</li></ul>"
+              }
+            ]
+          }
+        }
+      ],
+      "buttons": {
+        "accept": "Compra",
+        "cancel": "Ahora no"
+      }
+    },
+    "modals": {
+      "confirm": {
+        "header": "¡Todo listo!",
+        "content": "Con tu Seguro de Accidentes Personales vas a quedar más protegido. Vamos a sumar a la cotización de tu SOAT los {0} del seguro de accidentes personales.",
+        "image": "/assets/images/transversal/blue-ok.svg",
+        "buttons": {
+          "accept": "Listo",
+          "cancel": "Ahora no"
+        }
+      }
+    }
+  }
+}

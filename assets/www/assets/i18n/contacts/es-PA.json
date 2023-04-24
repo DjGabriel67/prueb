@@ -1,0 +1,16 @@
+{
+  "validations": {
+    "required": "¡Ups! Debes llenar esto.",
+    "pattern": "¡Ups! Esto no parece un número de celular.",
+    "samePhone": "No puedes pedirte a ti mismo."
+  },
+  "new-contact": {
+    "title": "Escribe el cel",
+    "button": "Listo",
+    "inputs": {
+      "phone-number": {
+        "placeholder": "¿A quién le vas a pedir?"
+      }
+    }
+  }
+}

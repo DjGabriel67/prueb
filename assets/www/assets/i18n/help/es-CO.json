@@ -1,0 +1,20 @@
+{
+  "home": {
+    "title": "Ayuda",
+    "subtitle": "¡Hola{{name}}! ¿Cómo podemos ayudarte?",
+    "image": "assets/images/help/person.svg",
+    "search": {
+      "placeholder": "Busca tu duda",
+      "button": "Busca",
+      "message": "Busca con una palabra o un término asociado a la ayuda que necesitas...",
+      "empty-case": "¡Ups! No encontramos nada, intenta con otra pregunta.",
+      "empty-case-image": "/assets/images/help/empty-case.svg"
+    },
+    "toast": {
+      "invalid-chars-in-search": "¡Ups! No podemos hacer la búsqueda con caracteres especiales o emojis."
+    }
+  },
+  "article": {
+    "title": "Ayuda"
+  }
+}

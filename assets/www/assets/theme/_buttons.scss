@@ -1,0 +1,261 @@
+/** Nequi buttons **/
+
+ion-button {
+  height: 48px;
+}
+
+/** Guayaba button **/
+@include create-color(
+  'guayaba',
+  '--guayaba',
+  '--guayabargb',
+  '--white',
+  '--whitergb',
+  '--sangre',
+  '--chicle'
+);
+
+/** Medianoche button **/
+@include create-color(
+  'medianoche',
+  '--medianoche',
+  '--medianoche-rgb',
+  '--white',
+  '--whitergb',
+  '--darkpurple',
+  '--ultravioleta'
+);
+
+/** Guayaba Outline button **/
+@include create-color(
+  'guayaba-outline',
+  '--guayaba',
+  '--guayabargb',
+  '--white',
+  '--whitergb',
+  '--sangre',
+  '--chicle'
+);
+
+@include custom-activated-color(
+  'guayaba-outline',
+  '--chicle',
+  '--guayabargb',
+  '--white',
+  '--whitergb',
+  '--sangre',
+  '--chicle'
+);
+
+/** White Outline button **/
+@include create-color(
+  'white-medianoche',
+  '--medianoche',
+  '--medianoche-rgb',
+  '--white',
+  '--whitergb',
+  '--white',
+  '--medianoche'
+);
+
+@include custom-activated-color(
+  'white-medianoche',
+  '--ultravioleta',
+  '--ultravioletargb',
+  '--ultravioleta',
+  '--ultravioletargb',
+  '--ultravioleta',
+  '--gray'
+);
+
+/** To trick this color when is activated add this changes */
+/** WARNING: set the property fill="solid" for the ion-button that use this color */
+.ion-color-white-medianoche {
+  --border-color: white;
+  --border-style: solid;
+  --border-width: 1px;
+}
+
+/** Guayaba Outline Gray button **/
+@include create-color(
+  'guayaba-gray',
+  '--guayaba',
+  '--guayabargb',
+  '--white',
+  '--whitergb',
+  '--sangre',
+  '--chicle'
+);
+
+@include custom-activated-color(
+  'guayaba-gray',
+  '--gray-inputs-divide',
+  '--gray-inputs-divide-rgb',
+  '--medianoche',
+  '--medianoche-rgb',
+  '--pink-modal-text',
+  '--gray-inputs-divide'
+);
+
+/** Medianoche Outline Gray button **/
+@include create-color(
+  'medianoche-gray',
+  '--medianoche',
+  '--medianoche-rgb',
+  '--white',
+  '--whitergb',
+  '--darkpurple',
+  '--ultravioleta'
+);
+
+@include custom-activated-color(
+  'medianoche-gray',
+  '--gray-inputs-divide',
+  '--gray-inputs-divide-rgb',
+  '--medianoche',
+  '--medianoche-rgb',
+  '--pink-modal-text',
+  '--gray-inputs-divide'
+);
+
+/** white Outline button **/
+@include create-color(
+  'white-outline',
+  '--white',
+  '--whitergb',
+  '--transparent',
+  '--transparent-rgb',
+  '--transparent',
+  '--transparent'
+);
+
+@include custom-activated-color(
+  'white-outline',
+  '--gray-inputs-divide',
+  '--gray-inputs-divide-rgb',
+  '--ultravioleta',
+  '--ultravioletargb',
+  '--medianoche',
+  '--gray-inputs-divide'
+);
+
+/** white big button to change balance **/
+@include create-color(
+  'white-big-button',
+  '--white',
+  '--whitergb',
+  '--medianoche',
+  '--medianoche-rgb',
+  '--gray-inputs-divide',
+  '--gray-inputs-divide'
+);
+
+/** white big button to goals cards from home**/
+@include create-color(
+  'white-lightblue',
+  '--white',
+  '--whitergb',
+  '--medianoche',
+  '--medianoche-rgb',
+  '--background-title-box',
+  '--background-title-box'
+);
+
+/** Empty case button **/
+@include create-color(
+  'bluish-green',
+  '--color-title-box',
+  '--color-title-box-rgb',
+  '--white',
+  '--whitergb',
+  '--text-in-form',
+  '--text-in-form'
+);
+
+/** gray/red small button to change balance (substract) **/
+@include create-color(
+  'gray-red-small-button',
+  '--gray-inputs-divide',
+  '--gray-inputs-divide-rgb',
+  '--medianoche',
+  '--medianoche-rgb',
+  '--guayaba',
+  '--guayaba'
+);
+
+/** gray/blue small button to change balance (sum) **/
+@include create-color(
+  'gray-blue-small-button',
+  '--gray-inputs-divide',
+  '--gray-inputs-divide-rgb',
+  '--medianoche',
+  '--medianoche-rgb',
+  '--blue-sum-button',
+  '--blue-sum-button'
+);
+
+/** okidoki-aguamarica button **/
+@include create-color(
+  'okidoki',
+  '--okidoki',
+  '--okidokirgb',
+  '--white',
+  '--whitergb',
+  '--okidoki',
+  '--okidoki-40'
+);
+
+/** okidoki-aguamarica button **/
+@include create-color(
+  'bilbao',
+  '--bilbao',
+  '--bilbaorgb',
+  '--white',
+  '--whitergb',
+  '--bilbao',
+  '--bilbao-40'
+);
+
+/** gray/gray small button to change balance (sum) **/
+@include create-color(
+  'gray-button',
+  '--gray-50',
+  '--gray-50-rgb',
+  '--white',
+  '--whitergb',
+  '--gray-50',
+  '--gray-50'
+);
+
+/** Always Guayaba button **/
+@include create-color(
+  'always-guayaba',
+  '--guayaba',
+  '--guayabargb',
+  '--white',
+  '--whitergb',
+  '--guayaba',
+  '--guayaba'
+);
+
+/** Background white text color medianoche button **/
+@include create-color(
+  'white-button',
+  '--white',
+  '--whitergb',
+  '--medianoche',
+  '--medianoche-rgb',
+  '--white',
+  '--white'
+);
+
+/** Background white text color button-pink button **/
+@include create-color(
+  'white-pink',
+  '--white',
+  '--whitergb',
+  '--medianoche',
+  '--medianoche-rgb',
+  '--button-pink',
+  '--button-pink'
+);

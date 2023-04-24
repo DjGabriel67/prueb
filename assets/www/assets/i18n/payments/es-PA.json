@@ -1,0 +1,208 @@
+{
+  "bottom-sheet": {
+    "title": "Código QR",
+    "options": {
+      "qr-payment": {
+        "title": "Escanea QR",
+        "description": "Paga, usa o redime",
+        "icon": "assets/images/use-money/qr/payment.svg"
+      },
+      "my-qr": {
+        "title": "Tu QR",
+        "description": "Genera tu código",
+        "icon": "assets/images/use-money/qr/mine.svg"
+      }
+    }
+  },
+  "home": {
+    "title": "Paga",
+    "inputs": {
+      "merchant": {
+        "placeholder": "Paga en"
+      },
+      "amount": {
+        "placeholder": "Cantidad"
+      },
+      "payerReference": {
+        "placeholder": "Referencia de compra",
+        "info": "Escribe info que te ayude a reconocer lo que pagaste."
+      },
+      "message": {
+        "placeholder": "Descripción"
+      },
+      "pocket": {
+        "placeholder": "Escoge de donde saldrá la plata"
+      }
+    },
+    "buttons": {
+      "next": "Paga"
+    },
+    "messages": {
+      "success": "¡Listo tu envío con QR! Mira todos los detalles en tus Movimientos ;)",
+      "annulate-success": "¡Lista la anulación con QR! Mira todos los detalles en tus Movimientos ;)"
+    }
+  },
+  "quick-payment": {
+    "process": {
+      "errors": {
+        "not-match": {
+          "header": "No podemos leer este QR",
+          "message": "Este QR no está identificado y no lo podemos escanear :(",
+          "buttons": {
+            "accept": "Listo"
+          }
+        },
+        "phone-number-not-found": {
+          "header": "QR no identificado :(",
+          "message": "No podemos leer este código QR. ¡Perdón! Revisa porfa que sí sea un QR asociado a una cuenta Nequi.",
+          "buttons": {
+            "accept": "Listo"
+          }
+        },
+        "canceled-purchase": {
+          "header": "¡Oops! Tenemos un problema",
+          "message": "La compra ha sido cancelada.",
+          "buttons": {
+            "accept": "Listo"
+          }
+        },
+        "purchase-already-made": {
+          "header": "¡Oops! Tenemos un problema",
+          "message": "La compra ya se realizó.",
+          "buttons": {
+            "accept": "Listo"
+          }
+        },
+        "no-payment-pending": {
+          "header": "Nos falta algo...",
+          "message": "No vemos pagos pendientes. \nPídele a la persona que te atiende que revise y prueba una vez más :)",
+          "buttons": {
+            "accept": "Intenta otra vez"
+          }
+        },
+        "expired-payment": {
+          "header": "¡Ups! Algo falló...",
+          "message": "Te demoraste un tris en hacer el pago. Dile a la persona que te atiende que te cobre nuevamente y vuelve a intentar :)",
+          "buttons": {
+            "accept": "Listo"
+          }
+        },
+        "external-qr": {
+          "header": "Nuestra app no puede leer este QR",
+          "message": "Aún no tenemos habilitada la transferencia con este tipo de QR. Estamos trabajando para que esto cambie :)",
+          "buttons": {
+            "accept": "Listo"
+          }
+        }
+      }
+    },
+    "read": {
+      "errors": {
+        "default": {
+          "header": "¡No reconocemos este QR!",
+          "message": "Revisa porfa que sí puedas escanearlo con Nequi.",
+          "buttons": {
+            "accept": "Listo"
+          }
+        },
+        "user-not-found": {
+          "header": "¡Primero entra a Nequi!",
+          "message": "Este número de cel no tiene Nequi. Revisa porfa la info e intenta otra vez.",
+          "buttons": {
+            "accept": "Listo"
+          }
+        }
+      }
+    }
+  },
+  "errors-messages": {
+    "account_locked": {
+      "header": "¡Ups! No se puede",
+      "message": "Tu cuenta Nequi está bloqueada y no puedes hacer este pago",
+      "buttons": {
+        "accept": "Listo"
+      }
+    },
+    "asynchronous-transaction": {
+      "header": "¡Ya casi!",
+      "image": "assets/images/transversal/clock-purple.svg",
+      "content": "Tu pago va en camino...\nCuando todo esté listo, te enviaremos un mensaje de texto y un correo para avisarte.",
+      "buttons": {
+        "accept": "Listo"
+      }
+    },
+    "different-amount": {
+      "header": "Algo no cuadra...",
+      "message": "Pero tranqui, solo debes revisar bien cuánta plata vas a pagar y volver a intentarlo.",
+      "buttons": {
+        "accept": "Listo"
+      }
+    },
+    "expired-payment": {
+      "header": "¡Ups! Algo falló...",
+      "message": "Te demoraste un tris en hacer el pago. Dile a la persona que te atiende que te cobre nuevamente y vuelve a intentar :)",
+      "buttons": {
+        "accept": "Listo"
+      }
+    },
+    "no-pending-payment": {
+      "header": "Nos falta algo...",
+      "message": "No vemos pagos pendientes. Pídele a la persona que te atiende que revise y prueba una vez más :)",
+      "buttons": {
+        "accept": "Intenta otra vez"
+      }
+    },
+    "rejected-payment": {
+      "header": "Algo no está bien",
+      "buttons": {
+        "accept": "Listo"
+      }
+    },
+    "technical-error": {
+      "header": "¡Discúlpanos porfa!",
+      "buttons": {
+        "accept": "Listo"
+      }
+    },
+    "insufficient-funds": {
+      "header": "No te alcanza...",
+      "image": "assets/images/transversal/sad-face-blue.svg",
+      "content": "Para hacer este movimiento, debes tener por lo menos {0} en un Bolsillo o en tu Disponible. ",
+      "buttons": {
+        "accept": "Recarga",
+        "cancel": "Listo"
+      }
+    },
+    "duplicate-transaction": {
+      "header": "¿Otra vez?",
+      "buttons": {
+        "accept": "Listo"
+      }
+    },
+    "invalid-qr": {
+      "header": "Problemas con este QR",
+      "buttons": {
+        "accept": "Listo"
+      }
+    }
+  },
+  "pending-payment": {
+    "title": "Pago pendiente",
+    "commerce": {
+      "placeholder": "Paga en"
+    },
+    "amount": {
+      "placeholder": "¿Cuánto?"
+    },
+    "button": "Paga",
+    "confirm": {
+      "title": "Confirma",
+      "commerce": "Vas a pagar en:",
+      "amount": "¿Cuánto?",
+      "accept": "Listo"
+    },
+    "toast": {
+      "success": "¡Listo tu pago en {0}! Si quieres ver el detalle entra al movimiento."
+    }
+  }
+}

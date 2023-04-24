@@ -1,0 +1,96 @@
+{
+  "modals": {
+    "accept-receive-remittances": {
+      "title": "Recibe tus remesas en Nequi",
+      "content": "Para recibir tus remesas, debemos conocernos mejor ;) Así habilitas el abono automático, las próximas veces que recibas una remesa la tendrás de una en tu Nequi",
+      "buttons": {
+        "accept": "Habilitar remesas",
+        "cancel": "Ahora no"
+      },
+      "image": "assets/images/remittances/accept-remittances.svg"
+    },
+    "decline-receive-remittances": {
+      "title": "No quiero recibir remesas",
+      "content": "Si rechazas, la plata volverá a la persona que te la envió. <br/> Última oportunidad... ¿Seguro no quieres recibir remesas en Nequi?",
+      "buttons": {
+        "accept": "Si la quiero",
+        "cancel": "Rechaza remesas"
+      },
+      "image": "assets/images/remittances/sad-face-yellow.svg"
+    },
+    "error-receive-remittances": {
+      "title": "¡Perdón! No pudimos...",
+      "content": "Tenemos un problema y no pudimos inscribirte para recibir remesas, porfa intenta más tarde.",
+      "button": "Listo",
+      "image": "assets/images/organisms/modals/thumb-down-pink.svg"
+    },
+    "success-receive-remittances": {
+      "title": "Tus remesas en Nequi",
+      "content": "Las remesas que tengas pendientes por recibir, te llegarán de una a tu Nequi y te contaremos cuando eso pase para que la disfrutes 100% digital.",
+      "button": "Listo",
+      "image": "assets/images/icons/thumb-up-blue.svg"
+    }
+  },
+  "form": {
+    "title": "Conozcámonos mejor",
+    "my-info": {
+      "nav-buttons": {
+        "my-document": {
+          "title": "Tu documento",
+          "description": "Escanea tu documento"
+        },
+        "your-address": {
+          "title": "¿Dónde vives?",
+          "description": "Info de tu ubicación"
+        },
+        "your-work": {
+          "title": "¿A qué te dedicas?",
+          "description": "Info sobre lo que haces"
+        },
+        "your-money": {
+          "title": "Tu Plata",
+          "description": "¿Cómo la usas?"
+        }
+      }
+    },
+    "footer-button": "Listo"
+  },
+  "terms-and-conditions": {
+    "title": "Condiciones",
+    "subtitle": "Al aceptar recibir las remesas en tu Nequi, aceptas lo siguiente:",
+    "button": "Acepta",
+    "current-rate": {
+      "title": "Negociamos a la tasa actual del día del movimiento",
+      "content": "Las transferencias internacionales serán negociadas a la tasa política fijada y avisada por el Banco para el día de la transacción o pactada por el ordenante en el exterior, dentro de las políticas, condiciones y topes de Bancolombia.",
+      "image": "/assets/images/remittances/random-arrows-blue.svg"
+    },
+    "trust": {
+      "title": "Estamos en confianza",
+      "content": "Declaras y aceptas que puedes recibir en Nequi transferencias internacionales en moneda extranjera y que sean producto del mercado libre. Además, autorizas a Nequi para diligenciar y firmar la declaración de cambio por servicios, transferencias y otros conceptos a tu nombre para cada operación.",
+      "image": "assets/images/credits/lifeguard/warning.svg"
+    },
+    "automatic-subscription": {
+      "title": "Abonos automáticos",
+      "content": "La próxima vez que alguien te envíe una remesa, la recibirás automáticamente en tu Nequi, si quieres cambiarlo, ve a los ajustes de tu perfil.",
+      "image": "assets/images/remittances/play-blue.svg"
+    },
+    "footer-button": "Acepta",
+    "bottomsheet": {
+      "title": "¿De dónde viene la plata?"
+    },
+    "pin-challenge": {
+      "title": "Escribe tu clave",
+      "message": "No dudamos de que seas tú... Pero es mejor confirmar ;)",
+      "showFingerPrint": true
+    }
+  },
+  "errors": {
+    "control-list": {
+      "header": "No podemos continuar",
+      "message": "Lo sentimos, pero no podemos recibir tus remesas.",
+      "buttons": {
+        "accept": "Listo"
+      }
+    }
+  }
+}

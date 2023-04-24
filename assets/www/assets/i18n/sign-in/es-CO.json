@@ -1,0 +1,261 @@
+{
+  "login": {
+    "create-nequi": "Crea tu Nequi",
+    "login": "Entra",
+    "help": "Ayuda",
+    "phone-input-placeholder": "Número de celular",
+    "error-messages": {
+      "required": "Escribe porfa el número de tu cel para seguir.",
+      "pattern": "¡Ups! Debes escribir un número de cel válido.",
+      "minlength": "¡Ups! Debes poner un número de cel."
+    },
+    "toast": {
+      "qr": "Paga de una con el código QR"
+    }
+  },
+  "validate-password": {
+    "title": "Escribe tu clave",
+    "password-message": "No dudamos que seas tú... Pero es mejor confirmar ;)",
+    "forgot-password": "¿Se te olvidó?",
+    "alert": {
+      "info": {
+        "link-device": {
+          "title": "Enlace del dispositivo",
+          "description": "Por tu seguridad vamos a enlazar tu número de celular con este dispositivo.",
+          "buttons": {
+            "accept": "Listo",
+            "cancel": "Ahora no",
+            "change": "Cambié número de cel"
+          }
+        },
+        "general": {
+          "title": "¡Ups!",
+          "button": "Listo"
+        }
+      }
+    },
+    "modals": {
+      "send-email-unlock-biometry": {
+        "image": "assets/images/icons/unread-email.svg",
+        "title": "Revisa tu correo",
+        "content": "<p>A tu cuenta sólo le falta una foto para que podamos reconocerte, revisa tu correo <br/> <span class='link-purple'>{{ email }} </span> <br/> <br/> Si el correo no es correcto llámanos al <strong> 300 600 0100 </strong></p>",
+        "button": "Listo"
+      },
+      "contingency-allow-use": {
+        "image": "assets/images/icons/sad-cone.svg",
+        "title": "¡Tenemos una solución para ti!",
+        "content": "Si necesitas usar tu plata en este momento, puedes <strong>sacarla en corresponsales Bancolombia.</strong><br/><br/>¡Discúlpanos! Pronto estaremos disponibles con todos nuestros servicios.",
+        "buttons": {
+          "accept": "Saca plata",
+          "cancel": "Vuelve después"
+        }
+      },
+      "qr-contingency-content": "No podemos hacer pagos por QR. Queremos seguir junto a ti y para que no te embales, puedes sacar en Puntos Nequi.",
+      "contingency-forgot-password-blocked": {
+        "image": "assets/images/icons/sad-cone.svg",
+        "title": "¡Volveremos pronto al 100!",
+        "content": "Trabajamos para darte una solución lo antes posible. ¡Discúlpanos! En este momento no podemos ayudarte a recuperar la clave.",
+        "buttons": {
+          "cancel": "Vuelve más tarde"
+        }
+      },
+      "contingency-can-not-create-account": {
+        "image": "assets/images/icons/sad-cone.svg",
+        "title": "¡Volveremos pronto al 100!",
+        "content": "La tecnología a veces puede fallar y nos pone al límite para encontrar una solución lo antes posible. ¡Discúlpanos! En este momento no puedes usar Nequi.",
+        "buttons": {
+          "cancel": "Vuelve más tarde"
+        }
+      },
+      "contingency": {
+        "image": "assets/images/icons/sad-cone.svg",
+        "title": "¡Volveremos pronto al 100!",
+        "content": "La tecnología a veces puede fallar y nos pone al límite para encontrar una solución lo antes posible. ¡Discúlpanos! En este momento no puedes usar Nequi.",
+        "buttons": {
+          "cancel": "Vuelve más tarde"
+        }
+      },
+      "contingency-cash-out-limit": {
+        "image": "assets/images/icons/sad-cone.svg",
+        "title": "¡Volveremos pronto al 100!",
+        "content": "La tecnología a veces puede fallar y nos pone al límite para encontrar una solución lo antes posible. ¡Discúlpanos! En este momento no puedes usar Nequi.",
+        "buttons": {
+          "cancel": "Vuelve más tarde"
+        }
+      },
+      "contingency-synchronization": {
+        "image": "assets/images/icons/synchronization.svg",
+        "title": "Estamos actualizando datos",
+        "content": "Sacaste plata cuando Nequi estaba caído, estamos actualizando esa info para que puedas seguir usando Nequi #ATuRitmo.",
+        "buttons": {
+          "cancel": "Vuelve después"
+        }
+      },
+      "contingency-finished": {
+        "image": "assets/images/icons/thumb-up.svg",
+        "title": "Usa Nequi #ATuRitmo",
+        "content": "Ya puedes volver a usar Nequi normalmente.",
+        "buttons": {
+          "cancel": "Listo"
+        }
+      },
+      "contingency-block": {
+        "image": "assets/images/icons/red-light.svg",
+        "title": "Ahora no se puede...",
+        "content": "Tienes un bloqueo en tu Nequi, porfa intenta más tarde o comunícate con nosotros para poder ayudarte.",
+        "buttons": {
+          "cancel": "Listo"
+        }
+      },
+      "before-biometry-face-reset": {
+        "title": "Reinicio de reconocimiento facial",
+        "content": "Vamos a volver a tomar la foto para tu reconocimiento facial.<br>¿Todo listo?",
+        "imgPath": "/assets/images/icons/facial-biometry-purple.svg",
+        "accept": "Listo",
+        "cancel": "Ahora no"
+      }
+    }
+  },
+  "choose-biometry": {
+    "title": "¿Cómo quieres que te reconozcamos?",
+    "nav-buttons": {
+      "face-biometry": {
+        "title": "Reconocimiento facial",
+        "description": "Más seguridad"
+      },
+      "voice-biometry": {
+        "title": "Reconocimiento por voz",
+        "description": "Confirma que eres tú"
+      }
+    },
+    "alerts": {
+      "error": {
+        "sdk": {
+          "header": "Algo no funcionó...",
+          "message": "Queremos estar segur@s de que seas tú... Pero no logramos reconocerte. Intenta otra vez porfa.",
+          "buttons": {
+            "accept": "Facial",
+            "cancel": "Voz"
+          }
+        },
+        "not-match-face": {
+          "header": "¡No pierdas tu tiempo!",
+          "message": "No pudimos reconocer tu cara así que es mejor que renueves tu foto. Pero antes, necesitamos saber que eres tú reconociendo tu voz.",
+          "buttons": {
+            "accept": "Listo",
+            "cancel": "Ahora no"
+          }
+        },
+        "not-match-voice": {
+          "header": "¡No pierdas tu tiempo!",
+          "message": "No pudimos reconocer tu voz así que es mejor que renueves tu biometría de voz. Pero antes, necesitamos saber que eres tú reconociendo tu cara.",
+          "buttons": {
+            "accept": "Listo",
+            "cancel": "Ahora no"
+          }
+        },
+        "retry": {
+          "header": "¡Ups! Algo no funcionó...",
+          "buttons": {
+            "accept": "Listo"
+          }
+        }
+      },
+      "generic": {
+        "title": "¡Otra vez!",
+        "message": "¡No pudimos hacer esto! Vuélvelo a intentar",
+        "buttons": {
+          "accept": "Reintenta",
+          "cancel": "Cancela"
+        }
+      },
+      "camera-permissions-denied": {
+        "title": "Configura tus permisos",
+        "image": "/assets/images/icons/fingerprint_alert.svg",
+        "message": "No podemos reconocerte, por favor revisa los permisos de tu Cámara en los ajustes de tu celular.",
+        "buttons": {
+          "accept": "Configuración",
+          "cancel": "Más tarde"
+        }
+      },
+      "microphone-permissions-denied": {
+        "title": "Configura tus permisos",
+        "image": "/assets/images/icons/fingerprint_alert.svg",
+        "message": "No podemos reconocerte, por favor revisa los permisos de tu Micrófono en los ajustes de tu celular.",
+        "buttons": {
+          "accept": "Configuración",
+          "cancel": "Más tarde"
+        }
+      }
+    }
+  },
+  "forgot-password": {
+    "title": "¿Cómo quieres que te reconozcamos hoy?",
+    "modals": {
+      "send-email": {
+        "image": "assets/images/card/all-fine.svg",
+        "title": "¡Correo enviado!",
+        "content": "Te hemos enviado un correo a {0}",
+        "button": "Listo"
+      }
+    },
+    "toast": {
+      "send-email": "Algo salió mal al enviar el correo"
+    }
+  },
+  "biometry-change-password": {
+    "initial-title": "Crea tu clave",
+    "initial-description": "Fácil de recordar, pero secreta... No se la dices ni al espejo.",
+    "confirm-title": "Confirma tu clave",
+    "confirm-description": "Confirma tu clave.",
+    "toast": {
+      "info": "¡Recuerda! La clave de tu Nequi no debe ser la misma para desbloquear tu cel ;)",
+      "confirm": "Vuelve a escribir tu clave para confirmarla"
+    }
+  },
+  "bottom-sheet": {
+    "qr-options": {
+      "scan": "Escanea QR",
+      "qr": "Tu QR"
+    }
+  },
+  "change-number-light-registry-modal": {
+    "image": "assets/images/card/all-fine.svg",
+    "title": "Tu nuevo número está listo",
+    "content": "Ingresa a tu Nequi con tu nuevo número y sigue usando la plata #ATuRitmo ;) ",
+    "button": "Listo"
+  },
+  "change-password": {
+    "success": {
+      "title": "¡Listo tu cambio de clave!",
+      "image": "/assets/images/transversal/blue-ok.svg",
+      "content": "Ahora entra con tu nueva clave. ;)",
+      "buttons": {
+        "accept": "Listo"
+      }
+    }
+  },
+  "change-number-modal": {
+    "image": "/assets/images/transversal/blue-ok.svg",
+    "title": "¡Listo tu nuevo número de cel! ;)",
+    "content": "Vamos a cerrar tu sesión en Nequi para que, cuando vuelvas a entrar, se active tu nuevo número de cel ;)",
+    "button": "Listo"
+  },
+  "attempts-warning": {
+    "title": "La última oportunidad...",
+    "image": "/assets/images/organisms/modals/thumb-down-pink.svg",
+    "content": "Solo puedes intentar una vez más. Si no escribes bien tu clave, por seguridad, vamos a bloquear tu Nequi.",
+    "buttons": {
+      "accept": "Recupera tu clave",
+      "cancel": "Intenta otra vez"
+    }
+  },
+  "expired-password": {
+    "header": "Actualiza tu clave",
+    "message": "Tu clave expiró y debes cambiarla",
+    "buttons": {
+      "accept": "Listo"
+    }
+  },
+  "app-gate-contingency": "¡Perdón! Ahora no puedes entrar a Nequi :( Intenta más tarde porfa"
+}

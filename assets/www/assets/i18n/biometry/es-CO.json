@@ -1,0 +1,183 @@
+{
+  "voice-biometry": {
+    "image": "/assets/images/registry-lite/voice-biometry/main.svg",
+    "title": "¿Cómo es tu voz?",
+    "content": "Registra tu voz para asegurar tu Nequi.<br><br>Así podrás elegir entre tu voz o tu cara para confirmar que eres tú y solo tú quien entra a tu Nequi y maneja tu plata.",
+    "next": "Listo",
+    "not-now": "Ahora no",
+    "your-welcome": {
+      "image": "/assets/images/card/all-fine.svg",
+      "title": "¡Todo listo!",
+      "content": "El número de tu Nequi es el mismo de tu cel. Lo usas para manejar la plata #ATuRitmo ;)",
+      "accept": "Listo"
+    },
+    "permissions-denied": {
+      "title": "Configura tus permisos",
+      "image": "/assets/images/icons/fingerprint_alert.svg",
+      "message": "No podemos reconocerte, por favor revisa los permisos de tu Micrófono en los ajustes de tu celular.",
+      "buttons": {
+        "accept": "Configuración",
+        "cancel": "Más tarde"
+      }
+    }
+  },
+  "face-guide": {
+    "title": "Tu foto",
+    "messages": {
+      "default": {
+        "title": "¿Para qué la foto?",
+        "description": "El reconocimiento facial sirve para que tu plata esté segura. Así solo tú puedes entrar a Nequi ;)"
+      },
+      "blocked": {
+        "title": "Una foto para una cuenta súper segura",
+        "description": "Con la foto de tu cara compararemos tu identidad con tu documento. Si no eres tú, tu cuenta de Nequi será Bloqueada"
+      },
+      "info": "Si continúas, le das permiso a Nequi para que guarde tu info biométrica y confirme tu identidad."
+    },
+    "alert": {
+      "why-photo": {
+        "header": "¿Para qué esta foto?",
+        "message": "Vamos a confirmar la info de tu documento. Si no eres tú, bloquearemos tu Nequi.",
+        "buttons": {
+          "accept": "Listo"
+        }
+      },
+      "sdk-error": {
+        "header": "¡Otra vez!",
+        "message": "Algo salió mal haciendo el reconocimiento facial. ¿Quieres volverlo a intentar?",
+        "buttons": {
+          "accept": "Listo"
+        }
+      }
+    },
+    "go-to-guide": "Listo",
+    "finish-guide": "Listo",
+    "slides": [
+      {
+        "title": "Busca un sitio con buena luz",
+        "content": "pero no tanta... ¡Queremos verte bien!<br/>En la foto solo debes salir tú."
+      },
+      {
+        "title": "Sin gafas",
+        "content": "Quítate las gafas porfa y deja tu cel a la altura de tu cara."
+      },
+      {
+        "title": "Ahora: el reconocimiento de tu cara",
+        "content": "Enfoca tu cara y acerca tu cel poco a poco. Sigue las instrucciones que te salen en la pantalla."
+      }
+    ]
+  },
+  "face-preview": {
+    "title": "¿Eres tú?",
+    "confirm": "Listo",
+    "repeat": "Repetir foto",
+    "alert": {
+      "sdk-error": {
+        "header": "¿Eres tú?",
+        "message": "Error en la carga de la imagen",
+        "buttons": {
+          "confirm": "Listo",
+          "repeat": "Repetir foto"
+        }
+      },
+      "registry-face": {
+        "title": "¡Otra vez!",
+        "buttons": {
+          "cancel": "Cancela",
+          "retry": "Reintenta"
+        }
+      },
+      "many-attempts": {
+        "header": "¡Demasiados intentos!",
+        "message": "<span>Por seguridad debemos cerrar tu sesión.</span>",
+        "buttons": {
+          "accept": "Listo"
+        }
+      }
+    },
+    "successful-reset": {
+      "image": "/assets/images/card/all-fine.svg",
+      "title": "Ya puedes seguir usando Nequi",
+      "content": "Gracias por volver a tomarte la foto para nosotros validar tu identidad. Ahora sigue usando la plata #ATuRitmo.",
+      "accept": "Listo"
+    }
+  },
+  "selfie": {
+    "onboarding": {
+      "title": "Confirma tu info en 2 pasos",
+      "items": [
+        {
+          "icon": "assets/images/icons/id.svg",
+          "title": "1. Foto de tu documento",
+          "description": "Tómale una foto a tu documento de identidad por los dos lados. "
+        },
+        {
+          "icon": "assets/images/icons/user-focused.svg",
+          "title": "2. Foto tuya con tu documento",
+          "description": "Tómate una foto con tu documento de identidad para verificar que eres tú."
+        }
+      ],
+      "button": "Listo"
+    },
+    "home": {
+      "image": "assets/images/icons/user-selfie.svg",
+      "title": "¿Cómo tomarte la foto?",
+      "content": "Necesitamos que te tomes una foto sosteniendo tu documento de identidad. Es importante que tu documento se vea bien.",
+      "button": "Listo"
+    },
+    "preview": {
+      "title": "¿Está bien la foto?",
+      "ready-button": "Listo",
+      "capture-button": "Repite la foto"
+    },
+    "kofax": {
+      "title": "Tómate la foto con tu cédula"
+    },
+    "modals": {
+      "ticket-created": {
+        "imgPath": "assets/images/icons/propeller-yellow.svg",
+        "title": "¡Estamos revisando tus fotos!",
+        "content": "Vamos a confirmar que todo esté bien ;) Te avisamos por correo cuando puedas usar tu Nequi. El número de tu caso es: {{ ticketId }}",
+        "buttons": {
+          "accept": "Listo"
+        }
+      },
+      "security": {
+        "imgPath": "assets/images/icons/blue-face-biometry.svg",
+        "title": "Tu seguridad es lo más importante",
+        "content": "Tómate una foto con tu documento de identidad. Así solo tú podrás usar tu Nequi.",
+        "buttons": [
+          {
+            "text": "Listo"
+          }
+        ]
+      }
+    },
+    "alerts": {
+      "back-confirmation": {
+        "header": "¿Seguro quieres salir?",
+        "message": "No podremos desbloquearte si no completas el proceso y tendrás que iniciarlo de nuevo.",
+        "buttons": {
+          "accept": "Salir",
+          "cancel": "Mejor no"
+        }
+      },
+      "ticket-error": {
+        "header": "Intenta otra vez porfa",
+        "message": "¡Perdón! Tuvimos un problema... Intenta de nuevo ;)",
+        "buttons": {
+          "accept": "Listo"
+        }
+      }
+    }
+  },
+  "camera-permissions-denied": {
+    "title": "Configura tus permisos",
+    "image": "/assets/images/icons/fingerprint_alert.svg",
+    "message": "No podemos reconocerte, por favor revisa los permisos de tu Cámara en los ajustes de tu celular.",
+    "buttons": {
+      "accept": "Configuración",
+      "cancel": "Más tarde"
+    }
+  }
+}

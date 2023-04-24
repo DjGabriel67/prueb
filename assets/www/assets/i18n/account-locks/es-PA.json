@@ -1,0 +1,159 @@
+{
+  "account-temporary-locked": {
+    "title": "Tu Nequi está bloqueado",
+    "description": "Bloqueamos temporalmente por seguridad tu Nequi, porque tuviste varios intentos fallidos de ingreso.",
+    "info-unlock-time": "Se desbloqueará en:"
+  },
+  "init-registry-lock": {
+    "title": "¿Quieres romper los topes de tu Nequi?",
+    "image": "/assets/images/icons/clock-pink.svg",
+    "content": "La última vez que estabas por acá dejaste el proceso de romper los topes iniciado. Sigue el camino para romper los topes de tu Nequi.",
+    "buttons": {
+      "accept": "Listo",
+      "cancel": "Mejor no"
+    }
+  },
+  "soft-token-not-validated-lock": {
+    "title": "¡Casi listo tu Nequi sin topes!",
+    "image": "/assets/images/account/locks/pink-rocket.svg",
+    "content": "No pudimos terminar el proceso, debes volver a firmar el contrato para romper los topes de tu Nequi.",
+    "buttons": {
+      "accept": "Termina el proceso",
+      "cancel": "Ahora no"
+    }
+  },
+  "almost-ready-break-ceiling": {
+    "title": "¡Ya casi!",
+    "image": "/assets/images/transversal/blue-ok.svg",
+    "content": "Vamos a confirmar tu info ;) Te avisamos cuando tu Nequi quede sin topes.",
+    "buttons": {
+      "accept": "Listo"
+    }
+  },
+  "success-taxes-exempt-lock": {
+    "title": "¡Todo listo!",
+    "image": "/assets/images/account/locks/purple-rocket.svg",
+    "content": "Tu Nequi ya no tiene topes y está libre del impuesto 4x$1.000 hasta $12.707.800.",
+    "buttons": {
+      "accept": "Listo"
+    }
+  },
+  "success-paying-taxes-lock": {
+    "title": "¡Todo listo!",
+    "image": "/assets/images/account/locks/purple-rocket.svg",
+    "content": "Tu Nequi ya no tiene topes. Como tienes una cuenta de ahorros libre del 4X1.000, debes desmarcala para liberar a tu Nequi de este impuesto.",
+    "buttons": {
+      "accept": "Listo"
+    }
+  },
+  "owe-money-lock": {
+    "title": "Pago pendiente de {0}",
+    "content": "Debemos cobrarte esto para quitarle los topes a tu Nequi. Lo haremos cuando tengas plata disponible.",
+    "buttons": {
+      "accept": "Listo"
+    }
+  },
+  "finacle-paying-taxes-lock-first": {
+    "title": "Ya casi terminamos",
+    "image": "/assets/images/account/locks/okidoki-signal.svg",
+    "content": "Ya te cobramos los {0} y seguimos trabajando para romper los topes de tu Nequi. Cuando terminemos te enviaremos un correo.",
+    "buttons": {
+      "accept": "Listo"
+    }
+  },
+  "finacle-paying-taxes-lock-second": {
+    "title": "Ya casi terminamos",
+    "image": "/assets/images/account/locks/okidoki-signal.svg",
+    "content": "Seguimos trabajando para romper los topes de tu Nequi. Cuando terminemos te enviaremos un correo.",
+    "buttons": {
+      "accept": "Listo"
+    }
+  },
+  "return-money-lock": {
+    "title": "No pudimos romper tus topes",
+    "content": "Te devolvimos {0} que pagaste por romper tus topes. ¡Discúlpanos porfa!",
+    "buttons": {
+      "accept": "Listo"
+    }
+  },
+  "missing-money-lock": {
+    "title": "Faltan los {0}",
+    "content": "No hemos podido romper los topes porque no tienes suficiente en tu Disponible. Lo haremos cuando tengas la plata.",
+    "buttons": {
+      "accept": "Listo"
+    }
+  },
+  "retry-missing-money-lock": {
+    "header": "Nos faltó un pelo :(",
+    "message": "No encontramos en el Disponible la plata para romper tus topes. Vuelve a intentarlo cuando la tengas.",
+    "buttons": {
+      "accept": "Listo"
+    }
+  },
+  "cifin-one-lock": {
+    "header": "Acceso bloqueado",
+    "message": "Aún estamos verificando algunos de tus datos y este proceso puede tomarnos hasta 5 días hábiles.  Una vez terminemos te informaremos y podrás empezar a disfrutar de Nequi.",
+    "buttons": {
+      "accept": "Listo"
+    }
+  },
+  "cifin-two-lock": {
+    "header": "Algo no está bien",
+    "message": "No podemos continuar con tu vinculación, contacta a Atención al Cliente.",
+    "buttons": {
+      "accept": "Listo"
+    }
+  },
+  "unlock-cifin-lock": {
+    "title": "Bienvenido",
+    "content": "Nequi es la forma de usar tu plata sin oficinas, filas ni enredos. Tu número de Nequi es igual a tu número de cel.",
+    "image": "/assets/images/transversal/blue-ok.svg",
+    "buttons": {
+      "accept": "Listo"
+    }
+  },
+  "default-lock": {
+    "header": "Acceso bloqueado",
+    "message": "Tenemos un error interno y no podemos abrir tu Nequi. Lo sentimos.",
+    "buttons": {
+      "accept": "Listo"
+    }
+  },
+  "blocked-by-admin": {
+    "header": "¡Confirmado!",
+    "message": "Tu celu ya está confirmado. Sigue con nuestros compañeros de Atención al Cliente para terminar el proceso.",
+    "buttons": {
+      "accept": "Listo"
+    }
+  },
+  "user-bloked-by-web-admin": {
+    "header": "Termina el proceso",
+    "message": "Íbamos a reiniciar tu reconocimiento facial. Para ingresar a la App, porfa comunícate con Servicio al Cliente para terminar el proceso.",
+    "buttons": {
+      "accept": "Listo"
+    }
+  },
+  "unlock-panic": {
+    "header": "¿Bloqueado? No te preocupes",
+    "message": "Para reactivar tu Nequi solo debes realizar un proceso de seguridad y podrás continuar disfrutándolo.",
+    "buttons": {
+      "accept": "Reactiva",
+      "cancel": "Ahora no"
+    }
+  },
+  "blocked-face-verification": {
+    "title": "No podemos continuar",
+    "content": "Completa la siguiente información para ayudarte",
+    "buttons": {
+      "accept": "Listo"
+    }
+  },
+  "data-treatment-lock": {
+    "title": "Antes de poder seguir",
+    "image": "/assets/images/nequi-images/finger-print-blue-blocked.svg",
+    "content": "Necesitamos que nos autorices a tratar tus datos.",
+    "buttons": {
+      "accept": "Listo"
+    }
+  }
+}

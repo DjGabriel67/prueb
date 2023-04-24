@@ -1,0 +1,83 @@
+{
+  "form": {
+    "title": "Tus datos son tu decisión",
+    "description": "Respetamos tu información y la usamos para protegerte, así como para ofrecerte una mejor experiencia. </br></br> Los siguientes items son:",
+    "button": "Acepta",
+    "error-message": "¡No pudimos hacer esto! Reinténtalo en un rato.",
+    "remember-message": "Recuerda que puedes actualizar esta info  en ajustes de tu perfil",
+    "accept-message": "Acepto el uso de mis datos biométricos (reconocimiento facial, dactilar, voz, i.d, entre otros) entendiendo que si no lo acepto, mi acceso y uso de ciertos productos, servicios y canales será limitado o no podré tenerlos.",
+    "bottom-sheets": {
+      "all-ready": {
+        "title": "¡Todo listo!",
+        "image": "/assets/images/transversal/yellow-success-hand.svg",
+        "content": "Hemos enviado el archivo de tratamiento de datos personales completo a tu correo.",
+        "buttons": {
+          "ready": "Listo"
+        }
+      }
+    }
+  },
+  "information": {
+    "title": "Acéptame para continuar juntos",
+    "content": [
+      {
+        "icon": "/assets/images/one-doc-three/wallet.svg",
+        "title": "Consultamos solo lo necesario",
+        "description": "Consultamos tu info en bases de datos nacionales e internacionales para desarrollar nuestra actividad."
+      },
+      {
+        "icon": "/assets/images/one-doc-three/wallet.svg",
+        "title": "Queremos tu seguridad",
+        "description": "Con tus datos nos ayudas a conocerte mejor y así prevenir y controlar el fraude."
+      },
+      {
+        "icon": "/assets/images/one-doc-three/wallet.svg",
+        "title": "Tu info está segura",
+        "description": "Tus datos biométricos, personales, de contacto y consumo de producto serán compartidos a terceros solo cuando sea necesario y para mejorar tu experiencia."
+      }
+    ],
+    "button": "Siguiente",
+    "show-more": "Ver más",
+    "card-modal-lock": {
+      "title": "Antes de poder seguir",
+      "image": "/assets/images/nequi-images/finger-print-blue-blocked.svg",
+      "content": "Necesitamos que nos autorices a tratar tus datos.",
+      "buttons": {
+        "accept": "Listo",
+        "cancel": "Ahora no"
+      }
+    }
+  },
+
+  "information-lock": {
+    "title": "Acéptame para continuar juntos",
+    "content": [
+      {
+        "icon": "/assets/images/one-doc-three/wallet.svg",
+        "title": "Consultamos solo lo necesario",
+        "description": "Consultamos tu info en bases de datos nacionales e internacionales para desarrollar nuestra actividad."
+      },
+      {
+        "icon": "/assets/images/one-doc-three/wallet.svg",
+        "title": "Queremos tu seguridad",
+        "description": "Con tus datos nos ayudas a conocerte mejor y así prevenir y controlar el fraude."
+      },
+      {
+        "icon": "/assets/images/one-doc-three/wallet.svg",
+        "title": "Tu info está segura",
+        "description": "Tus datos biométricos, personales, de contacto y consumo de producto serán compartidos a terceros solo cuando sea necesario y para mejorar tu experiencia."
+      },
+      {
+        "icon": "/assets/images/one-doc-three/wallet.svg",
+        "title": "Serás el primero en enterarte",
+        "description": "Te compartiremos información importante y ofertas de productos y servicios de Nequi o aliados que complementen tu experiencia. "
+      }
+    ],
+    "button": "Siguiente"
+  },
+
+  "authorization": {
+    "title": "Autorización para tratamiento de datos personales",
+    "button": "Acepta"
+  }
+}

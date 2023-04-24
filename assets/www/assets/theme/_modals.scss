@@ -1,0 +1,145 @@
+.ion-header-modal {
+  --border-color: var(--transparent);
+}
+
+.modal-content {
+  text-align: center;
+}
+
+.behind-bottom-sheet {
+  z-index: 9 !important;
+}
+
+.modal {
+  $self: &;
+
+  &__image {
+    height: var(--modal-image-height, 88px);
+    margin-top: 8px;
+    margin-bottom: 40px;
+  }
+
+  &--transparent {
+    --background: transparent;
+  }
+
+  &--medianoche {
+    #{ $self }__header {
+      --ion-toolbar-color: white;
+    }
+
+    #{ $self }__content {
+      --background: var(--medianoche);
+    }
+  }
+
+  &--medianoche-81 {
+    --background: var(--medianoche-81);
+  }
+
+  &--image-height-auto {
+    --modal-image-height: auto;
+  }
+
+  &--medianoche-90 {
+    #{ $self }__header {
+      --ion-toolbar-color: white;
+    }
+
+    #{ $self }__content {
+      --background: var(--medianoche-90);
+      .ion-list-container {
+        color: white;
+      }
+    }
+  }
+
+  &--center_vertical {
+    #{ $self }__content {
+      .ion-list-container {
+        align-items: center;
+        display: flex;
+        height: 100%;
+      }
+    }
+  }
+
+  &--white {
+    #{ $self }__header {
+      --ion-toolbar-color: var(--black);
+    }
+
+    #{ $self }__content {
+      --background: var(--white);
+      .ion-list-container {
+        color: var(--black);
+      }
+    }
+  }
+
+  &--propeller-credit {
+    #{ $self }__content {
+      .ion-list-container {
+        .modal__description {
+          padding-inline: 26px;
+          line-height: 21px;
+          font-size: 16px;
+          margin-top: 38px;
+          color: var(--gray-70);
+        }
+      }
+    }
+  }
+
+  &--reschedule-loan {
+    #{ $self }__content {
+      .ion-list-container {
+        .modal__description {
+          padding-inline: 26px;
+          line-height: 21px;
+          font-size: 16px;
+          margin-top: 38px;
+          color: var(--gray-70);
+        }
+
+        h2 {
+          color: var(--medianoche);
+        }
+      }
+    }
+  }
+
+  &--civica {
+    #{ $self }__content {
+      .ion-list-container {
+        padding: 12px 31px;
+        .modal__description {
+          color: var(--card-modal-text);
+        }
+      }
+    }
+  }
+}
+
+.card-modal {
+  &--lock-bottom-sheet {
+    --card-modal-container-padding: 0;
+    --card-modal-button-height: 48px;
+    --card-modal-container-margin-horizontal: 24px;
+  }
+}
+
+.show-modal {
+  &--white {
+    --background: white;
+    opacity: 1;
+
+    ion-content {
+      --background: transparent;
+    }
+
+    .ion-list-container {
+      text-align: center;
+    }
+  }
+}

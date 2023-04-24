@@ -1,0 +1,81 @@
+{
+  "bottom-sheet": {
+    "message": "¡Disfruta tus series y pelis favoritas!",
+    "content": "Compra un código para recargar Netflix. Te lo enviaremos a tu correo para que lo actives en tu cuenta de Netflix.",
+    "image": "/assets/images/netflix/logo.svg",
+    "url": {
+      "label": "¿Más Info?",
+      "link": "https://ayuda.nequi.com.co/hc/es/articles/360038935472"
+    },
+    "button": "Listo"
+  },
+  "terms": {
+    "title": "Términos <br/> y condiciones",
+    "button": "Acepta"
+  },
+  "buy": {
+    "title": "Netflix",
+    "code-format": "Código Netflix {{ value }}",
+    "footer": {
+      "message": "Recuerda que para redimir el código, debes tener una cuenta de Netflix.",
+      "button": "Sigue",
+      "link": "¿Cómo se usa?"
+    },
+    "form": {
+      "code": "Elige el valor de tu código",
+      "email": "Correo"
+    },
+    "controls-errors": {
+      "email": {
+        "required": "¡Ups! Debes llenar esto.",
+        "wrong-email": "Esto no parece un correo. Revísalo porfa.",
+        "help": "Escribe el correo al que quieres que te llegue el código"
+      }
+    },
+    "bottom-sheet": {
+      "title": "Confirma",
+      "subtitle": "Info de la compra",
+      "items": {
+        "product": "Producto",
+        "email": "Correo",
+        "amount": "¿Cuánto?",
+        "pocket": "La plata saldrá de:"
+      }
+    },
+    "modals": {
+      "buy-success": {
+        "header": "¡Luces, cámara y acción!",
+        "image": "assets/images/icons/thumb-up-purple.svg",
+        "content": "Lista tu compra del código. En un rato te llegará al correo que nos diste. Escríbelo en Netflix y disfruta tus pelis y series favoritas",
+        "buttons": {
+          "accept": "Listo",
+          "cancel": {
+            "text": "¿Cómo se usa?",
+            "isLink": true,
+            "link": ""
+          }
+        }
+      },
+      "payment-in-progress": {
+        "header": "¡Ya casi!",
+        "image": "assets/images/icons/clock-purple.svg",
+        "content": "Tu pago va en camino... Cuando todo esté listo, te enviaremos un mensaje de texto y un correo para avisarte.",
+        "accept": "Listo"
+      }
+    }
+  },
+  "help": {
+    "title": "¿Cómo se usa?",
+    "button": "Entendido",
+    "content": [
+      {
+        "title": "1. Inicia sesión en Netflix y ve a tu perfil",
+        "description": "Si no tienes cuenta, crea una primero. En tu perfil elige la opción Cuenta y luego ve a la sección Membresía y facturación."
+      },
+      {
+        "title": "2. Redime tu código",
+        "description": "Elige la opción Canjear tarjeta de regalo o código y escribe porfa el que te enviamos al correo que nos diste. Ahora disfruta y sigue con la maratón ;)"
+      }
+    ]
+  }
+}

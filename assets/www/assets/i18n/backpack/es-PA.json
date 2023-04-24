@@ -1,0 +1,166 @@
+{
+  "home": {
+    "greeting": "Hola,",
+    "money": {
+      "available-text": "Disponible",
+      "available-text-pockets": "Disponible + Bolsillos",
+      "total": "Total"
+    },
+    "contingency": {
+      "available": "Disponible",
+      "label": "Estamos trabajando para tener nuestra app al 100%",
+      "imageAltText": "Icono Contingencia"
+    },
+    "use-money": {
+      "cash-in": {
+        "title": "Recarga Nequi",
+        "icon": "assets/images/use-money/cashin/cashin.svg",
+        "icon-disabled": "assets/images/use-money/cashin/disabled-cashin.svg"
+      },
+      "cash-out": {
+        "title": "Saca",
+        "icon": "assets/images/use-money/cashout/cashout.svg"
+      },
+      "send": {
+        "title": "Envía",
+        "icon": "assets/images/use-money/send/send.svg",
+        "icon-disabled": "assets/images/use-money/send/disabled-send.svg"
+      },
+      "request": {
+        "title": "Pide",
+        "icon": "assets/images/use-money/request.svg",
+        "icon-disabled": "assets/images/use-money/disabled-request.svg"
+      },
+      "qr": {
+        "title": "Código QR",
+        "icon": "assets/images/use-money/qr/qr.svg",
+        "icon-disabled": "assets/images/use-money/qr/disabled-qr.svg"
+      },
+      "disabled-option": "Estamos trabajando en una solución. En este momento solo puedes sacar plata."
+    },
+    "modals": {
+      "trapped-genie": {
+        "no-pass-white-list": {
+          "header": "¡Genio atrapado!",
+          "content": "<div>Plata al Toque aún no está disponible para ti.</div><div class='ion-padding-bottom'> Recarga tu cuenta Nequi desde cualquier banco por Recarga en Línea.</div>",
+          "image": "/assets/images/icons/genius.svg",
+          "buttons": {
+            "accept": "Recarga en línea",
+            "cancel": {
+              "text": "Cancelar",
+              "isLink": true,
+              "link": ""
+            }
+          }
+        },
+        "invalid-document": {
+          "header": "¡Genio atrapado!",
+          "content": "<div class='ion-padding-bottom'>Plata al toque solo la pueden usar colombianos mayores de edad.</div>",
+          "image": "/assets/images/icons/genius.svg",
+          "buttons": {
+            "accept": "Listo",
+            "cancel": {
+              "text": "Ayuda",
+              "isLink": true,
+              "link": "https://ayuda.nequi.com.co/hc/es/articles/115001866792-Transferir-plata-desde-Bancolombia-a-Nequi"
+            }
+          }
+        },
+        "no-banck-accounts": {
+          "header": "¡Genio atrapado!",
+          "content": "<div class='ion-padding-bottom'>Solo podemos enlazarnos con cuentas Bancolombia que sean tuyas y detectamos que no tienes ninguna.</div>",
+          "image": "/assets/images/icons/genius.svg",
+          "buttons": {
+            "accept": "Listo",
+            "cancel": {
+              "text": "Ayuda",
+              "isLink": true,
+              "link": "https://ayuda.nequi.com.co/hc/es/articles/115001866792-Transferir-plata-desde-Bancolombia-a-Nequi"
+            }
+          }
+        }
+      },
+      "biometry-validation": {
+        "image": "/assets/images/icons/facial-biometry-purple.svg",
+        "title": "Necesitamos reconocerte",
+        "content": "Para continuar el proceso que estás haciendo en Nequi debemos estar seguros de que eres tú, así que necesitamos que te autentiques.",
+        "buttons": {
+          "accept": "Listo",
+          "cancel": "Ahora no"
+        }
+      }
+    },
+    "bottom-sheet": {
+      "link-bank-account": {
+        "message": "Plata al toque",
+        "content": "Vamos a enlazar tu cuenta Bancolombia y la próxima vez va a ser súper rápido, casi mágico.",
+        "image": "/assets/images/icons/bank-recharge.svg",
+        "url": {
+          "label": "Ayuda",
+          "link": "https://ayuda.nequi.com.co/hc/es/articles/115001866792-Transferir-plata-desde-Bancolombia-a-Nequi"
+        },
+        "button": "Enlaza tu cuenta"
+      }
+    },
+    "alerts": {
+      "biometry-validation": {
+        "header": "¿Seguro quieres salir?",
+        "message": "Si te sales no podremos continuar con tu autenticación y tendremos que volver a enviarte la notificación desde Servicio.",
+        "buttons": {
+          "accept": "Mejor no",
+          "cancel": "Salir"
+        }
+      }
+    }
+  },
+  "money-partition": {
+    "title": "Así está tu plata",
+    "subtitle": "Toda tu plata suma",
+    "diamond": {
+      "available": "Disponible",
+      "mattress": "Colchón",
+      "card": "Tarjeta",
+      "pockets": "Bolsillos",
+      "goals": "Metas"
+    },
+    "alternative-amount": {
+      "card": {
+        "balance-plus-available": "{{balance}} + Tu Disponible",
+        "available": "Pagando con tu Disponible"
+      }
+    },
+    "footer": "Topes de Nequi",
+    "default-error": "No pudimos traer la info de toda tu plata :("
+  },
+  "navigation-bar": {
+    "closet": "Servicios",
+    "movements": "Movimientos",
+    "backpack": "Inicio",
+    "notifications": "Notificaciones",
+    "profile": "Perfil"
+  },
+  "ceiling": {
+    "title": "Topes de Nequi",
+    "balance": {
+      "summary": {
+        "max": "Tu saldo máximo",
+        "current": "Tu saldo actual"
+      },
+      "monthly": {
+        "title": "Puedes usar cada mes",
+        "gmf-free": "libre de GMF @",
+        "gmf-charging": "Cobrando GMF @",
+        "used": "Este mes has usado",
+        "gmf-charge": "Cobro GMF 4X1000"
+      }
+    },
+    "detail": "La norma nos exige poner estos topes en nuestras cuentas.",
+    "breaking-ceiling": "Volver"
+  },
+  "change-tool": {
+    "bottom-sheet": {
+      "title": "Cambia {0} por:"
+    },
+    "success": "Cambiaste {0} por "
+  }
+}

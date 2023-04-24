@@ -1,0 +1,203 @@
+{
+  "home": {
+    "title": "Tu Nequi",
+    "accounts-title": "Cuentas Bancolombia enlazadas",
+    "mattress-title": "Protección de Colchón",
+    "protect-mattress": "Protegerlo",
+    "hide-mattress": "Esconderlo",
+    "transfiya-title": "Transfiya",
+    "transfiya-relations": "Relaciones de confianza",
+    "remittances-title": "Remesas",
+    "remittances-management": "Administra tus remesas",
+    "subscriptions-title": "Suscripciones",
+    "subscriptions-manage": "Gestiona tus suscripciones",
+    "authorizations-title": "Autorizaciones",
+    "authorizations-balance-inquiry": "Consulta de saldo",
+    "authorizations-experiences": "Experiencias con terceros",
+    "accounts-type": {
+      "S": "Ahorros",
+      "D": "Corriente"
+    },
+    "alert": {
+      "info": {
+        "delete-attached-account": {
+          "header": "Tu cuenta se va a desenlazar",
+          "message": "¿Estás seguro que quieres desenlazar tu cuenta? Puedes volverla a enlazar cuando quieras.",
+          "buttons": {
+            "accept": "Desenlazar",
+            "cancel": "Mejor no"
+          }
+        },
+        "protection-mattress-disable": {
+          "header": "¿Seguro quieres desproteger tu Colchón?",
+          "message": "Te recomendamos que si no es una emergencia sigas ahorrando en tu Colchón. Resiste un poco más.",
+          "buttons": {
+            "cancel": "Ahora no",
+            "accept": "Sí, desprotege"
+          }
+        }
+      }
+    },
+    "bottom-sheet": {
+      "info": {
+        "message": "Relaciones de confianza",
+        "content": "Son conexiones que se crean con tus amig@s cuando te envían plata por transfiya.",
+        "url": {
+          "label": "¿Más info?",
+          "link": "https://ayuda.nequi.com.co/hc/es/articles/360039717712"
+        },
+        "button": "Listo"
+      }
+    },
+    "modal": {
+      "unlink-success-modal": {
+        "title": "Tu cuenta está desenlazada",
+        "content": "¡Listo! Si quieres volver a enlazarla, busca la opción Plata al Toque en el menú de $.",
+        "image": "assets/images/profile/product/unlink-account-success.svg",
+        "buttons": {
+          "accept": "Listo"
+        }
+      },
+      "unlock-success": {
+        "image": "assets/images/card/all-fine.svg",
+        "title": "Levantaste tu Colchón",
+        "content": "Ya puedes usar la plata que tienes en el Colchón, piensa bien si vale la pena gastarla ahora. Siempre puedes volverlo a proteger.",
+        "buttons": {
+          "accept": "Listo",
+          "cancel": "Mejor no"
+        }
+      },
+      "protection-mattress-enable": {
+        "title": "Protección contra tentaciones",
+        "content": "Protege tu Colchón de las tentaciones mundanas y gastos innecesarios con alguna de las opciones que te damos",
+        "image": "assets/images/icons/strong-box.svg",
+        "buttons": {
+          "accept": "Listo",
+          "cancel": "Ahora no"
+        }
+      },
+      "hide-mattress": {
+        "title": "¿Quieres esconder el Colchón?",
+        "content": "Vamos a camuflarlo un poco para que no caigas en tentaciones, pero igual podrás entrar a él.",
+        "image": "assets/images/icons/eye-hide.svg",
+        "buttons": {
+          "accept": "Esconderlo",
+          "cancel": "Mejor no"
+        }
+      },
+      "show-mattress": {
+        "title": "¿Quieres mostrar el Colchón?",
+        "content": "Si dejamos de esconder el Colchón caéras más fácil en tentaciones mundanas.",
+        "image": "assets/images/icons/eye-show.svg",
+        "buttons": {
+          "accept": "Mostrarlo",
+          "cancel": "Mejor no"
+        }
+      }
+    }
+  },
+  "trust-relationship": {
+    "title": "Relaciones de confianza",
+    "searchbar-label": "Busca",
+    "phone-number-label": "Celular:",
+    "last-transaction-date-label": "Última recepción",
+    "empty-case-text": "Las relaciones de confianza se crean cuando recibes por primera vez un envío por transfiya.",
+    "alert": {
+      "info": {
+        "delete-trust-relationship": {
+          "header": "¡Hasta pronto, amig@!",
+          "message": "¿Ya no quieres recibir automáticamente la plata que te envíe {0} por transfiya?",
+          "buttons": {
+            "accept": "Elimina",
+            "cancel": "Cancela"
+          }
+        }
+      },
+      "error": {
+        "can-not-delete-trust-relationship": {
+          "header": "Inténtalo más tarde porfa",
+          "message": "No podemos eliminar esta relación de confianza. Te esperamos por aquí en un rato ;) ",
+          "buttons": {
+            "accept": "Listo"
+          }
+        }
+      }
+    }
+  },
+  "remittances": {
+    "title": "Remesas",
+    "exchange-number": "Numeral cambiario",
+    "bottom-sheet-title": "¿De dónde viene la plata?",
+    "automatic-payment": "Abono automático",
+    "automatic-payment-description": "Si tienes tu abono automático activo recibirás la plata de una.",
+    "buttons": {
+      "accept": "Acepta",
+      "share-info": "Info para recibir remesas",
+      "more-info-link": {
+        "text": "Más info"
+      }
+    },
+    "modal": {
+      "exchange-number-success": {
+        "title": "Ahora tienes un nuevo numeral cambiario",
+        "content": "Desde ahora, las remesas que recibas quedarán asociadas al numeral cambiario {{ selectedExchangeNumber }}",
+        "image": "assets/images/icons/thumb-up-blue.svg",
+        "buttons": {
+          "accept": "Listo"
+        }
+      },
+      "info-about-remittances": {
+        "title": "Recibe tus remesas en Nequi",
+        "content": "Una remesa es plata que te envían tus familiares o amig@s desde el exterior. Activa el abono automático para que te lleguen de una a tu Nequi. ",
+        "image": "assets/images/remittances/accept-remittances.svg",
+        "buttons": {
+          "accept": "Habilita remesas",
+          "cancel": "Ahora no"
+        }
+      }
+    },
+    "alert": {
+      "automatic-payment-disabled": {
+        "header": "¡Hasta pronto, amig@!",
+        "message": "¿Estás segur@ de que no quieres recibir tus remesas de una en Nequi?",
+        "buttons": {
+          "cancel": "Cancela",
+          "accept": "Sí, segur@"
+        }
+      }
+    }
+  },
+  "share-info": {
+    "title": "Info para recibir remesas",
+    "subtitle": "La persona que te va a enviar va a necesitar estos datos para que te llegue la plata sin problema.",
+    "info": {
+      "full-name-label": "Nombres completos",
+      "document-type-label": "Tipo de documento",
+      "document-number-label": "Número de documento",
+      "account-number-label": "Número de cuenta",
+      "send-to-label": "Enviar a"
+    },
+    "bottom-sheet": {
+      "receipt": "Comparte la info",
+      "email": "Envía la info por correo"
+    }
+  },
+  "subscriptions": {
+    "title": "Suscripciones",
+    "subscription-label": "La plata sale de:",
+    "empty-case": {
+      "image": "assets/images/profile/product/empty-case.svg",
+      "text": "Paga suscripciones a tus apps favoritas de domicilios, transporte, series o pelis <3"
+    },
+    "retry-message": "Algo falló... Porfa vuelve a intentar",
+    "delete": {
+      "header": "¿Quieres cancelar la suscripción?",
+      "message": "Debes ir al Comercio para activarla otra vez.",
+      "buttons": {
+        "accept": "Acepta",
+        "cancel": "Cancela"
+      }
+    },
+    "delete-success-message": "Ya cancelamos tu suscripción ;)"
+  }
+}

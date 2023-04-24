@@ -1,0 +1,823 @@
+{
+  "home": {
+    "bottom-sheet": {
+      "welcome": {
+        "message": "Préstamo Salvavidas",
+        "content": "Para cuando la quincena, la mesada o la vida no te alcanzan, Nequi te desembala en minutos. <b>Eso sí, debes pagarlo durante el próximo mes.</b>",
+        "image": "/assets/images/lifeguard/lifeguard.svg",
+        "button": "Listo"
+      }
+    },
+    "cannotSaveYouAlert": {
+      "title": "No te podemos prestar :(",
+      "image": "/assets/images/credits/lifeguard/cannot-save-you.svg",
+      "description": "No estamos preparados para prestarte un Salvavidas :( No cumples algunas condiciones y políticas.",
+      "buttons": {
+        "accept": "Listo"
+      },
+      "link": {
+        "text": "Más info",
+        "url": "https://ayuda.nequi.com.co/hc/es/articles/360020425392-Quiero-saber-por-qu%C3%A9-a-m%C3%AD-no-me-sale-el-Salvavidas-y-a-otras-personas-s%C3%AD"
+      }
+    },
+    "pending-payment-process": {
+      "image": "assets/images/card/all-fine.svg",
+      "title": "Estamos procesando el pago que hiciste",
+      "description": "Intenta más tarde o mañana porfa",
+      "buttons": {
+        "accept": "Listo"
+      }
+    },
+    "penalty-for-time": {
+      "title": "¡Todavía no te podemos salvar!",
+      "image": "/assets/images/credits/lifeguard/cannot-save-you.svg",
+      "buttons": {
+        "accept": "Listo"
+      }
+    },
+    "wrong-personal-data": {
+      "title": "¡Ups! Debemos esperar...",
+      "image": "/assets/images/credits/lifeguard/cannot-save-you.svg",
+      "description": "¡Perdón! Tenemos un problema técnico y en este momento no podemos prestarte. <br/> Intenta más tarde porfa.",
+      "buttons": {
+        "accept": "Listo"
+      }
+    },
+    "alert": {
+      "comeBackLater": {
+        "header": "Vuelve en un rato",
+        "message": "Espéranos un rato.",
+        "buttons": {
+          "accept": "Listo"
+        }
+      },
+      "defaultError": {
+        "header": "Ha ocurrido un error",
+        "message": "Por favor inténtalo más tarde",
+        "buttons": {
+          "accept": "Listo"
+        }
+      }
+    },
+    "preapproval": {
+      "header": {
+        "title": "Préstamo Salvavidas"
+      },
+      "subtitle": "Información del salvavidas",
+      "amount": {
+        "how-much": "¿Cuánto necesitas?",
+        "min": "Te podemos prestar"
+      },
+      "monthly-payment-amount": {
+        "label": "¿Cuánto me cuesta?",
+        "how": "¿Cuánto tengo que pagar?",
+        "help": "Si pagas antes del mes, son menos intereses ;)",
+        "when": "¿Hasta cuándo puedo pagar?"
+      },
+      "footer": {
+        "authorization": "Autorizo a Nequi a que tome la plata de mi cuenta en la fecha límite de pago.",
+        "ready-button": {
+          "text": "Continúa"
+        }
+      }
+    },
+    "credit": {
+      "header": {
+        "title": "Préstamo Salvavidas"
+      },
+      "amount": "Por pagar",
+      "payment-date": "Fecha límite de pago:",
+      "field-label": "¿Cuánto vas a pagar?",
+      "pay-all": "Pagar completo",
+      "pocket": {
+        "placeholder": "Escoge de donde saldrá la plata"
+      },
+      "errors": {
+        "no-valid-amount": "Debes poner un valor menor a {0} o pagar completo.",
+        "higher-amount": "¡Ups! Eso es más de lo que debes pagar."
+      },
+      "out-to-date": "Vencido",
+      "ready-button": "Listo"
+    },
+    "logs": {
+      "welcome": {
+        "tag": "PRIMERA PANTALLA: MODAL INICIAL ",
+        "action": "Se le expone al usuario, la propuesta de valor del préstamo Salvavidas"
+      },
+      "amount": {
+        "tag": "MONTO Y PLAZO",
+        "action": "El usuario selecciona y acepta el monto del préstamo y el plazo para hacer el pago"
+      }
+    },
+    "confirmation": {
+      "title": "Confirma tu pago",
+      "subtitle": "Info del Salvavidas",
+      "items": {
+        "amount": "Lo que vas a pagar",
+        "loan": "Lo que debes",
+        "date": "Fecha límite de pago",
+        "normal": "Intereses corrientes",
+        "insurance": {
+          "label": "Seguro de vida",
+          "message": "Debes pagar {0} por cada mes que pase sin que pagues."
+        },
+        "interestArrears": "Intereses de mora hasta hoy",
+        "monthlyInsuranceToday": {
+          "label": "Seguro de vida hasta hoy",
+          "message": "Cuando quedas en mora, los pagos parciales siempre se van de último al capital."
+        },
+        "pocket": "La plata saldrá de:"
+      },
+      "button": {
+        "next": "Acepta"
+      }
+    },
+    "pin-challenge": {
+      "title": "Escribe tu clave",
+      "message": "No dudamos de que seas tú... Pero es mejor confirmar ;)"
+    },
+    "modals": {
+      "partial-payment": {
+        "icon": "/assets/images/lifeguard/payment-icon.svg",
+        "title": "¡Se vale #ATuRitmo!",
+        "content": "También puedes pagar tu préstamo Salvavidas de a poquitos. Eso sí, no olvides que tienes un mes para pagarlo completo ;)",
+        "buttons": {
+          "next": "Listo"
+        }
+      },
+      "total-payment": {
+        "icon": "/assets/images/lifeguard/payment-icon.svg",
+        "title": "¡Todo listo!",
+        "content": "Fue un placer hacer tratos contigo y que lo hayas cumplido. Aquí estaremos cuando nos necesites :)",
+        "buttons": {
+          "next": "Listo"
+        }
+      },
+      "total-payment-expired": {
+        "icon": "/assets/images/card/all-fine.svg",
+        "title": "¡Todo listo!",
+        "content": "Ojalá no hubieras tenido que pagar de más... Pero se siente bien estar al día :)",
+        "buttons": {
+          "next": "Detalle del pago"
+        }
+      },
+      "partial-payment-expired": {
+        "icon": "/assets/images/card/all-fine.svg",
+        "title": "¡Ya casi!",
+        "content": "Recuerda porfa que todavía falta un tris de tu préstamo Salvavidas.",
+        "buttons": {
+          "next": "Detalle del pago"
+        }
+      },
+      "dont-have-preapproved": {
+        "title": "Necesitamos conocernos mejor",
+        "image": "/assets/images/lifeguard/lifeguard.svg",
+        "description": "Te vamos a pedir una info para consultar en centrales tu historial en el mundo de los préstamos. Así vemos si podemos prestarte.",
+        "accept-button": "Acepta",
+        "more-info-link": "Más info"
+      }
+    }
+  },
+  "life-insurance": {
+    "header": {
+      "title": "Asegura tu préstamo"
+    },
+    "content": {
+      "img": "/assets/images/propeller/padlock.svg",
+      "title": "Seguro de vida",
+      "description": "Los préstamos necesitan un seguro de vida para cubrir tu deuda en caso de que cuelgues los guayos o algo inesperado te pase."
+    },
+    "logs": {
+      "tag": "SEGURO DE VIDA",
+      "action": "Se le indica que debe tener un seguro de vida que respalde su deuda en caso de muerte o incapacidad."
+    },
+    "gender-options": {
+      "text": "Para nosotr@s no es importante, pero el seguro nos exige preguntarte si eres hombre o mujer.",
+      "female": {
+        "label": "Soy mujer",
+        "icon": "/assets/images/propeller/women-icon.svg"
+      },
+      "male": {
+        "label": "Soy hombre",
+        "icon": "/assets/images/propeller/man-icon.svg"
+      }
+    },
+    "ready-button": "Acepta",
+    "gender-button": "Listo"
+  },
+  "ensure-loan": {
+    "header": {
+      "title": "Asegura tu préstamo"
+    },
+    "ensure-loan-with-nequi": {
+      "title": "Seguro de vida con Nequi Costo mensual {0}",
+      "description": "Con este seguro podrás tener la plata de tu préstamo de una.",
+      "tag-img": "/assets/images/propeller/tag-fast.svg",
+      "tag-label": "Rápido"
+    },
+    "ensure-loan-with-another": {
+      "title": "Tengo otro seguro",
+      "description": "Instrucciones para presentar otro seguro para respaldar tu préstamo",
+      "tag-img": "/assets/images/propeller/tag-timer.svg",
+      "tag-label": "Lento"
+    },
+
+    "bottom-sheet": {
+      "insurance-with-nequi": {
+        "header": {
+          "title": "Seguro con Nequi"
+        },
+        "item-list": {
+          "all-ready": {
+            "label": "Todo listo en segundos",
+            "description": "Con este seguro podremos entregarte la plata de tu préstamo de una."
+          },
+          "what-it-costs-you": {
+            "label": "Lo que te cuesta",
+            "description": "El seguro de cada mes te cuesta {0}. Si pagas tu Salvavidas antes de que termines todas tus cuotas, te devolveremos a tu Nequi lo que sobra del último mes."
+          },
+          "can-not-continue": {
+            "label": "Por si cuelgas los guayos",
+            "description": "¡Queremos que estés bien! ;) Pero si te pasa algo inesperado, este seguro pagará lo que quedes debiendo. Tus beneficiarios, los que mande la ley, recibirán lo que ya habías abonado."
+          },
+          "who-is-my-insurance-with": {
+            "label": "¿Con quién es mi seguro?",
+            "description": "{0} asegura tu Préstamo."
+          }
+        },
+        "footer": {
+          "continue-with-nequi-button": "Sigue con el de Nequi"
+        }
+      },
+      "have-another-insurance": {
+        "header": {
+          "title": "Otro seguro"
+        },
+        "item-list": {
+          "choose-insurance-with-nequi": {
+            "label": "1. Elige el Seguro con Nequi",
+            "description": "Si necesitas tu préstamo de una elige el seguro de vida con Nequi para tenerte cubierto mientras nos envías tu póliza."
+          },
+          "send-us-your-policy": {
+            "label": "2. Envía tu póliza",
+            "description": "Debes enviar la carátula del seguro que ya tienes a enviatupoliza@nequi.co  Asegúrate de que el beneficiario sea Bancolombia."
+          },
+          "we-review-it": {
+            "label": "3. Revisamos",
+            "description": "Revisaremos que tu info esté bien, según las <a class=\"link-purple\" href=\"https://ayuda.nequi.com.co/hc/es/articles/360025952392-Condiciones-para-endosar-un-seguro-de-vida\" target=\"_blank\">Condiciones para endosar un seguro.</a>"
+          },
+          "we-answer-you": {
+            "label": "4. Respondemos",
+            "description": "Después de revisar tu póliza, te diremos si cumple las condiciones. Si no lo hace, puedes enviarnos otra póliza o pides el seguro con Nequi."
+          }
+        },
+        "footer": {
+          "choose-the-one-from-nequi-button": "Elige el de Nequi",
+          "send-mail-with-policy-button": "Envía correo con poliza"
+        }
+      }
+    },
+    "more-info-button": "Más info del seguro Nequi",
+    "logs": {
+      "tag": "ASEGURA TU PRÉSTAMO",
+      "action": "Se le indica al usuario la necesidad de tener un seguro de vida que respalde el préstamo y se le ofrece la opción de selecionar un seguro de vida con Nequi o la posibilidad de endosar otro seguro de vida"
+    }
+  },
+  "loan-info": {
+    "share-icon-button": "/assets/images/propeller/share-social.svg",
+    "save-icon-button": "/assets/images/propeller/save.svg",
+    "header": {
+      "title": "Info de tu préstamo"
+    },
+    "toast-message": "Si quieres guardar o compartir esta información abre acá",
+    "info-list": {
+      "what-you-asked-for": "Lo que pediste",
+      "how-much": {
+        "label": "Lo que te cuesta",
+        "info": "Estos son los intereses corrientes. Si pagas antes del mes, son menos ;)"
+      },
+      "life-ensurance": {
+        "label": "Seguro de vida",
+        "info": "Esto cuesta. Si quedas en mora, deberás otros {0} al mes. Si pagas antes, te devolvemos la diferencia."
+      },
+      "payment-date": "Fecha límite de pago"
+    },
+    "help-message": "Al darle continúa, autorizas a Nequi para que, cada mes, saque automáticamente de tu cuenta la plata de tu cuota.",
+    "footer-message": "Si sigues, nos autorizas para que, cada mes, saquemos automáticamente de tu Nequi, la plata de tu cuota.",
+    "continue-button": "Acepta",
+    "logs": {
+      "tag": "RESUMEN DEL PRÉSTAMO",
+      "action": "Se le presenta al usuario el resumen del préstamo en donde puede visualizar: Valor del préstamo, Valor del préstamo más la comisión del Fondo de Garantías, tasa de interés explicada en terminos de efectivo anual y efectivo mensual, valor mensual del seguro, valor apróximado de cada cuota, día del mes en la que debe pagar la cuota, tiempo del plazo. El usuario debe aceptar para continuar"
+    }
+  },
+  "know-us-better": {
+    "headerTitle": "Conozcámonos mejor",
+    "helpLink": "Ayuda",
+    "content": {
+      "your-document": {
+        "img": "/assets/images/propeller/happy-man.svg",
+        "title": "Tu Documento",
+        "description": "Escanea tu documento"
+      },
+      "where-you-live": {
+        "img": "/assets/images/propeller/home.svg",
+        "title": "¿Donde vives?",
+        "description": "Info de tu ubicación"
+      },
+      "what-do-you-do": {
+        "img": "/assets/images/propeller/suitcase.svg",
+        "title": "¿A qué te dedicas?",
+        "description": "Info sobre lo que haces"
+      },
+      "your-money": {
+        "img": "/assets/images/propeller/money.svg",
+        "title": "Tu plata",
+        "description": "¿Cómo la usas?"
+      },
+      "talking-about": {
+        "img": "/assets/images/propeller/messages.svg",
+        "title": "Hablemos de tú a tú",
+        "description": "Confirma toda la info"
+      }
+    },
+    "logs": {
+      "start": {
+        "tag": "RESUMEN DEL PRÉSTAMO",
+        "action": "Se le presenta al usuario el resumen del préstamo en donde puede visualizar: Valor del préstamo, Valor del préstamo más la comisión del Fondo de Garantías, tasa de interés explicada en terminos de efectivo anual y efectivo mensual, valor mensual del seguro, valor apróximado de cada cuota, día del mes en la que debe pagar la cuota, tiempo del plazo. El usuario debe aceptar para continuar"
+      },
+      "end": {
+        "tag": "MÓDULO CONOZCÁMONOS MEJOR",
+        "action": "El usuario acepta su información personal: cédula, fecha de expedición, fecha de nacimiento y correo electrónico. Ubicación: El usuario selecciona departamento, ciudad y detalle de la dirección de residencia. Ocupación: el usuario selecciona su ocupación actual. Ingresos y egresos: el usuario indica sus ingresos, egresos, activos y pasivos y origen de los recursos"
+      }
+    }
+  },
+  "foreign-money": {
+    "header": {
+      "title": "Plata por fuera del país"
+    },
+    "description": {
+      "general": "Necesitamos saber si mueves plata en otras monedas o si tienes negocios en el exterior.",
+      "account-or-financial-services": "¿Tienes cuenta o usas servicios financieros en otros paises?",
+      "import-or-export": "Productos y/o servicios al exterior. No incluyas compras por Amazon o AliExpress."
+    },
+    "placeholders": {
+      "account-or-financial-services": "¿Cuenta o servicios financieros?",
+      "import-or-export": "¿Importas o exportas?",
+      "import-or-export-select": "¿Importas, exportas o las dos?",
+      "foreign-tax": "¿Pagas impuestos por fuera del país?"
+    },
+    "list": {
+      "options": {
+        "yes": "Si",
+        "no": "No"
+      },
+      "negative-response": {
+        "account-or-financial-services": "No tengo cuenta en otro país",
+        "import-or-export": "No importo ni exporto",
+        "foreign-tax": "No pago impuestos fuera del país"
+      },
+      "import-export-service": {
+        "import": "Importo",
+        "export": "Exporto",
+        "import-export": "Importo y exporto"
+      }
+    },
+    "bottom-sheet": {
+      "title": "Confirma tu info",
+      "income-and-expenses": {
+        "subtitle": "Tus ingresos y gastos",
+        "receive-per-month-label": "¿Cuánto recibes al mes?",
+        "spend-per-month-label": "¿Cuánto gastas al mes?"
+      },
+      "origin-of-money": {
+        "subtitle": "¿Desde dónde te llega tu plata?",
+        "country-label": "País"
+      },
+      "assets-and-debts": {
+        "subtitle": "Tus ingresos y gastos",
+        "how-much-do-you-have-label": " ¿Cuánto es lo que tienes?",
+        "how-much-do-you-owe-label": "¿Cuánto es lo que debes?"
+      },
+      "foreign-money": {
+        "subtitle": "Plata por fuera del país",
+        "account-or-financial-services-label": "¿Cuenta o servicios financieros?",
+        "import-or-export-label": "¿Importas o exportas?",
+        "foreign-tax-label": "¿Pagas impuestos fuera del pais?"
+      },
+      "confirm-button": "Acepta",
+      "cancel-button": "Cambiar algo"
+    }
+  },
+  "account-or-financial-services": {
+    "header": {
+      "title": "Plata por fuera del país"
+    },
+    "description": {
+      "general": "¿Tienes cuenta/servicios en otros paises?",
+      "service-type": "Si usas una entidad financiera para pagar el movimiento o servicio, cuéntanos cuál es:"
+    },
+    "placeholders": {
+      "service-type": "Tipo de servicio",
+      "entity-name": "¿Cómo se llama la entidad?",
+      "account-type": "Tipo de cuenta",
+      "account-number": "Número de la cuenta",
+      "country": "País",
+      "currency": "Moneda",
+      "month-amount": "Monto mensual promedio"
+    },
+    "list": {
+      "service-type": [
+        { "description": "Envío plata" },
+        { "description": "Recibo plata" },
+        { "description": "Pago servicios" },
+        { "description": "Pago préstamo" },
+        { "description": "Pago inversiones" },
+        { "description": "Pago tarjeta de crédito" }
+      ],
+      "account-type": [
+        { "description": "Cuenta de ahorros" },
+        { "description": "Cuenta corriente" },
+        { "description": "Tarjeta de crédito" },
+        { "description": "Préstamo" }
+      ]
+    }
+  },
+  "loan-destination": {
+    "header": {
+      "title": "Para que vas a usar la plata",
+      "description": "Esto es solo para conocerte mejor, las condiciones del préstamo no van a cambiar según tu respuesta"
+    },
+    "destination-options": {
+      "vacations": {
+        "label": "Vacaciones",
+        "icon": "/assets/images/propeller/airplane-icon.svg"
+      },
+      "home": {
+        "label": "Hogar",
+        "icon": "/assets/images/propeller/home-icon.svg"
+      },
+      "vehicle": {
+        "label": "Vehículo",
+        "icon": "/assets/images/propeller/car-icon.svg"
+      },
+      "education": {
+        "label": "Educación",
+        "icon": "/assets/images/propeller/school-icon.svg"
+      },
+      "investment": {
+        "label": "Inversión",
+        "icon": "/assets/images/propeller/cash-icon.svg"
+      },
+      "inattendu": {
+        "label": "Imprevisto",
+        "icon": "/assets/images/propeller/rainy-icon.svg"
+      },
+      "another": {
+        "label": "Otro",
+        "icon": "/assets/images/propeller/bulb-icon.svg"
+      }
+    },
+    "bottom-sheet": {
+      "title": "¿Otro?",
+      "label": "¿Para que quieres el préstamo?",
+      "ready-button": "Listo"
+    },
+    "ready-button": "Listo"
+  },
+  "assets-and-debts": {
+    "header": {
+      "title": "Tus ingresos y gastos",
+      "description": "Escribe el valor con números de lo que tienes y de lo que debes."
+    },
+    "assets": {
+      "label": "¿Cuánto es lo que tienes?",
+      "info-text": "Suma tu salario y la plata que te llegue por inversiones, comisiones, etc."
+    },
+    "debts": {
+      "label": "¿Cuánto es lo que debes?",
+      "info-text": "Incluye todo lo que gastas en mercado, la U, el préstamo, arriendo, etc."
+    },
+    "ready-button": "Listo"
+  },
+  "income-and-expenses": {
+    "header": {
+      "title": "Tus ingresos y gastos"
+    },
+    "incomes-per-month": {
+      "text": "Selecciona el rango que más se aproxima a tu manejo de la plata",
+      "label": "¿Cuánto recibes en el mes?",
+      "info-text": "Suma tu salario y la plata que te llegue por inversiones, comisiones, etc."
+    },
+    "expenses-per-month": {
+      "label": "¿Cuánto gastas en el mes?",
+      "info-text": "Incluye todo lo que gastas en mercado, la U, el préstamo, arriendo, etc."
+    },
+    "origin-of-money": {
+      "text": "¿De dónde te llega la plata?",
+      "label": "Selecciona el país"
+    },
+    "ready-button": "Listo"
+  },
+  "foreign-tax": {
+    "header": {
+      "title": "Más info sobre impuestos"
+    },
+    "description": {
+      "tax-id": "El ID tributario es el número que te identifica para pagar impuestos en ese país."
+    },
+    "placeholders": {
+      "country": "País donde pagas",
+      "tax-id": "Número ID tributario"
+    }
+  },
+  "its-serious": {
+    "title": "Esto se puso serio...",
+    "item-list": [
+      {
+        "image": "/assets/images/credits/lifeguard/your-rhythm.svg",
+        "title": "A tu ritmo",
+        "content": "<div>Nequi te permite pagar como quieras, de a poquitos o todo de una.</div> <div class=\"margin-top-16\">Los préstamos que pagues a tiempo generan un reporte POSITIVO en centrales de riesgo.</div>"
+      },
+      {
+        "image": "/assets/images/credits/lifeguard/warning.svg",
+        "title": "Esto se puso serio...",
+        "content": "<div>Si no pagas, tendremos que generar un reporte NEGATIVO en centrales de riesgo (Ej. Datacrédito) pues la ley nos lo exige.</div> <div class=\"margin-top-16\">No pagar a tiempo implica pagar de más, pues los intereses de mora se acumulan."
+      }
+    ],
+    "accept-button": "Acepta"
+  },
+  "disbursement": {
+    "pin-challenge-modal": {
+      "title": "Escribe tu clave",
+      "message": "No dudamos de que seas tú... Pero es mejor confirmar ;)"
+    },
+    "card-modal": {
+      "title": "¡Ahí va tu Propulsor!",
+      "image": "/assets/images/card/all-fine.svg",
+      "content": "Ya te enviamos la plata para que alces el vuelo. En la pantalla de inicio de Nequi puedes entrar a ver la info y hacer abonos.",
+      "ready-button": "Listo"
+    },
+    "its-serious": {
+      "title": "Esto se puso serio...",
+      "item-list": [
+        {
+          "image": "/assets/images/lifeguard/your-rhythm.svg",
+          "title": "A tu ritmo",
+          "content": "<div>Nequi te permite pagar como quieras, de a poquitos o todo de golpe.</div> <div class=\"margin-top-16\">Los préstamos que pagues a tiempo generan un reporte POSITIVO en centrales de riesgo.</div>"
+        },
+        {
+          "image": "/assets/images/lifeguard/warning.svg",
+          "title": "Esto se puso serio...",
+          "content": "<div>Si no pagas, tendremos que generar un reporte NEGATIVO en centrales de riesgo (Ej. Datacrédito) pues la ley nos lo exige.</div> <div class=\"margin-top-16\">No pagar a tiempo implica pagar de más, pues los intereses de mora se acumulan."
+        }
+      ],
+      "accept-button": "Acepta"
+    }
+  },
+  "terms-and-conditions": {
+    "pin-challenge-modal": {
+      "title": "Escribe tu clave",
+      "message": "No dudamos de que seas tú... Pero es mejor confirmar ;)"
+    },
+    "title": "Condiciones de tu Salvavidas",
+    "accept-agreement-checkbox": "Acepto pagarle el préstamo a Nequi con estas condiciones.",
+    "accept-button": "Acepta",
+    "modals": {
+      "success": {
+        "header": "¡Ahí va tu Salvavidas!",
+        "content": "Ya te enviamos la plata a tu Nequi. La info de tu préstamo está en la pantalla de inicio de Nequi. ;)",
+        "image": "/assets/images/credits/lifeguard/lifeguard.svg",
+        "buttons": {
+          "accept": "Listo"
+        }
+      },
+      "control-list": {
+        "header": "¡No te podemos prestar!",
+        "content": "¡Perdón! Para darte el Salvavidas confirmamos varios datos sobre tu historial en el mundo de los préstamos. Ahora no podemos...",
+        "image": "/assets/images/icons/sad-face.svg",
+        "buttons": {
+          "accept": "Listo"
+        }
+      },
+      "break-ceiling": {
+        "header": "¡Estamos al límite! :(",
+        "content": "Para desembalarte, necesitamos que primero rompas los topes de tu Nequi.",
+        "image": "/assets/images/icons/sad-face.svg",
+        "buttons": {
+          "breakCeiling": "Rompe topes",
+          "accept": "Listo"
+        }
+      },
+      "disbursement-time-out": {
+        "header": "¡Ya casi!",
+        "content": "Estamos terminando de inflar tu Salvavidas. Te avisaremos cuando todo esté listo ;)",
+        "image": "/assets/images/card/all-fine.svg",
+        "buttons": {
+          "accept": "Listo"
+        }
+      }
+    },
+    "errors": {
+      "wrong-time-disbursement": {
+        "header": "Vuelve en un rato",
+        "buttons": {
+          "accept": "Listo"
+        }
+      }
+    }
+  },
+  "payment-detail": {
+    "title": "Info de tu préstamo",
+    "items": {
+      "loanValue": "Préstamo que hiciste",
+      "interestRates": {
+        "label": "Tasas de interés",
+        "description": "{0}% E.M. ({1}% E.A)",
+        "message": "La E.M. es la tasa de interés mensual que genera el valor de tu cuota y la E.A es la tasa efectiva anual la cual pagarás por un año de tu crédito."
+      },
+      "monthlyFee": {
+        "label": "Intereses",
+        "message": "Los intereses aumentan cada día que pase sin que pagues."
+      },
+      "monthlyInsurance": {
+        "label": "Seguro de vida mensual",
+        "message": "Debes pagar {0} por cada mes que pase sin que pagues. Si pagas antes, te devolvemos la diferencia."
+      },
+      "monthlyFeeArrears": {
+        "label": "Intereses de mora",
+        "message": "Estos intereses son más caros y empiezan a contar desde el día que se vence cada cuota."
+      },
+      "monthlyInsuranceToday": {
+        "label": "Seguro de vida hasta hoy",
+        "message": "Debes pagar {0} por cada mes que pase sin que pagues."
+      },
+      "totalvalue": "¿Cuánto debo?",
+      "paydayLimit": "Fecha límite de pago",
+      "numberContract": "Número de tu Salvavidas"
+    }
+  },
+  "extend-term": {
+    "title": "Amplía plazo",
+    "button": "Listo",
+    "maintenance": {
+      "item-list": [
+        {
+          "image": "/assets/images/card/plan-info/wallet.svg",
+          "title": "Por si te quedas en ceros",
+          "content": "<div>Queremos que todos tus reportes en centrales de información sean positivos. Por eso, si te quedaste sin plata, <b>puedes ampliar el plazo de pago de tu Salvavidas otro mes.</b></div>"
+        },
+        {
+          "image": "/assets/images/credits/lifeguard/boat-icon.svg",
+          "title": "Navega liviano",
+          "content": "Al ampliar tu plazo, tiramos al mar los días en mora y quedan en cero. Además, los intereses vuelven a ser los del principio, no los de mora, que son más caros. "
+        },
+        {
+          "image": "/assets/images/credits/lifeguard/paper-icon.svg",
+          "title": "Pero antes...",
+          "content": "<b>Para pedir más plazo,</b> debes pagar los intereses de mora, los corrientes y el seguro de vida que debes hasta hoy."
+        }
+      ]
+    },
+    "modification": {
+      "item-list": [
+        {
+          "image": "/assets/images/card/plan-info/wallet.svg",
+          "title": "Por si te quedas en ceros",
+          "content": "<div>Queremos que todos tus reportes en centrales de información sean positivos. Por eso, si te quedaste sin plata, <b>puedes ampliar el plazo de pago de tu Salvavidas otro mes.</b></div>"
+        },
+        {
+          "image": "/assets/images/credits/lifeguard/boat-icon.svg",
+          "title": "Navega liviano",
+          "content": "Al ampliar tu plazo, los días en mora son arrojados al mar y vuelven a cero. Además, los intereses vuelven a ser los del principio, no los de mora que son más caros."
+        },
+        {
+          "image": "/assets/images/credits/lifeguard/paper-icon.svg",
+          "title": "Pero antes...",
+          "content": "<b>Para pedir más plazo,</b> debes pagar los intereses de mora, los corrientes y el seguro de vida que debes hasta hoy."
+        },
+        {
+          "image": "/assets/images/credits/lifeguard/refresh-icon.svg",
+          "title": "Un empujón",
+          "content": "Como llevas tantos días de mora, solo puedes ampliar tu plazo esta vez. Si no pagas a tiempo, las centrales de información recibirán tu <b>reporte negativo.</b>"
+        }
+      ]
+    },
+    "modals": {
+      "one": {
+        "title": "¡Ups!, el barco ya zarpó",
+        "image": "/assets/images/card/all-fine.svg",
+        "content": "Revisamos info de tu vida financiera y qué tanto usas la app. Parece que algo cambió y esta vez no podremos ampliarte el plazo :(",
+        "buttons": { "next": "Listo" }
+      },
+      "two": {
+        "title": "Te demoraste en ponerle aire al Salvavidas",
+        "image": "/assets/images/card/all-fine.svg",
+        "content": "Con tantos días de mora ya no podemos ampliarte el plazo. Recuerda ponerte al día para evitar reportes <b>NEGATIVOS</b> en centrales de información.",
+        "buttons": { "next": "Listo" }
+      },
+      "three": {
+        "title": "Se acabaron las recargas de aire",
+        "image": "/assets/images/card/all-fine.svg",
+        "content": "Ya has ampliado tu plazo el máximo de veces. Recuerda ponerte al día para evitar reportes <b>NEGATIVOS</b> en centrales de información.",
+        "buttons": { "next": "Listo" }
+      },
+      "four": {
+        "title": "¡Wujuuu!, ya ampliaste tu plazo.",
+        "image": "/assets/images/card/all-fine.svg",
+        "content": "Recuerda pagar a tiempo esta vez para evitar reportes <b>NEGATIVOS</b> en centrales de información.",
+        "buttons": { "next": "Listo" }
+      },
+      "five": {
+        "title": "¡Wujuuu!, ya pagaste.",
+        "image": "/assets/images/card/all-fine.svg",
+        "content": "Ya no necesitas ampliar plazo. Pagaste lo que tenías en mora de tu Salvavidas. Para nosotros fue un placer desembalarte :)",
+        "buttons": { "next": "Listo" }
+      },
+      "isAlreadyStarted": {
+        "title": "¿Quieres ampliar tu plazo de pago?",
+        "image": "/assets/images/card/all-fine.svg",
+        "content": "La última vez que intentaste ampliar tu plazo, no terminaste todo el proceso. ¿Quieres seguir?",
+        "buttons": {
+          "next": "Listo",
+          "cancel": "Mejor no"
+        }
+      }
+    },
+    "retry-message": "Algo falló... Porfa vuelve a intentar"
+  },
+  "reschedule-info": {
+    "title": "Préstamo Salvavidas",
+    "information": "Ampliaremos tu plazo de pago un mes, a partir de hoy",
+    "new-payment-date": "Nueva fecha límite de pago",
+    "retry-message": "Algo falló... Porfa vuelve a intentar",
+    "exit-alert": {
+      "header": "Lo sentimos :(",
+      "message": "No posees ningún crédito aún",
+      "buttons": {
+        "accept": "Listo"
+      }
+    },
+    "items": {
+      "title": "Info del pago para ampliar plazo",
+      "commission": {
+        "label": "Lo que pagarías",
+        "message": "Estos son los intereses que pagarás en tu nueva fecha límite. Si pagas antes, son menos."
+      },
+      "lifeInsuranceInterest": {
+        "label": "Lo que pagarías de seguro",
+        "message": "El seguro se renueva cada mes, desde que sacaste el Salvavidas. Con tu nueva fecha límite, esto es lo que pagarás."
+      }
+    },
+    "footer": {
+      "message": "Al ampliar el plazo de pago, nos autorizas para sacar automáticamente la plata de tu Nequi, cuando llegue la nueva fecha límite de pago.",
+      "button": "Sigue"
+    }
+  },
+  "reschedule-payment": {
+    "title": "Lo que debes pagar",
+    "description": "Para ampliar tu plazo primero debes pagar los intereses en mora, los corrientes y el seguro que debes hasta hoy.",
+    "detail-items": {
+      "currentInterests": {
+        "label": "Intereses corrientes",
+        "help": "Estos intereses cuentan desde el día que pediste el Salvavidas, hasta la fecha límite."
+      },
+      "penaltyInterest": {
+        "label": "Intereses de mora",
+        "help": "Estos intereses cuentan desde el día que se venció tu préstamo hasta hoy."
+      },
+      "lifeInsurance": {
+        "label": "Seguro de vida",
+        "help": "Esto es lo que debes del seguro hasta hoy."
+      },
+      "total": "Total"
+    },
+    "button": "Sigue",
+    "confirmation": {
+      "title": "Confirma tu pago",
+      "subtitle": "Info del pago para ampliar plazo",
+      "items": {
+        "currentInterests": "Lo que pagas de interés corriente",
+        "penaltyInterest": "Lo que pagas de interés de mora",
+        "lifeInsurance": "Lo que pagas de seguro de vida",
+        "total": "Total",
+        "newPaymentLimitDate": "Nueva fecha límite de pago",
+        "pocket": "¿De dónde saldrá la plata?"
+      },
+      "button": "Paga y amplía plazo"
+    },
+    "card-modal": {
+      "raise-anchor": {
+        "title": "Recogiste las anclas y ampliaste tu plazo",
+        "image": "/assets/images/use-money/send/all-good.svg",
+        "content": "Pagaste los intereses y el seguro que debías, tu nueva fecha límite de pago es <b>{{ newLimitDate }}</b>.  Recuerda pagar a tiempo esta vez para evitar <b>reportes negativos</b> en centrales de información.",
+        "ready-button": "Listo"
+      },
+      "man-drift": {
+        "title": "¡Ya casi!",
+        "image": "/assets/images/propeller/alert.svg",
+        "content": "Estamos procesando el pago para la ampliación de plazo de tu Salvavidas. Te avisaremos en cuando todo esté bien.",
+        "ready-button": "Listo"
+      }
+    }
+  }
+}

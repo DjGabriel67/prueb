@@ -1,0 +1,26 @@
+{
+  "pin-challenge": {
+    "title": "Escribe tu clave",
+    "message": "No dudamos que seas tú... Pero es mejor confirmar ;)"
+  },
+  "confirmation": {
+    "title": "Confirma",
+    "pocket": "La plata saldrá de:"
+  },
+  "error": {
+    "retry-transaction": {
+      "title": "Discúlpanos porfa",
+      "description": "Tenemos un problema para hacer este movimiento. Intenta porfa más tarde.",
+      "buttons": {
+        "accept": "Listo"
+      }
+    },
+    "zero-attempts": {
+      "title": "Se nos fue la luz :(",
+      "description": "¡Lo sentimos! No podemos saber si se ha realizado la operación, pero tu sí. Revisa tus movimientos.",
+      "buttons": {
+        "accept": "Listo"
+      }
+    }
+  }
+}

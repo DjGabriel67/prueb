@@ -1,0 +1,144 @@
+{
+  "foreign-money": {
+    "header": {
+      "title": "Plata por fuera del país"
+    },
+    "description": {
+      "general": "Necesitamos saber si mueves plata en otras monedas o si tienes negocios en el exterior.",
+      "account-or-financial-services": "¿Tienes cuenta o usas servicios financieros en otros paises?",
+      "import-or-export": "Productos y/o servicios al exterior. No incluyas compras por Amazon o AliExpress."
+    },
+    "placeholders": {
+      "account-or-financial-services": "¿Cuenta o servicios financieros?",
+      "import-or-export": "¿Importas o exportas?",
+      "import-or-export-select": "¿Importas, exportas o las dos?",
+      "foreign-tax": "¿Pagas impuestos por fuera del país?"
+    },
+    "list": {
+      "options": {
+        "yes": "Si",
+        "no": "No"
+      },
+      "negative-response": {
+        "account-or-financial-services": "No tengo cuenta en otro país",
+        "import-or-export": "No importo ni exporto",
+        "foreign-tax": "No pago impuestos fuera del país"
+      },
+      "import-export-service": {
+        "import": "Importo",
+        "export": "Exporto",
+        "import-export": "Importo y exporto"
+      }
+    },
+    "bottom-sheet": {
+      "title": "Confirma tu info",
+      "income-and-expenses": {
+        "subtitle": "Tus ingresos y gastos",
+        "receive-per-month-label": "¿Cuánto recibes al mes?",
+        "spend-per-month-label": "¿Cuánto gastas al mes?"
+      },
+      "origin-of-money": {
+        "subtitle": "¿Desde dónde te llega tu plata?",
+        "country-label": "País"
+      },
+      "assets-and-debts": {
+        "subtitle": "Tus ingresos y gastos",
+        "how-much-do-you-have-label": " ¿Cuánto es lo que tienes?",
+        "how-much-do-you-owe-label": "¿Cuánto es lo que debes?"
+      },
+      "foreign-money": {
+        "subtitle": "Plata por fuera del país",
+        "account-or-financial-services-label": "¿Cuenta o servicios financieros?",
+        "import-or-export-label": "¿Importas o exportas?",
+        "foreign-tax-label": "¿Pagas impuestos fuera del pais?"
+      },
+      "confirm-button": "Acepta",
+      "cancel-button": "Cambiar algo"
+    }
+  },
+  "account-or-financial-services": {
+    "header": {
+      "title": "Plata por fuera del país"
+    },
+    "description": {
+      "general": "¿Tienes cuenta/servicios en otros paises?",
+      "service-type": "Si usas una entidad financiera para pagar el movimiento o servicio, cuéntanos cuál es:"
+    },
+    "placeholders": {
+      "service-type": "Tipo de servicio",
+      "entity-name": "¿Cómo se llama la entidad?",
+      "account-type": "Tipo de cuenta",
+      "account-number": "Número de la cuenta",
+      "country": "País",
+      "currency": "Moneda",
+      "month-amount": "Monto mensual promedio"
+    },
+    "errors-labels": {
+      "entity": "¡Ups! Revisa que esta info esté bien.",
+      "amount": "¡Ups! Debes llenar este campo",
+      "pattern": "¡Ups! Debes cambiar esto."
+    },
+    "list": {
+      "service-type": [
+        { "description": "Envío plata" },
+        { "description": "Recibo plata" },
+        { "description": "Pago servicios" },
+        { "description": "Pago préstamo" },
+        { "description": "Pago inversiones" },
+        { "description": "Pago tarjeta de crédito" }
+      ],
+      "account-type": [
+        { "description": "Cuenta de ahorros" },
+        { "description": "Cuenta corriente" },
+        { "description": "Tarjeta de crédito" },
+        { "description": "Préstamo" }
+      ]
+    }
+  },
+  "assets-and-debts": {
+    "header": {
+      "title": "Tus ingresos y gastos",
+      "description": "Escribe el valor con números de lo que tienes y de lo que debes."
+    },
+    "assets": {
+      "label": "¿Cuánto es lo que tienes?",
+      "info-text": "Suma tu salario y la plata que te llegue por inversiones, comisiones, etc."
+    },
+    "debts": {
+      "label": "¿Cuánto es lo que debes?",
+      "info-text": "Incluye todo lo que gastas en mercado, la U, el préstamo, arriendo, etc."
+    },
+    "ready-button": "Listo"
+  },
+  "income-and-expenses": {
+    "header": {
+      "title": "Tus ingresos y gastos"
+    },
+    "incomes-per-month": {
+      "text": "Selecciona el rango que más se aproxima a tu manejo de la plata",
+      "label": "¿Cuánto recibes en el mes?",
+      "info-text": "Suma tu salario y la plata que te llegue por inversiones, comisiones, etc."
+    },
+    "expenses-per-month": {
+      "label": "¿Cuánto gastas en el mes?",
+      "info-text": "Incluye todo lo que gastas en mercado, la U, el préstamo, arriendo, etc."
+    },
+    "origin-of-money": {
+      "text": "¿De dónde te llega la plata?",
+      "label": "Selecciona el país"
+    },
+    "ready-button": "Listo"
+  },
+  "foreign-tax": {
+    "header": {
+      "title": "Cuéntanos más sobre esos impuestos"
+    },
+    "description": {
+      "tax-id": "El ID tributario es el número que te identifica para pagar impuestos en ese país."
+    },
+    "placeholders": {
+      "country": "País donde pagas",
+      "tax-id": "No ID tributario"
+    }
+  }
+}

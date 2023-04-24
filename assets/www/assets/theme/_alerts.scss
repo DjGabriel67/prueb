@@ -1,0 +1,43 @@
+.nequi-alert {
+  background-color: var(--guayaba-90);
+
+  .alert-title {
+    color: var(--medianoche);
+    font-size: 1.125rem;
+    line-height: 1.2;
+    font-weight: 500;
+  }
+
+  .alert-message {
+    color: var(--gray-alert-message);
+    font-size: 1rem;
+    line-height: 1.25;
+    font-weight: normal;
+  }
+
+  .alert-button-group {
+    background-color: var(--gray-alert-button-group);
+    flex-wrap: nowrap;
+  }
+
+  .alert-button {
+    color: var(--guayaba);
+    font-size: 1rem;
+    line-height: 1.25;
+    border-color: transparent;
+  }
+
+  .alert-button-inner {
+    font-weight: 500;
+  }
+
+  .alert-wrapper {
+    border-radius: 4px;
+  }
+
+  .normal-font-weight {
+    .alert-button-inner {
+      font-weight: 400;
+    }
+  }
+}

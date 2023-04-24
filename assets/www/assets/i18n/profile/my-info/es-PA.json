@@ -1,0 +1,18 @@
+{
+  "talking-about": {
+    "header": {
+      "title": "Hablemos de tú a tú"
+    },
+    "chat": {
+      "sender": "Nequi",
+      "receiver": "Tú"
+    },
+    "placeholders": {
+      "input": "Escribe tu respuesta"
+    },
+    "logs": {
+      "tag": "MÓDULO CONOZCÁMONOS MEJOR",
+      "action": "El usuario acepta su información personal: cédula, fecha de expedición, fecha de nacimiento y correo electrónico. Ubicación: El usuario selecciona departamento, ciudad y detalle de la dirección de residencia. Ocupación: el usuario selecciona su ocupación actual. Ingresos y egresos: el usuario indica sus ingresos, egresos, activos y pasivos y origen de los recursos"
+    }
+  }
+}

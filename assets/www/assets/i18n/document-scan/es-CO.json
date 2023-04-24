@@ -1,0 +1,171 @@
+{
+  "document-guide": {
+    "title": "Confirma tu info",
+    "message": "Tómale porfa una foto a tu documento de identidad, por los dos lados.",
+    "go-to-guide": "Sigue",
+    "finish-guide": "Listo",
+    "slides": [
+      {
+        "title": "Escoge un lugar con buena luz",
+        "content": "Pero no mucha para que tu documento se vea bien en la foto y toda tu info sea clara."
+      },
+      {
+        "title": "El fondo debe ser oscuro y plano",
+        "content": "Debes ponerlo sobre una superficie así, para que tu documento se vea bien."
+      },
+      {
+        "title": "Enfoca bien",
+        "content": ""
+      }
+    ]
+  },
+  "document-preview": {
+    "title": "Toma fotos de tus documentos",
+    "load-image-error": "Error en la carga de la imagen",
+    "next": "Listo",
+    "repeat-scan": "Repite la foto",
+    "captureMessages": {
+      "defaultMessages": {
+        "titleMessage": "Escanea tu documento",
+        "subtitleMessage": "Ubica tu documento en el recuadro",
+        "userInstructionMessage": "",
+        "zoomInMessage": "Acerca",
+        "zoomOutMessage": "Aleja",
+        "tutorialDismissMessage": "",
+        "holdSteadyMessage": "No te muevas",
+        "rotateMessage": "Gira tu celu",
+        "holdParallelMessage": "Endereza el celu",
+        "capturedMessage": "¡Listo!",
+        "dontRecognizeDocumentMessage": "Eso no parece un documento",
+        "centerMessage": "Endereza el celu"
+      },
+      "defaultTIMessages": {
+        "titleMessage": "Foto de tu documento",
+        "subtitleMessage": "Ubica tu documento en el recuadro",
+        "userInstructionMessage": "",
+        "zoomInMessage": "Acerca",
+        "zoomOutMessage": "Aleja",
+        "tutorialDismissMessage": "",
+        "holdSteadyMessage": "No te muevas",
+        "rotateMessage": "Gira tu celu",
+        "holdParallelMessage": "Endereza el celu",
+        "capturedMessage": "¡Listo!",
+        "dontRecognizeDocumentMessage": "Eso no parece un documento",
+        "centerMessage": "Endereza el celu"
+      },
+      "anyDocument": {
+        "front": {
+          "subtitleMessage": "Primero el lado de la foto"
+        },
+        "back": {
+          "subtitleMessage": "Ahora el lado de la huella"
+        }
+      }
+    },
+    "previewMessages": {
+      "defaultMessages": {
+        "title": "Así quedó tu documento",
+        "buttonOk": "Continuar",
+        "buttonCancel": "Repetir"
+      },
+      "confirmDeletion": {
+        "title": "¿Quieres borrar la foto?",
+        "content": "Al borrar la imagen tendrás que volver a escanear tu documento.",
+        "buttonOk": "Si",
+        "buttonCancel": "No"
+      },
+      "anyDocument": {
+        "front": {
+          "buttonOk": "Ahora por el otro lado"
+        },
+        "back": {
+          "buttonOk": "Continuar"
+        }
+      }
+    },
+    "errorMessages": {
+      "retryCapture": {
+        "title": "¡Volvamos a intentar!",
+        "okButton": "Listo"
+      },
+      "cantContinue": {
+        "title": "No podemos continuar :(",
+        "okButton": "Listo"
+      },
+      "hellATime": {
+        "title": "Démonos un tiempo",
+        "content": "Tenemos un problema y no podemos continuar. Te avisamos cuando estemos listos.",
+        "okButton": "Listo"
+      },
+      "numbersNotMatch": {
+        "title": "¿Seguro que esa es tu cédula?",
+        "content": "Esos datos no coinciden con la información que nos diste al abrir tu cuenta.",
+        "okButton": "Reintenta",
+        "cancelButton": "Cancela"
+      },
+      "yourDataNotMatch": {
+        "title": "Tus datos no coinciden",
+        "okButton": "Listo"
+      }
+    },
+    "to-recapture": {
+      "header": "Vuelve a intentar",
+      "ready": "Listo",
+      "is-sure-your-document": {
+        "header": "¿Seguro que esa es tu cédula?",
+        "message": "Esos datos no coinciden con la información que nos diste para abrir tu cuenta",
+        "buttons": {
+          "accept": "Reintenta"
+        }
+      }
+    },
+    "to-reject": {
+      "header": "No podemos continuar :(",
+      "message": "Algo pasa con tu documento y no podemos confirmar tu identidad.",
+      "buttons": { "accept": "Listo" }
+    },
+    "to-close-account": {
+      "header": "Tus datos no coinciden",
+      "message": "La info de cédula no coincide con la de tu cuenta.",
+      "buttons": { "accept": "Listo" }
+    }
+  },
+  "additional-info": {
+    "title": "Tu documento de <div>identidad</div>",
+    "modals": {
+      "without-pending-bills": {
+        "header": "¡Estás al día!",
+        "content": "No tienes cuentas por pagar. Revisa porfa que el número esté bien escrito.",
+        "image": "/assets/images/transversal/yellow-sun.svg",
+        "buttons": {
+          "accept": "Listo"
+        }
+      }
+    },
+    "form": {
+      "name": "Nombre",
+      "document-number": "Cédula de ciudadania",
+      "expedition-place": "Lugar de expedición",
+      "place-birth": "Lugar de nacimiento",
+      "birth-province": "Departamento",
+      "birth-city": "Ciudad",
+      "next": "Listo"
+    },
+    "controls-errors": {
+      "document-number": {
+        "required": "¡Ups! Debes llenar esto.",
+        "wrong-account": "¡Ups! Revisa porfa que este sí sea el número."
+      },
+      "name": {
+        "required": "¡Ups! Debes llenar esto."
+      },
+      "expedition-place": {
+        "required": "¡Ups! Debes llenar esto."
+      }
+    },
+    "select-province": {
+      "id": "born-outside",
+      "name": "Nací fuera de Colombia"
+    }
+  }
+}

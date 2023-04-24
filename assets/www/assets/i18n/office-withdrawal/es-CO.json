@@ -1,0 +1,122 @@
+{
+  "how-do-i-do-it-page": {
+    "title": "¿Cómo lo hago?",
+    "first-step": {
+      "title": "Tienes hasta las {{lastTime}}",
+      "content": "Si no alcanzas, tu plata vuelve a tu cuenta al final del día."
+    },
+    "second-step": {
+      "title": "Solo tú puedes reclamar la plata",
+      "content": "Recuerda llevar tu cédula original y tu mejor sonrisa."
+    },
+    "third-step": {
+      "title": "Tu plata donde quieras",
+      "content": "Saca tu plata en cualquier sucursal Bancolombia, ten en cuenta el horario de la oficina que elijas."
+    },
+    "buttons": {
+      "help": "¿Dónde saco mi plata?"
+    }
+  },
+  "main-page": {
+    "title": "Retiro en sucursal",
+    "detail": {
+      "title": "¡Si no sacas tu plata, volverá a tu Nequi al día siguiente!",
+      "content": "Recuerda que si por algún motivo no retiras tu plata, la tendrás al día siguiente en tu Nequi."
+    },
+    "inputs": {
+      "amount": {
+        "placeholder": "¿Cuánto vas a sacar en efectivo?",
+        "description": "Saca apartir de {{minValue}} en adelante :)",
+        "errors": {
+          "required": "¡Ups! Debes llenar esto.",
+          "minAmount": "Debes de sacar más de {{minValue}}",
+          "multiplesOfFifty": "Debes igresar multiplos de $50"
+        }
+      }
+    },
+    "errors": {
+      "default": {
+        "title": "¡Ups! Intenta más tarde",
+        "content": "Hubo un problema con el retiro, porfa vuelve a intentar en unos minutos.",
+        "buttons": {
+          "okButton": "Listo"
+        }
+      },
+      "no-balance-available": {
+        "content": "¡Ups! No te alcanza. Revisa que tengas plata en tu disponible para pagar el 4x1.000"
+      }
+    },
+    "buttons": {
+      "next": "Sigue"
+    }
+  },
+  "boottom-sheet": {
+    "confirm": {
+      "title": "Confirma",
+      "subtitle": "Info de tu retiro",
+      "items": {
+        "product": {
+          "label": "Producto",
+          "name": "Retiro en sucursal"
+        },
+        "type": {
+          "label": "Tipo de pago",
+          "name": "Efectivo"
+        },
+        "amount": "¿Cuánto?",
+        "pocket": "La plata saldrá de:"
+      },
+      "accept": "Confirma"
+    }
+  },
+  "modals": {
+    "transaction-success": {
+      "header": "¡En marcha! Tus {{amount}} están en la sucursal!",
+      "icon": "assets/images/transversal/clock-pink.svg",
+      "message": "Saca tu plata en cualquier oficina Bancolombia. Debes ir con tu documento de identidad original y solo tú puedes reclamarlo hoy antes de que la sucursal cierre.",
+      "buttons": {
+        "next": "Listo"
+      }
+    },
+    "regretted": {
+      "header": "Ya reclamaste tu plata",
+      "icon": "assets/images/icons/ussed-dress.svg",
+      "message": "No podemos cancelar el retiro porque ya reclamaste tu plata.Pero si quieres puedes recargar tu Nequi nuevamente.",
+      "buttons": {
+        "next": "Listo",
+        "recharge": "Recarga"
+      }
+    }
+  },
+  "help": {
+    "label": "¿Dónde sacar tu plata?",
+    "link": "{{cashoutLink}}"
+  },
+  "errors": {
+    "default": {
+      "title": "¡Ups! Intenta más tarde",
+      "content": "Hubo un problema con el retiro, porfa vuelve a intentar en unos minutos.",
+      "buttons": {
+        "okButton": "Listo"
+      }
+    },
+    "no-balance-available": {
+      "content": "¡Ups! No te alcanza. Revisa que tengas plata en tu disponible para pagar el 4x1.000"
+    }
+  },
+  "alerts": {
+    "reverse-withdrawal": {
+      "title": "¿Te arrepentiste?",
+      "content": "Cancelaremos el retiro de plata que querías hacer de tu Nequi.",
+      "buttons": {
+        "accept": "Acepta",
+        "cancel": "Cancela"
+      }
+    }
+  },
+  "toasts-success": {
+    "regretted": {
+      "content": "Yeii. Cancelamos el retiro por sucursal que habías solicitado. <strong>Tu plata vuelve mañana a Nequi.</strong>"
+    }
+  }
+}

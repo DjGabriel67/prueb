@@ -1,0 +1,30 @@
+{
+  "home": {
+    "buttonLabel": "Continúa",
+    "pocketLabel": "¿De dónde saldrá la plata?",
+    "alerts": {
+      "retryAlert": {
+        "title": "¡Ups! Algo salió mal",
+        "content": "Tuvimos un problema consultando la info de tu factura, porfa inténtalo de nuevo.",
+        "cancelButton": "Ahora no",
+        "actionButton": "Reintenta"
+      }
+    }
+  },
+  "validate-info": {
+    "title": "Producto",
+    "subtitle": "Detalles del pago",
+    "button-label": "Continúa",
+    "pocketLabel": "¿De dónde saldrá la plata?"
+  },
+  "confirm": {
+    "title": "Confirma",
+    "subtitle": "Información de tu pago",
+    "button": "Paga",
+    "pocketLabel": "La plata saldrá de:"
+  },
+  "pinChallenge": {
+    "title": "Escribe tu clave",
+    "message": "No dudamos de que seas tú... Pero es mejor confirmar ;)"
+  }
+}

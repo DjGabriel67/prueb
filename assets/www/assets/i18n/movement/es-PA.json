@@ -1,0 +1,193 @@
+{
+  "home": {
+    "title": "Movimientos",
+    "searchbar-label": "Busca",
+    "more-movements": "Mira más movimientos",
+    "not-more-movements": "Para ver más movimientos ve a www.nequi.co",
+    "empty-case": {
+      "label": "Aún no tienes movimientos.",
+      "search": "No encontramos lo que buscabas",
+      "detail": "Estamos trabajando en esto :)"
+    },
+    "card-title": "Movimientos de <br/>Tarjeta",
+    "card-empty-case": {
+      "text": "Aún no has usado tu Tarjeta Nequi"
+    },
+    "modal": {
+      "rating-modal": {
+        "title": "¿Te gusta Nequi?",
+        "image": "assets/images/icons/heart-blue.svg",
+        "content": "Ya que has usado un poco Nequi ayúdanos a saber lo que te gusta y a mejorar lo que no.",
+        "buttons": {
+          "yesILikeIt": "¡Sí, mucho!",
+          "canBeBetter": "Puede mejorar",
+          "notNow": "¿No quieres calificarnos?"
+        }
+      },
+      "data-does-not-match": {
+        "title": "¡Estás pillado!",
+        "image": "assets/images/icons/sad-face-cry.svg",
+        "content": "Que triste que nos trates así cuando nosotros creímos en ti :( Sin confianza esta relación no va a funcionar, terminemos de una vez por todas.",
+        "buttons": {
+          "accept": "Listo"
+        }
+      }
+    }
+  },
+  "detail": {
+    "title": "Detalle del movimiento",
+    "bottom-sheet": {
+      "help-options": {
+        "questions": "Preguntas frecuentes",
+        "help": "¿Necesitas ayuda?",
+        "card-help": "Reportar un problema",
+        "payment": "Yo no hice este pago",
+        "other": "Otra razón"
+      },
+      "share-options": {
+        "receipt": "Comparte el comprobante",
+        "email": "Envía comprobante por correo"
+      }
+    },
+    "labels": {
+      "card": {
+        "digital-payment": "Pago con Tarjeta Digital",
+        "physical-payment": "Pago con Tarjeta Física"
+      }
+    },
+    "toast": {
+      "movement-info": "Acá puedes solucionar tus dudas y reportar problemas con tu movimiento."
+    },
+    "card-modal": {
+      "card-payment-report": {
+        "title": "Revisa tu compra antes de reportarla",
+        "image": "assets/images/card/card-hand-yellow.svg",
+        "content": "Verifica que el pago sea en un comercio que no conoces y a una hora en la que no usaste tu Tarjeta ;)",
+        "buttons": {
+          "accept": "Continúa con el reporte",
+          "cancel": "Revisa tu pago"
+        }
+      }
+    },
+    "alert": {
+      "confirm-card-report": {
+        "header": "¿Segur@?",
+        "message": "Si reportas este pago, es posible que congelemos tu Tarjeta por seguridad. ¡Tú eres lo más importante para nosotr@s!",
+        "buttons": {
+          "accept": "¡Reportarlo!",
+          "cancel": "Vuelve"
+        }
+      }
+    }
+  },
+  "receipt": {
+    "title": "Comprobante",
+    "body": {
+      "title": "Movimiento hecho en:",
+      "reference": "Número de referencia",
+      "bottomNote": "¿Preguntas? Ve al menú Movimientos en la app Nequi y reporta un problema."
+    },
+    "share": {
+      "via-email": {
+        "title": "Comprobante por correo",
+        "description": "Enviaremos un correo con todos los detalles de tu movimiento. Confírmalo porfa ;)",
+        "placeholder": "Escribe tu correo",
+        "terms": "¿Quieres una copia del comprobante en tu correo?",
+        "send-button": "Envía",
+        "form": {
+          "email": {
+            "placeholder": "Escribe tu correo",
+            "error": {
+              "required": "Escribe tu correo",
+              "invalid": "¡Ups! esto no parece un correo."
+            }
+          },
+          "send-copy": {
+            "text": "¿Quieres una copia del comprobante en tu correo?"
+          }
+        }
+      }
+    }
+  },
+  "help": {
+    "title": {
+      "movement": "Comunica un <br>problema",
+      "credit": "Comunica un <br>problema",
+      "card": "Problemas con <br>compra",
+      "reschedule-loan": "¿Por qué no puedes <br>pagar?"
+    },
+    "subtitle": {
+      "card": "Cúentanos qué uso le has dado a tu Tarjeta, si has hecho compras en comercios dudosos o si has compartido info de tu Tarjeta ;)"
+    },
+    "inputs": {
+      "message": {
+        "placeholder": "Cuéntanos porfa qué pasó",
+        "info-message": {
+          "movement": "Porfa sé lo más detallado posible.",
+          "reschedule-loan": "Porfa cuéntanos por qué no puedes pagar y estudiaremos tu caso. Te enviaremos una notificación a la app cuando tengamos una respuesta"
+        },
+        "errors": {
+          "required": "¡Ups! Debes llenar esto.",
+          "max": "Cuéntanos porfa qué pasó"
+        }
+      }
+    },
+    "bottom-sheet": {
+      "help-options": {
+        "questions": "Preguntas frecuentes",
+        "help": "¿Necesitas ayuda?"
+      }
+    },
+    "buttons": {
+      "next": "Listo",
+      "cancel": "Ahora no"
+    },
+    "detail": {
+      "amount": "¿Cuánto?",
+      "date": "Fecha",
+      "reference": "Referencia",
+      "where": "Pago en"
+    },
+    "modals": {
+      "success": {
+        "header": "¡Gracias por ayudarnos a mejorar!",
+        "content": "Tú eres nuestra razón de ser ;) El Equipo Nequi trabaja para arreglar esta situación. El número de tu caso es: {0}. Por correo te contamos cómo vamos.",
+        "image": "assets/images/transversal/yellow-success-hand.svg",
+        "buttons": {
+          "accept": "Listo"
+        }
+      },
+      "success-reschedule-loan": {
+        "header": "¡Gracias!",
+        "content": "Tú eres nuestra razón de ser ;) El Equipo Nequi trabaja para ayudarte en esta situación. El número de tu caso es: {0}. Te enviaremos una notificación a la app para contarte cómo vamos.",
+        "image": "assets/images/transversal/yellow-success-hand.svg",
+        "buttons": {
+          "accept": "Listo"
+        }
+      },
+      "error": {
+        "title": "¡Discúlpanos! <3",
+        "content": "Hubo un problema al recibir esta info. Intenta de nuevo porfa.",
+        "buttons": {
+          "okButton": "Listo"
+        }
+      },
+      "frozenCard": {
+        "header": "¡Gracias! por reportar tu caso.",
+        "content": "El número de tu caso es: {0}. Por correo te contamos cómo vamos. Te congelamos tu Tarjeta mientras solucionamos tu caso ;)",
+        "image": "assets/images/transversal/yellow-success-hand.svg",
+        "buttons": {
+          "accept": "Listo"
+        }
+      },
+      "notFrozenCard": {
+        "header": "¡Gracias! por reportar tu caso.",
+        "content": "El número de tu caso es: {0}. Por correo te contamos cómo vamos. Manten tu Tarjeta congelada mientras solucionamos tu caso ;)",
+        "image": "assets/images/transversal/yellow-success-hand.svg",
+        "buttons": {
+          "accept": "Listo"
+        }
+      }
+    }
+  }
+}

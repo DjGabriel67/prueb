@@ -1,0 +1,190 @@
+{
+  "title": "Notificaciones",
+  "accept-button": "Acepta",
+  "cancel-button": "Cancela",
+  "default-notification-subtitle": "¡Descúbre más aquí!",
+  "default-notification-button": "Listo",
+  "alert": {
+    "info": {
+      "cancel-notification": {
+        "header": "¿Te arrepentiste?",
+        "message": "Vamos a cancelar la petición de plata que hiciste.",
+        "buttons": {
+          "accept": "Acepta",
+          "cancel": "Cancela"
+        }
+      },
+      "archive-notification": {
+        "header": "¿Seguro la quieres rechazar?",
+        "message": "Si rechazas esta notificación, no la puedes aceptar después.",
+        "buttons": {
+          "accept": "Acepta",
+          "cancel": "Cancela"
+        }
+      },
+      "reject-request-money": {
+        "header": "¿Seguro la quieres rechazar?",
+        "message": "Si rechazas esta petición, no la puedes aceptar después.",
+        "buttons": {
+          "accept": "Sí",
+          "cancel": "No"
+        }
+      },
+      "reject-pending-payment": {
+        "header": "¿Quieres cancelar el pago?",
+        "message": "Al hacer esto no podrás hacer el pago y debes hacer el proceso nuevamente en el {0}.",
+        "buttons": {
+          "accept": "Sí",
+          "cancel": "No"
+        }
+      }
+    },
+    "error": {
+      "money-not-available": {
+        "header": "No hay plata a la vista :(",
+        "message": "Parece que ya recibiste o rechazase la plata desde otro banco. Si no es así entonces ya pasaron {0} y se le devolvió a tu amig@.",
+        "buttons": {
+          "accept": "Listo"
+        }
+      },
+      "transfiya-error": {
+        "header": "Intenta otra vez porfa",
+        "message": "No pudimos rechazar la plata. ¿Será una señal del destino para que la recibas en Nequi? ;)",
+        "buttons": {
+          "accept": "Listo"
+        }
+      },
+      "expired-payment": {
+        "header": "¡Ups, se paso el tiempo!",
+        "message": "Tu solicitud de pago expiró. Recuerda que debes aprobar tu pago antes de 45 minutos.",
+        "buttons": {
+          "accept": "Listo"
+        }
+      },
+      "deleted-payment": {
+        "header": "¡Ups!",
+        "message": "El comercio canceló tu pago. Comunícate con ellos e inténta nuevamente",
+        "buttons": {
+          "accept": "Listo"
+        }
+      }
+    }
+  },
+  "modals": {
+    "accept-money": {
+      "image": "assets/images/icons/thumb-up-blue.svg",
+      "title": "Estamos recibiendo la plata por transfiya",
+      "content": "Te avisaremos cuando la tengas en tu Disponible. Desde ahora, todo lo que te envíe {0} por transfiya, te llegará de una, Esto lo puedes cambiar desde Ajustes.",
+      "button": "Listo",
+      "link": {
+        "label": "¿Más info?",
+        "url": "https://ayuda.nequi.com.co/hc/es/articles/360039717712"
+      }
+    },
+    "reject-money": {
+      "image": "assets/images/icons/thumb-down-yellow.svg",
+      "title": "No quiero recibirla",
+      "content": "Si la rechazas, la plata volverá a la cuenta del amig@ que te la envió. Última oportunidad... ¿Seguro no quieres recibir los {0} que te envió {1}?",
+      "buttons": {
+        "reject": "Rechaza",
+        "regret": "Me arrepentí"
+      }
+    },
+    "accept-receive-remittances": {
+      "title": "Recibe tus remesas en Nequi",
+      "content": "Para recibir tus remesas, debemos conocernos mejor ;) Así habilitas el abono automático, las próximas veces que recibas una remesa la tendrás de una en tu Nequi",
+      "buttons": {
+        "accept": "Habilitar remesas",
+        "cancel": "Ahora no"
+      },
+      "image": "assets/images/remittances/accept-remittances.svg"
+    },
+    "decline-receive-remittances": {
+      "title": "No quiero recibir remesas",
+      "content": "Si rechazas, la plata volverá a la persona que te la envió. <br/> Última oportunidad... ¿Seguro no quieres recibir remesas en Nequi?",
+      "buttons": {
+        "accept": "Si la quiero",
+        "cancel": "Rechaza remesas"
+      },
+      "image": "assets/images/remittances/sad-face-yellow.svg"
+    },
+    "transfiya": {
+      "image": "/assets/images/icons/green-happy-coin.svg",
+      "title": "{0} te envió {1} por Transfiya",
+      "content": "Con transfiya puedes recibir plata de otros banco de una.",
+      "buttons": {
+        "accept": "Acepta",
+        "cancel": "Rechaza"
+      }
+    }
+  },
+  "received-button": "Recibidas ({{value}})",
+  "on-hold-button": "En espera ({{value}})",
+  "transfiya-button": "Transfiya",
+  "empty-case-text": "No tienes notificaciones",
+  "transfiya-empty-case-text": "No tienes movimientos pendientes de Transfiya.",
+  "request-detail": {
+    "title": "Detalle de la petición",
+    "subtitle": "Petición pendiente",
+    "destination-label": "Pediste a",
+    "amount-label": "¿Cuánto?",
+    "subject": "Mensaje",
+    "delete-label": "Borrar petición"
+  },
+  "transfer-detail": {
+    "title": "Detalle del envío",
+    "subtitle": "Envío pendiente",
+    "destination-label": "Recargaste a",
+    "amount-label": "¿Cuánto?",
+    "remaining-time-label": "Vence en",
+    "remaining-time-hours": "{0} Horas",
+    "remaining-time-minutes": "{0} Minutos",
+    "remaining-time-expired": "Expirada",
+    "reference": "Referencia",
+    "delete-label": "Anular envío"
+  },
+  "request-group-detail": {
+    "title": "Petición grupal",
+    "delete-request": "Borrar petición grupal"
+  },
+  "request-status": {
+    "approved": "Aprobado",
+    "pending": "Pendiente",
+    "rejected": "Rechazado",
+    "expired": "Expirado"
+  },
+  "subscriptions": {
+    "origin-money-toast": "Elige el Bolsillo con el que pagarás tu suscripción. Recuerda tener ahí siempre plata suficiente ;)",
+    "accepted-toast": "Ve a los Ajustes de tu Nequi si quieres cancelar la suscripción.",
+    "cancel-alert": {
+      "header": "¿Quieres cancelar el pago automático?",
+      "message": "Así no sacaremos plata de tu Nequi para pagar tu suscripción a {0}",
+      "buttons": {
+        "accept": "Acepta",
+        "cancel": "Mejor no"
+      }
+    },
+    "accepted-alert": {
+      "image": "assets/images/card/all-fine.svg",
+      "title": "¡Lista tu suscripción!",
+      "content": "Puedes ir al sitio de {0} para confirmar que todo quedó bien.",
+      "buttons": {
+        "accept": "Listo"
+      }
+    },
+    "accept-confirm": {
+      "title": "Confirma",
+      "subtitle": "Resumen de tu suscripción",
+      "confirm-label": "Confirma",
+      "commerce-label": "Vas a pagar en",
+      "origin-money-label": "La plata saldrá de:"
+    }
+  },
+  "notification-card": {
+    "remaining-time": {
+      "hours": "Esta acción estará disponible por {0} horas.",
+      "minutes": "Esta acción estará disponible por {0} minutos.",
+      "expired": "Esta acción ya no está disponible"
+    }
+  }
+}

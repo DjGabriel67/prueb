@@ -1,0 +1,168 @@
+{
+  "break-ceiling": {
+    "title": "¡Adiós a los límites!",
+    "content": [
+      {
+        "icon": "assets/images/one-doc-three/wallet.svg",
+        "title": "Pagas {0}",
+        "description": "Para tener Nequi sin topes, pagas {0} una sola vez en la vida. Así pasas de tener un depósito de bajo monto, a una cuenta de ahorros."
+      },
+      {
+        "icon": "assets/images/icons/document.svg",
+        "title": "Conozcámonos mejor...",
+        "description": "Solo te vamos a preguntar algunas cosas, para que todo esté súper claro entre nosotr@s."
+      },
+      {
+        "icon": "assets/images/icons/document.svg",
+        "title": "4x1000 (GMF)",
+        "description": "Si tienes Nequi sin topes, no significa que esté exento del 4X1.000 (GMF). Debes marcarlo como libre de este impuesto. <br>Cuando rompas tus topes, confirmamos si podemos dejar tu Nequi sin 4X1.000. Por ley, tienes derecho a una cuenta de ahorros así."
+      }
+    ],
+    "footer-button": "Listo",
+    "toast": {
+      "retry-contract": "¡Ups! Algo salió mal... Intenta otra vez porfa."
+    },
+    "modals": {
+      "not-enough": {
+        "title": "No te alcanza...",
+        "image": "assets/images/credits/lifeguard/cannot-save-you.svg",
+        "content": "Para romper topes, debes tener por lo menos {{ amount }} en tu Disponible.",
+        "buttons": {
+          "accept": "Recarga",
+          "cancel": "Listo"
+        }
+      },
+      "already-broke-ceiling": {
+        "title": "¡Ya tienes Nequi sin topes!",
+        "image": "assets/images/card/all-fine.svg",
+        "content": "Nos encanta tu curiosidad, pero tu Nequi ya no tiene topes. Pronto tendremos cosas nuevas para sorprenderte...",
+        "buttons": {
+          "accept": "Listo"
+        }
+      },
+      "completed-process": {
+        "title": "¡Ya casi!",
+        "image": "assets/images/card/all-fine.svg",
+        "content": "Vamos a confirmar tu info ;) Te avisamos cuando tu Nequi quede sin topes.",
+        "buttons": {
+          "accept": "Listo"
+        }
+      }
+    },
+    "alerts": {
+      "hasTI": {
+        "header": "Debes esperar un poco",
+        "message": "Tienes que tener cédula para romper los topes de tu Nequi.",
+        "buttons": {
+          "accept": "Listo"
+        }
+      },
+      "hasCE": {
+        "header": "Ten en cuenta",
+        "message": "Por ahora solo personas con cédula de ciudadanía pueden romper los topes de su Nequi",
+        "buttons": {
+          "accept": "Listo"
+        }
+      },
+      "warning-ciiu-error": {
+        "header": "No podemos seguir...",
+        "message": "Tu actividad económica no es la misma que tenemos (info que compartimos con Bancolombia). ¡Revísala porfa!",
+        "buttons": {
+          "accept": "Listo"
+        }
+      },
+      "ciiu-error": {
+        "header": "No pudimos enlazarnos :(",
+        "message": "Lo sentimos, los datos que nos diste no nos dejan prestarte este servicio.",
+        "buttons": {
+          "accept": "Listo"
+        }
+      },
+      "blocked-account": {
+        "header": "No podemos romper tus topes",
+        "message": "Lo sentimos, pero no vamos a poder romper los topes de tu Nequi.",
+        "buttons": {
+          "accept": "Listo"
+        }
+      },
+      "give-us-time": {
+        "header": "Discúlpanos porfa...",
+        "message": "Tenemos un problema y no podemos seguir. Te avisamos cuando todo esté bien.",
+        "buttons": {
+          "accept": "Listo"
+        }
+      }
+    }
+  },
+  "modules-info": {
+    "title": "Tu Nequi:<br>Sin topes",
+    "content": {
+      "your-document": {
+        "img": "/assets/images/propeller/happy-man.svg",
+        "title": "Tu Documento",
+        "description": "Escanea tu documento"
+      },
+      "where-you-live": {
+        "img": "/assets/images/propeller/home.svg",
+        "title": "¿Donde vives?",
+        "description": "Info de tu ubicación"
+      },
+      "what-do-you-do": {
+        "img": "/assets/images/propeller/suitcase.svg",
+        "title": "¿A qué te dedicas?",
+        "description": "Info sobre lo que haces"
+      },
+      "your-money": {
+        "img": "/assets/images/propeller/money.svg",
+        "title": "Tu plata",
+        "description": "¿Cómo la usas?"
+      },
+      "talking-about": {
+        "img": "/assets/images/propeller/messages.svg",
+        "title": "Hablemos de tú a tú",
+        "description": "Confirma toda la info"
+      }
+    },
+    "logs": {
+      "tag": "MÓDULO CONOZCÁMONOS MEJOR",
+      "action": "El usuario acepta su información personal: cédula ({0}), fecha de nacimiento ({1}) y correo electrónico ({2}) Ubicación: El usuario selecciona departamento ({3}), ciudad ({4}) y detalle de la dirección de residencia ({5}). Ocupación: el usuario selecciona su ocupación actual ({6}) Ingresos y egresos: el usuario indica sus ingresos ({7}), egresos ({8}), activos ({9}) y pasivos ({10}) y origen de los recursos ({11})"
+    },
+    "locked-in-sarlaft-error": {
+      "header": "No podemos romper tus topes",
+      "message": "Lo sentimos, pero no vamos a poder romper los topes de tu cuenta.",
+      "buttons": {
+        "accept": "Listo"
+      }
+    },
+    "client-risk": {
+      "title": "No puedes abrir Nequi :(",
+      "image": "assets/images/organisms/modals/thumb-down-pink.svg",
+      "content": "No logramos confirmar la info que debemos verificar para abrir tu Nequi, de acuerdo con las condiciones y políticas que tenemos como Entidad Financiera.",
+      "buttons": {
+        "accept": "Listo"
+      }
+    },
+    "alert-save-retry-error": {
+      "header": "Vuelve a intentar",
+      "message": "Tuvimos un problema guardando tu información.",
+      "buttons": {
+        "accept": "Reintenta",
+        "cancel": "Cancela"
+      }
+    },
+    "goto-back": {
+      "header": "¿Seguro quieres salir?",
+      "message": "Si te vas, no podemos quitar los topes de tu Nequi. De todas maneras, vamos a guardar la info.",
+      "buttons": {
+        "accept": "Listo",
+        "cancel": "Mejor no"
+      }
+    }
+  },
+  "contract": {
+    "title": "Firmemos este pacto",
+    "version": "Versión del contrato",
+    "checkbox": "Marca acá si aceptas estas condiciones. Te enviamos una copia al correo para que leas más despacio",
+    "accept": "Firma contrato"
+  }
+}

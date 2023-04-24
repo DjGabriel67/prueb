@@ -1,0 +1,106 @@
+@include create-color(
+  'input',
+  '--white',
+  '--whitergb',
+  '--darkpurple',
+  '--darkpurplergb',
+  '--transparent',
+  '--ultravioleta'
+);
+
+@include create-color(
+  'dark-input',
+  '--white12',
+  '--white12-rgb',
+  '--white',
+  '--whitergb',
+  '--darkpurplergb',
+  '--darkpurplergb'
+);
+
+@include create-color(
+  'dark-pink-input',
+  '--white12',
+  '--white12-rgb',
+  '--guayaba',
+  '--guayabargb',
+  '--darkpurplergb',
+  '--darkpurplergb'
+);
+
+@include create-color(
+  'nequi-box-title',
+  '--background-title-box',
+  '--background-title-box-rgb',
+  '--color-title-box',
+  '--color-title-box-rgb',
+  '--aguamarica',
+  '--white'
+);
+
+.nequi-box__nequi-box-title {
+  --min-height: 32px;
+  font-weight: 500;
+  border-bottom: 1px solid var(--aguamarica);
+  font-size: 0.875rem;
+}
+
+.list-ios {
+  background: transparent;
+}
+
+.ion-list-container {
+  padding: 12px 8px;
+
+  &--has-button {
+    min-height: calc(100% - (88px + var(--ion-safe-area-bottom)));
+  }
+
+  &--has-two-button {
+    min-height: calc(100% - (144px + var(--ion-safe-area-bottom)));
+  }
+
+  &--has-button-link {
+    min-height: calc(100% - (121px + var(--ion-safe-area-bottom)));
+  }
+}
+
+.form-container {
+  height: 100%;
+}
+
+.form__title {
+  color: var(--gray-alert-message);
+  font-size: 1em;
+  margin-bottom: 16px;
+  font-weight: 500;
+}
+
+.ion-buttons-container {
+  padding: 8px 16px 24px;
+  border-bottom: var(--ion-safe-area-bottom) solid var(--transparent);
+
+  ion-button:last-child {
+    margin-top: 8px;
+  }
+}
+
+.datetime__picker {
+  --border-color: none;
+  --border-width: 0;
+  --ion-item-color: var(--medianoche);
+
+  .picker-toolbar {
+    background-color: #fafaf8;
+    color: #007aff;
+    box-shadow: inset 0px -0.5px 0px #cdcdcd, inset 0px 0.5px 0px #cdcdcd;
+  }
+}
+
+.text-uppercase {
+  text-transform: uppercase;
+}
+
+.text-capitalize {
+  text-transform: capitalize;
+}

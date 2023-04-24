@@ -1,0 +1,227 @@
+{
+  "origin-money": {
+    "title": "¿De dónde saldrá la plata?",
+    "createPocket": "Crear un Bolsillo"
+  },
+  "use-money": {
+    "cash-out": {
+      "title": "Saca",
+      "icon": "assets/images/use-money/cashout/cashout.svg"
+    },
+    "send": {
+      "title": "Envía",
+      "icon": "assets/images/use-money/send/send.svg"
+    },
+    "qr": {
+      "title": "Pago QR",
+      "icon": "assets/images/use-money/qr/qr.svg"
+    }
+  },
+  "pockets-create": {
+    "title": {
+      "singular": "Tu primer Bolsillo",
+      "plural": "Crea tu Bolsillo"
+    },
+    "name": "Nombre del Bolsillo",
+    "placeholder-name": "Nombre",
+    "placeholder-amount": "¿Cúanto vas a meter?",
+    "footer-button": "Crea tu Bolsillo",
+    "validators": {
+      "required": "Nombra tu Bolsillo y métele plata para crearlo"
+    }
+  },
+  "pocket-home": {
+    "title": "Tus Bolsillos",
+    "empty-case-text": "Aquí estarán tus Bolsillos",
+    "empty-case-image": "assets/images/empty-cases/empty-case-pockets.svg",
+    "empty-case-button": "Crear mi primer Bolsillo",
+    "first-time-message": {
+      "icon": "/assets/images/icons/green-pocket.svg",
+      "message": "Separa tu plata y úsala para lo que está destinada."
+    },
+    "max-pockets-exception": "Nos encanta que tengas tantos Bolsillos, pero por ahora solo podrás crear diez."
+  },
+  "pocket-edit": {
+    "title": "Edita tu Bolsillo",
+    "name": "Nombre del Bolsillo",
+    "box-title": "Engorda tu Bolsillo",
+    "placeholder-amount": "¿Cuánto vas a dejar?",
+    "footer-button": "Listo",
+    "alerts": {
+      "delete": {
+        "title": "¿Quieres eliminar este Bolsillo? {0}",
+        "content": "Al hacerlo, la plata que tienes aquí pasará al disponible.",
+        "buttonCancel": "No",
+        "buttonAccept": "Sí"
+      },
+      "subscription": {
+        "title": "¿Estás seguro?",
+        "content": "Este Bolsillo tiene suscripciones. Si lo eliminas o cambias el nombre seguirás pagándolas desde el Disponible",
+        "buttonCancel": "No",
+        "buttonAccept": "Sí"
+      }
+    }
+  },
+  "mattress-home": {
+    "title": "Tu Colchón",
+    "initialTitle": "Colchón",
+    "lock-item-label": "Proteger Colchón",
+    "first-time-message": {
+      "icon": "/assets/images/money-management/mattress-icon.svg",
+      "message": "¡Es mejor estar preparad@! Deja plata debajo del Colchón por si las moscas ;)"
+    },
+    "button": "Sigue",
+    "lock": {
+      "title": "Protege tu Colchón",
+      "by-time": {
+        "title": "Tiempo",
+        "description": "Elige hasta cuando quieres tener tu plata a salvo"
+      },
+      "by-friend": {
+        "title": "Amigo",
+        "description": "Elige a un amigo para que cuide tu Colchón"
+      },
+      "by-trivia": {
+        "title": "Trivia",
+        "description": "Preguntas que desafían la seguridad"
+      }
+    },
+    "toast": {
+      "saved-money": "Ahora puedes proteger tu Colchón contra tentaciones. Presiona el suiche.",
+      "unlock-time": "¡Ups! Para hacer esto quita la protección de tu Colchón."
+    },
+    "lock-unavailable": "Estamos arreglando la protección del Colchón para que siempre evites las tentaciones. ¡Ya casi está disponible!",
+    "default-error-message": "Tenemos problemas cargando la info. Intenta de nuevo."
+  },
+  "mattress-trivia": {
+    "title": "Trivia",
+    "skip-question": "Saltar pregunta",
+    "alerts": {
+      "cancel": {
+        "header": "¿Estás seguro?",
+        "message": "Si sales de la trivia tendrás que esperar un rato para volverla a hacer. ",
+        "buttons": {
+          "cancel": "Sigamos",
+          "accept": "Salir"
+        }
+      }
+    }
+  },
+  "goal-home": {
+    "title": "Mis Metas",
+    "empty-case-text": "Aquí estarán tus Metas",
+    "empty-case-image": "assets/images/empty-cases/empty-case-goals.svg",
+    "empty-case-button": "Crear mi Meta",
+    "bottom-sheet": {
+      "first-time": "Vamos a celebrar contigo cuando cumplas tus Metas"
+    },
+    "max-goals-exception": "Qué ahorrador! Llegaste al límite de Metas que puedes tener. Cumple una para poder crear otra nueva ;)"
+  },
+  "goal-create": {
+    "title": "Crea tu Meta",
+    "name": "Nombre de tu Meta",
+    "placeholder-name": "Nombre",
+    "placeholder-amount": "$0",
+    "placeholder-debit-automatic": "Descontar del Disponible",
+    "title-debit-automatic": "¡Logrémoslo!",
+    "confirm-debit-automatic": "Confirma",
+    "title-date": "¿Cuándo quieres lograrlo?",
+    "title-debit": "Tu cuota",
+    "button-create": "Crea tu Meta",
+    "modals": {
+      "success-base": {
+        "image": "/assets/images/goals/goal-created-icon.svg",
+        "title": "¡Tu Meta está creada!",
+        "ready": "Listo"
+      },
+      "success-only": "Lograrás tu Meta el {0}. Activa el débito automático y olvídate de recargar tu Meta manualmente.",
+      "success-daily": "Lograrás tu Meta el {0} y Pagarás {1} que saldrán diario del disponible.",
+      "success-weekly": "Lograrás tu Meta el {0} y Pagarás {1} que saldrán todos los {2} del disponible.",
+      "success-biweekly": "Lograrás tu Meta el {0} y Pagarás {1} que saldrán el {2} y el {3} de cada mes del disponible.",
+      "success-monthly": "Lograrás tu Meta el {0} y Pagarás {1} que saldrán el {2} de cada mes del disponible.",
+      "edit-image-title": "Edita la foto de tu Meta"
+    },
+    "errors": {
+      "date": "Intenta con otra fecha",
+      "create": "Lo sentimos, ha ocurrido un error",
+      "image": "¡Perdón! Algo falló. Vuelve a intentar porfa."
+    },
+    "validators": {
+      "amount": {
+        "required": "¿Cuánta plata es la que necesitas para cumplir tu Meta?"
+      },
+      "name": {
+        "required": "Ponle un nombre a tu Meta para que la recuerdes fácil"
+      }
+    }
+  },
+  "goal-edit": {
+    "title": {
+      "unfinished": "Tu Meta",
+      "expired": "Meta caducada",
+      "complete": "Meta lograda"
+    },
+    "placeholder-input": "Recarga tu Meta",
+    "placeholder-amount": "$0",
+    "placeholder-date": "¿Nueva fecha?",
+    "placeholder-debit-automatic": "Descontar del Disponible",
+    "title-debit-automatic": "¡Logrémoslo!",
+    "confirm-debit-automatic": "Confirma",
+    "alerts": {
+      "delete": {
+        "title": "¿Vas a romper tu Meta? :(",
+        "content": "A veces toca... si lo haces la plata que tienes en tu Meta pasará al Disponible",
+        "buttonCancel": "Cancela",
+        "buttonAccept": "¡Listo!"
+      }
+    },
+    "modals": {
+      "accomplished": {
+        "image": "/assets/images/goals/goal-accomplished-icon.svg",
+        "title": "¡Sí se puede, sí se puede!",
+        "message": "Has ahorrado lo que esperabas, marranito lleno, corazón contento.<br>¡A disfrutar!",
+        "ready": "Listo"
+      },
+      "extra-bonus": {
+        "image": "/assets/images/goals/goal-extra-bonus-icon.svg",
+        "title": "¡Logra tu Meta!",
+        "message": "Haciendo abonos extra a tu Meta lo lograrás más rápido. Recuerda, tienes encendido el débito automático.",
+        "ready": "Listo"
+      }
+    },
+    "button-confirm": "Confirma"
+  },
+  "background-picker": {
+    "title": "¿Cómo quieres que se vea?",
+    "confirm": "Confirma"
+  },
+  "modals": {
+    "insufficient-money": {
+      "header": "¡Ups! No te alcanza",
+      "content": "Debes tener más plata para poder hacer esto. Si la tienes en otro Bolsillo, elígelo en la pantalla anterior. Sino recarga tu Nequi.",
+      "pocketContent": "Debes tener al menos {0} en {1} para poder pagar.",
+      "image": "/assets/images/money-management/sad-face.svg",
+      "buttons": {
+        "recharge": "Recarga",
+        "accept": "Listo"
+      }
+    }
+  },
+  "frequency": {
+    "cardinal-days": {
+      "mondays": "Lunes",
+      "tuesdays": "Martes",
+      "wednesdays": "Miércoles",
+      "thursdays": "Jueves",
+      "fridays": "Viernes",
+      "saturdays": "Sábados",
+      "sundays": "Domingos"
+    }
+  },
+  "goals": {
+    "states": {
+      "expired": "Vencida",
+      "complete": "Lograda"
+    }
+  }
+}

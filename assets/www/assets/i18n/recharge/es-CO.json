@@ -1,0 +1,347 @@
+{
+  "categories": {
+    "title": "¿Qué quieres hacer?",
+    "options": {
+      "recharge": {
+        "title": "Recarga de celular",
+        "icon": "assets/images/card/phone.svg"
+      },
+      "packageCell": {
+        "title": "Compra paquetes de celular",
+        "icon": "assets/images/closet/cart.svg"
+      }
+    }
+  },
+  "cell": {
+    "title": "Recarga Celular",
+    "buttons": {
+      "next": "Recarga"
+    },
+    "inputs": {
+      "phone-number": {
+        "placeholder": "Cel",
+        "errors": {
+          "required": "¡Ups! Debes llenar esto.",
+          "minlength": "¡Ups! Debes ingresar un número valido",
+          "maxlength": "¡Ups! Debes ingresar un número valido",
+          "pattern": "¡Ups! Debes ingresar un número valido",
+          "number": "¡Ups! Debes ingresar un número valido",
+          "samePhone": "No puedes enviarte a ti mismo."
+        }
+      },
+      "operator": {
+        "placeholder": "Operador"
+      },
+      "amount": {
+        "placeholder": "¿Cuánto?",
+        "errors": {
+          "required": "¡Ups! Debes llenar esto.",
+          "min": "La recarga debe ser mínimo de $1.000, y solo puedes hacer recargas en múltiplos de 1.000 Ejm: $ 2.000 - $ 3.000 - $ 4.000.",
+          "max": "Puedes recargar hasta $100.000 cada día.",
+          "invalidAmount": "La recarga debe ser mínimo de $1.000, y solo puedes hacer recargas en múltiplos de 1.000 Ejm: $ 2.000 - $ 3.000 - $ 4.000."
+        }
+      },
+      "name": {
+        "placeholder": "Nombre"
+      },
+      "pocket": {
+        "placeholder": "¿De dónde saldrá la plata?",
+        "errors": {
+          "required": "¡Ups! Debes llenar esto."
+        }
+      }
+    },
+    "informative-view": {
+      "message": "Recarga de celular",
+      "content": "Con Nequi todo es más fácil de lo que te imaginas, por eso aquí puedes <b>recargar tu cel o comprar paquetes de datos y minutos.</b>",
+      "image": "assets/images/closet/recharge2.svg",
+      "button": "Listo"
+    },
+    "confirmation": {
+      "title": "Confirma",
+      "subtitle": "Info de la recarga de celular",
+      "items": {
+        "phoneNumber": "Celular",
+        "operator": "Operador",
+        "amount": "¿Cuánto?",
+        "nameContact": "Nombre"
+      },
+      "buttons": {
+        "confirm": "Confirma",
+        "cancel": "Cancelar"
+      }
+    },
+    "pin-challenge": {
+      "title": "Escribe tu clave",
+      "message": "No dudamos de que seas tú... Pero es mejor confirmar ;)"
+    },
+    "success": "¡Listo! Todo salió bien, puedes seguir disfrutando de tu cel a tu ritmo :)",
+    "detail": {
+      "title": "Recarga de cel realizada",
+      "items": {
+        "phoneNumber": "Celular",
+        "operator": "Operador",
+        "amount": "¿Cuánto?",
+        "nameContact": "Nombre"
+      }
+    },
+    "errors": {
+      "default": "¡Ups! Tenemos un problema, inténtalo más tarde.",
+      "recharge-value-not-valid": "Solo puedes hacer recargas en múltiplos de  1.000. Ejm: $ 2.000 - $ 3.000 - $ 4.000"
+    }
+  },
+  "packages-cell": {
+    "title": "Paquetes de Celular",
+    "subtitle": "Datos del paquete",
+    "buttons": {
+      "next": "Sigue"
+    },
+    "packageList": {
+      "durationLabel": "Vigencia "
+    },
+    "inputs": {
+      "phone-number": {
+        "placeholder": "Cel",
+        "errors": {
+          "required": "¡Ups! Debes llenar esto.",
+          "minlength": "¡Ups! Debes ingresar un número valido",
+          "maxlength": "¡Ups! Debes ingresar un número valido",
+          "pattern": "¡Ups! Debes ingresar un número valido",
+          "number": "¡Ups! Debes ingresar un número valido"
+        }
+      },
+      "operator": {
+        "placeholder": "Operador"
+      },
+      "packages": {
+        "placeholder": "Paquetes"
+      },
+      "amount": {
+        "placeholder": "¿Cuánto?",
+        "errors": {
+          "required": "¡Ups! Debes llenar esto.",
+          "min": "La recarga debe ser mínimo de $1.000",
+          "max": "Puedes recargar hasta $100.000 cada día."
+        }
+      },
+      "name": {
+        "placeholder": "Nombre"
+      },
+      "pocket": {
+        "placeholder": "¿De dónde saldrá la plata?",
+        "errors": {
+          "required": "¡Ups! Debes llenar esto."
+        }
+      }
+    },
+    "informative-view": {
+      "message": "Paquetes de celular",
+      "content": "Con Nequi todo es más fácil. Aquí puedes <b>comprar paquetes de datos y minutos.</b>",
+      "image": "assets/images/closet/lock.svg",
+      "button": "Listo"
+    },
+    "confirmation": {
+      "title": "Confirma",
+      "subtitle": "Información del Pago",
+      "items": {
+        "nameContact": "Nombre",
+        "phoneNumber": "Cel",
+        "operator": "Operador",
+        "package": "Paquete",
+        "amount": "¿Cuánto?",
+        "pocket": "La plata saldrá de:"
+      },
+      "buttons": {
+        "confirm": "Paga",
+        "cancel": "Cancelar"
+      }
+    },
+    "errors": {
+      "default": "¡Ups! Tenemos un problema, inténtalo más tarde."
+    },
+    "pin-challenge": {
+      "title": "Escribe tu clave",
+      "message": "No dudamos de que seas tú... Pero es mejor confirmar ;)"
+    },
+    "success": "¡Listo! Todo salió bien, puedes seguir disfrutando de tu cel a tu ritmo :)",
+    "detail": {
+      "title": "Compra de paquete de cel",
+      "items": {
+        "operator": {
+          "label": "Compra de",
+          "value": "Paquete {0}"
+        },
+        "amount": "¿Cuánto pagaste?",
+        "nameContact": "Nombre",
+        "phoneNumber": "Celular",
+        "package": "Paquete"
+      }
+    }
+  },
+  "directv": {
+    "home": {
+      "title": "DirecTV prepago",
+      "fields": {
+        "customer-name": {
+          "placeholder": "Nombre"
+        },
+        "agreement": {
+          "placeholder": "Número de recarga",
+          "errors": {
+            "required": "¡Ups! Debes llenar esto.",
+            "wrong-number": "¡Ups! Esto no parece un número de recarga"
+          }
+        },
+        "amount": {
+          "placeholder": "¿Cuánto?",
+          "errors": {
+            "required": "¡Ups! Debes llenar esto.",
+            "max": "¡Ups! Debes diminuir la cantidad.",
+            "min": "¡Ups! Debes aumentar la cantidad."
+          }
+        }
+      },
+      "recharge-min": "Recarga entre",
+      "recharge-max": "y",
+      "origin-money": "¿De dónde saldrá la plata?",
+      "buttons": {
+        "next": "Sigue"
+      }
+    },
+    "confirmation": {
+      "title": "Confirma",
+      "subtitle": "Información de la recarga de DirecTV",
+      "items": {
+        "name": "Nombre",
+        "agreement": "Número de recarga",
+        "amount": "¿Cuánto?",
+        "pocket": "La plata saldrá de:"
+      },
+      "buttons": {
+        "confirm": "Confirma",
+        "cancel": "Cancelar"
+      }
+    },
+    "success": "Tu pago fue realizado exitosamente :)",
+    "error-messages": {},
+    "detail": {
+      "title": "Recarga de DirecTV",
+      "items": {
+        "name": "Nombre",
+        "agreement": "Número de recarga",
+        "createdAt": "Fecha",
+        "amount": "¿Cuánto?"
+      }
+    },
+    "firstMessage": {
+      "image": "/assets/images/closet/directv.svg",
+      "message": "DirecTV prepago",
+      "content": "Recarga DirecTV prepago y disfruta lo mejor de ese servicio.  El valor mínimo de recarga depende de tu plan con DirecTV. Info en <a class='link-purple' href='https://www.directv.com.co/ayuda/home.html' target='_blank'>MidirecTV</a>",
+      "button": "Listo"
+    }
+  },
+  "detail": {
+    "title": "Detalle del <div> movimiento </div>",
+    "buttons": {
+      "next": "Sigue"
+    },
+    "origin-money": "La plata salió de:"
+  },
+  "essa": {
+    "recharge-min": "Recarga entre",
+    "recharge-max": "y",
+    "title": "Energía prepago ESSA",
+    "fields": {
+      "measurer-number": {
+        "placeholder": "Número medidor de energía",
+        "errors": {
+          "required": "¡Ups! Debes llenar esto.",
+          "wrong-number": "Revisa porfa que sí sea el número del medidor."
+        }
+      },
+      "amount": {
+        "placeholder": "¿Cuánto?",
+        "errors": {
+          "required": "¡Ups! Debes llenar esto.",
+          "limits": "Recarga entre $2.000 y $50.000."
+        }
+      },
+      "email": {
+        "placeholder": "Correo",
+        "tool-tip": "Escribe el correo al que quieres que llegue el comprobante de la recarga.",
+        "errors": {
+          "required": "¡Ups! Debes llenar esto.",
+          "wrong-email": "Esto no parece un correo. Revísalo porfa."
+        }
+      },
+      "phone": {
+        "placeholder": "Número de cel",
+        "errors": {
+          "required": "¡Ups! Debes llenar esto.",
+          "wrong-phone": "Esto no parece un cel. Revísalo porfa."
+        }
+      }
+    },
+    "modals": {
+      "success": {
+        "title": "¡Todo listo por ahora!",
+        "image": "/assets/images/icons/clock-yellow.svg",
+        "content": "Tu recarga va en camino... <br/>Te enviaremos el comprobante y tu PIN al correo.",
+        "buttons": {
+          "accept": "Listo"
+        }
+      },
+      "timeout": {
+        "title": "¡Ya casi!",
+        "image": "/assets/images/icons/clock-purple.svg",
+        "content": "Tu recarga va en camino... Te enviaremos un mensaje de texto cuando todo esté listo.",
+        "buttons": {
+          "accept": "Listo"
+        }
+      },
+      "unavailable": {
+        "image": "/assets/images/use-money/cashout/dislike.svg",
+        "title": "Intenta luego porfa...",
+        "content": "Ahora nuestro servicio de recarga no está activo.<br/> Haz tu recarga entre las 7:00 a.m. y las 10:00 p.m.",
+        "buttons": {
+          "accept": "Listo"
+        }
+      }
+    },
+    "button": "Listo",
+    "bottom-sheets": {
+      "success": {
+        "image": "/assets/images/recharge/essa.svg",
+        "message": "Recarga energía prepago",
+        "content": "Aquí puedes hacer la recarga de tu energía prepago de ESSA. <br/>Al final, te mostraremos el PIN y te lo enviaremos a tu correo y en un mensaje de texto.",
+        "button": "Listo"
+      },
+      "unavailable": {
+        "image": "/assets/images/recharge/essa.svg",
+        "message": "Intenta luego porfa...",
+        "content": "Ahora nuestro servicio de recarga no está activo.<br/> Haz tu recarga entre las <b style='color:var(--medianoche)' >7:00 a.m. y las 10:00 p.m.</b>",
+        "button": "Listo"
+      }
+    },
+    "confirmation": {
+      "title": "Confirma",
+      "subtitle": "Info de tu recarga energía prepago",
+      "items": {
+        "name": "Nombre",
+        "document": "Número de identificación",
+        "measurer": "Número de medidor",
+        "amount": "Valor de la recarga",
+        "phoneNumber": "Cel",
+        "email": "Correo",
+        "pocket": "La plata saldrá de:"
+      },
+      "buttons": {
+        "confirm": "Confirma"
+      }
+    }
+  },
+  "errors": {
+    "default": "¡Ups! Tenemos un problema, inténtalo más tarde.",
+    "retry": "Algo falló... Porfa vuelve a intentar"
+  }
+}

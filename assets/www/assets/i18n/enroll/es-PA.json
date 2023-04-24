@@ -1,0 +1,116 @@
+{
+  "request-enroll": {
+    "title": "Escribe tu cel",
+    "description": "Al escribir tu número de cel, autorizas a Nequi para enviarte mensajes de texto con info del servicio, cuando sea necesario.",
+    "message": "Marca esta opción para enviarte el mensaje de texto que te permitirá vincular tu cel con Nequi.",
+    "send-message": "Acepta",
+    "placeholders": {
+      "input-phone": "Número de cel"
+    },
+    "alert": {
+      "error": {
+        "exceeded-attempts-generate-otp": {
+          "header": "¡Intenta mañana porfa!",
+          "message": "Te enviamos todos los códigos de hoy... <br>Pide otro en 24 horas.",
+          "buttons": {
+            "accept": "Listo"
+          }
+        },
+        "account-already-exists": {
+          "header": "Parece que te conocemos :)",
+          "message": "El número de celular <span class='text--guayaba'>{0}</span> ya tiene cuenta en Nequi.",
+          "buttons": {
+            "accept": "Entra",
+            "cancel": "Cancela"
+          }
+        }
+      }
+    },
+    "validators": {
+      "phone-number": {
+        "required": "¡Ups! Debes llenar esto.",
+        "pattern": "¡Ups! Debes ingresar un número valido."
+      }
+    }
+  },
+  "token": {
+    "title": "Escribe el código",
+    "description": "Te lo enviamos en un mensaje de texto al",
+    "spinner-countdown-message": "¿No te llegó? ¡Podemos llamarte!",
+    "call-button": "Pídelo aquí",
+    "alert": {
+      "info": {
+        "get-voice-otp": {
+          "header": "¿Mejor una llamada?",
+          "message": "Uno de nuestros robots te puede llamar al <span class='text--guayaba'>{0}</span> para darte el código.",
+          "buttons": {
+            "accept": "Listo"
+          }
+        }
+      },
+      "error": {
+        "request-token-context-exceeded-attemps": {
+          "header": "¿Mejor una llamada?",
+          "message": "Escribiste muchas veces el código incorrecto.<br/>Pide otro porfa por llamada :)",
+          "buttons": {
+            "accept": "Acepta"
+          }
+        },
+        "invalid": {
+          "header": "¡Discúlpanos porfa!",
+          "message": "Escribiste mal el código :(<br/>Usa siempre el último código que te llegó.",
+          "buttons": {
+            "accept": "Listo"
+          }
+        },
+        "without": {
+          "header": "¡Pasó mucho tiempo! :(",
+          "message": "El código que escribiste es demasiado viejo...<br/>Usa siempre el último código que te llegó.",
+          "buttons": {
+            "accept": "Acepta"
+          }
+        },
+        "request-token-context": {
+          "header": "¿Mejor una llamada?",
+          "message": "Los códigos que has introducido no son correctos.<br/>Debes pedir otro.",
+          "buttons": {
+            "accept": "Acepta"
+          }
+        },
+        "request-token-context-cancel": {
+          "header": "¿Mejor una llamada?",
+          "message": "Los códigos que has introducido no son correctos.<br/>Debes pedir otro.",
+          "buttons": {
+            "accept": "Acepta",
+            "cancel": "Cancelar"
+          }
+        }
+      }
+    },
+    "modals": {
+      "info": {
+        "back-button-before-time-over": {
+          "header": "¡Ya casi!",
+          "message": "El mensaje de texto se puede demorar un poco para llegar.<br/>Escribe porfa el código que pediste al cel <span class='text--guayaba'>{0}</span>",
+          "buttons": {
+            "accept": "Listo",
+            "cancel": "Cambia el cel"
+          }
+        },
+        "back-button-after-time-over": {
+          "header": "¿Mejor una llamada?",
+          "message": "Uno de nuestros robots te puede llamar al <span class='text--guayaba'>{0}</span> para darte el código",
+          "buttons": {
+            "accept": "Prefieres la llamada",
+            "cancel": "Cambia el cel"
+          }
+        }
+      }
+    },
+    "messages": {
+      "errors": {
+        "provisioning-failed": "Aprovisionamiento fallido"
+      }
+    }
+  }
+}

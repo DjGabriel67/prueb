@@ -1,0 +1,72 @@
+{
+  "flows": {
+    "title": "¡Primero queremos conocerte mejor!",
+    "content": "¿Qué vas a hacer con la plata en efectivo?",
+    "options": {
+      "pay": {
+        "title": "Pagar",
+        "description": "Pagar a una persona",
+        "icon": "/assets/images/experiment-alternate-flows/pay-icon.svg",
+        "bottomSheet": {
+          "icon": "/assets/images/experiment-alternate-flows/pay-icon-bottom-sheet.svg",
+          "title": "¡Envía tu plata en un abrir y cerrar de ojos!",
+          "description": "Con Nequi puedes enviar tu plata a otros Nequi, Transfiya y otros bancos. <br> Retirar ya pasó de moda, usa tu plata #ATuRitmo",
+          "firstButton": "Enviar",
+          "secondButton": "Omitir",
+          "url": "/admin/send"
+        }
+      },
+      "buy": {
+        "title": "Comprar",
+        "description": "Comprar productos del día a día",
+        "icon": "/assets/images/experiment-alternate-flows/house-icon.svg",
+        "bottomSheet": {
+          "icon": "/assets/images/profile/qr/my-qr-blue.svg",
+          "title": "¡Compra tus productos con QR Nequi! ",
+          "description": "Ahora puedes comprar en comercios escaneando el código QR. Recuerda que puedes escanear códigos de Nequi o Bancolombia. ",
+          "firstButton": "Conoce más",
+          "secondButton": "Omitir",
+          "url": "https://ayuda.nequi.com.co/hc/es/articles/115001888391-As%C3%AD-pagas-con-Nequi-y-c%C3%B3digo-QR"
+        }
+      },
+      "transport": {
+        "title": "Transporte",
+        "description": "Pago de transporte",
+        "icon": "/assets/images/experiment-alternate-flows/bus-icon.svg",
+        "bottomSheet": {
+          "icon": "/assets/images/experiment-alternate-flows/civica-icon-bottom-sheet.svg",
+          "title": "¡Queremos acompañarte siempre!",
+          "label": "Ciudad",
+          "description": "¿Quieres recargar tu tarjeta de transporte público por Nequi? <br> Cuéntanos de qué ciudad eres para que hagamos este sueño realidad.",
+          "firstButton": "Omitir"
+        }
+      },
+      "services": {
+        "title": "Servicios",
+        "description": "Pago de servicios públicos",
+        "icon": "/assets/images/experiment-alternate-flows/ray-icon.svg",
+        "bottomSheet": {
+          "icon": "/assets/images/icons/send-to.svg",
+          "title": "¡Qué pereza hacer fila! Mejor paga con Nequi",
+          "description": "Con Nequi puedes pagar tus servicios y olvidarte de las filas para siempre. Usa tu plata #ATuRitmo.",
+          "firstButton": "Pagar",
+          "secondButton": "Omitir",
+          "url": "categoryList"
+        }
+      },
+      "others": {
+        "title": "Otros",
+        "description": "",
+        "icon": "/assets/images/experiment-alternate-flows/briefcase-icon.svg",
+        "bottomSheet": {
+          "icon": "/assets/images/card/welcome-to-card.svg",
+          "title": "¡Olvídate del efectivo!",
+          "description": "Recuerda que puedes sacar tu tarjeta Nequi en un abrir y cerrar de ojos y podrás volverte cada vez más digital.",
+          "firstButton": "Sácala aquí",
+          "secondButton": "Omitir",
+          "url": "/admin/card"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,47 @@
+@mixin create-color(
+  $name,
+  $bkg-color,
+  $bkg-color-rgb,
+  $font-color,
+  $font-color-rgb,
+  $bkg-shade-color,
+  $bkg-tint-color
+) {
+  :root {
+    --ion-color-#{$name}: var(#{$bkg-color});
+    --ion-color-#{$name}-rgb: var(#{$bkg-color-rgb});
+    --ion-color-#{$name}-contrast: var(#{$font-color});
+    --ion-color-#{$name}-contrast-rgb: var(#{$font-color-rgb});
+    --ion-color-#{$name}-shade: var(#{$bkg-shade-color});
+    --ion-color-#{$name}-tint: var(#{$bkg-tint-color});
+  }
+
+  .ion-color-#{$name} {
+    --ion-color-base: var(--ion-color-#{$name});
+    --ion-color-base-rgb: var(--ion-color-#{$name}-rgb);
+    --ion-color-contrast: var(--ion-color-#{$name}-contrast);
+    --ion-color-contrast-rgb: var(--ion-color-#{$name}-contrast-rgb);
+    --ion-color-shade: var(--ion-color-#{$name}-shade);
+    --ion-color-tint: var(--ion-color-#{$name}-tint);
+  }
+}
+
+/** custom-activated-button-color **/
+@mixin custom-activated-color(
+  $name,
+  $bkg-color,
+  $bkg-color-rgb,
+  $font-color,
+  $font-color-rgb,
+  $bkg-shade-color,
+  $bkg-tint-color
+) {
+  .ion-color-#{$name}.ion-activated {
+    --ion-color-#{$name}: var(#{$bkg-color});
+    --ion-color-#{$name}-rgb: var(#{$bkg-color-rgb});
+    --ion-color-#{$name}-contrast: var(#{$font-color});
+    --ion-color-#{$name}-contrast-rgb: var(#{$font-color-rgb});
+    --ion-color-#{$name}-shade: var(#{$bkg-shade-color});
+    --ion-color-#{$name}-tint: var(#{$bkg-tint-color});
+  }
+}

@@ -1,0 +1,152 @@
+{
+  "gift-code": {
+    "title": "Código de regalo",
+    "form": {
+      "code": {
+        "placeholder": "Escribe tu código",
+        "info": "Escribe los números y letras del código que recibiste.",
+        "wrong": "¡Ups! Esto no parece un código válido. "
+      }
+    },
+    "bottom-sheet": {
+      "information": {
+        "message": "Código de regalo",
+        "content": "Si te dieron un código para cambiarlo por plata en Nequi, pero no te funciona el QR, escribe el número para redimirlo.",
+        "image": "/assets/images/profile/qr/my-qr.svg",
+        "button": "Sigue"
+      }
+    },
+    "footer": {
+      "button": "Sigue"
+    }
+  },
+  "transversal": {
+    "errorDescription": {
+      "expiredCode": "El código expiró",
+      "alreadyRedeemed": "El código ya fue redimido",
+      "wrongUserCode": "Código de usuario incorrecto",
+      "technicalError": "Error técnico",
+      "codeNotRecognized": "No se reconoce el código",
+      "codeNotExist": "Código no existe",
+      "exceedCeiling": "Excedió topes",
+      "blockedAccount": "Cuenta bloqueada",
+      "cannotExchangeCode": "No se puede redimir",
+      "redeemLimitExceeded": "Llegó al límite de redención"
+    },
+    "modals": {
+      "errors": {
+        "technical-error": {
+          "header": "¡Ups! Algo salió mal",
+          "message": "Tuvimos un problema leyendo el código. Intenta de nuevo porfa.",
+          "buttons": {
+            "accept": "Reintenta",
+            "cancel": "Ahora no"
+          }
+        },
+        "code-not-recognized": {
+          "header": "¡Otra vez, porfa!",
+          "message": "No reconocemos este código.  Intenta otra vez porfa.",
+          "buttons": {
+            "accept": "Reintenta",
+            "cancel": "Ahora no"
+          }
+        },
+        "code-not-exist": {
+          "header": "Algo no cuadra...",
+          "message": "Parece que este código no existe... Intenta porfa con otro o ve a la opción para escribir el código.",
+          "buttons": {
+            "accept": "Reintenta",
+            "cancel": "Ahora no"
+          }
+        },
+        "wrong-user-code": {
+          "header": "¿Si es tu código?",
+          "message": "La info de este código no coincide con la de tu Nequi. Intenta con otro porfa.",
+          "buttons": {
+            "accept": "Reintenta",
+            "cancel": "Ahora no"
+          }
+        },
+        "contact-help": {
+          "header": "¡Ups! Tuvimos un problema",
+          "message": "No encontramos la info de tu código. Comunícate porfa con nosotr@s para arreglarlo.",
+          "buttons": {
+            "accept": "Listo",
+            "cancel": "Ahora no"
+          }
+        },
+        "redeem-limit-exceeded": {
+          "header": "Lo que fue, fue... ",
+          "message": "Ya no puedes cambiar más códigos. Con {0} solo puedes cambiar {1} en {2}.",
+          "buttons": {
+            "accept": "Listo"
+          }
+        },
+        "expired-code": {
+          "header": "Como que estiró la pata :(",
+          "message": "Este código está vencido. Comunícate porfa con {0} para arreglarlo.",
+          "buttons": {
+            "accept": "Listo"
+          }
+        },
+        "already-redeemed": {
+          "header": "¡Esta vez no hay ñapa!",
+          "message": "Ojalá todo lo bueno pudiera repetirse... Pero ya alguien cambió este código por plata y solo vale una vez.",
+          "buttons": {
+            "accept": "Listo"
+          }
+        },
+        "blocked-account": {
+          "header": "¡Ups! No se puede :(",
+          "message": "Tu Nequi está bloqueado... Comunícate con nosotr@s para arreglarlo.",
+          "buttons": {
+            "accept": "Listo"
+          }
+        },
+        "cannot-exchange-code": {
+          "header": "¡Algo no salió bien!",
+          "message": "En este momento {0} no puede cambiarte el código por plata en Nequi. Intenta más tarde porfa.",
+          "buttons": {
+            "accept": "Listo"
+          }
+        },
+        "exceed-ceiling": {
+          "header": "¡Tus topes están al 'tope'!",
+          "message": "Como llegaste a los topes de saldo de tu cuenta, debes romperlos para hacer esto.",
+          "buttons": {
+            "accept": "Rompe topes",
+            "cancel": "Ahora no"
+          }
+        }
+      }
+    },
+    "additional-texts": {
+      "days": {
+        "singular": "día",
+        "plural": "días"
+      }
+    },
+    "bottom-sheet": {
+      "title": "Confirma tu código",
+      "createdBy": "¿Quién te da este código?",
+      "code": "¿Cuál es tu código?",
+      "description": "Descripción",
+      "value": "Valor de tu código",
+      "accept": "Listo",
+      "cancel": "Cambia algo"
+    },
+    "pin-challenge": {
+      "title": "Escribe tu clave",
+      "message": "No dudamos de que seas tú... Pero es mejor confirmar ;)"
+    },
+    "modal-celebrate": {
+      "title": "¡A celebrar! :D ",
+      "image": "/assets/images/gift-code/redemption.svg",
+      "description": "Cambiaste por plata tu código ;)<br>Los {{ value }} están en tu Disponible. Puedes pasarlos a un Bolsillo.",
+      "buttons": {
+        "accept": "Listo",
+        "pocket": "Crea un Bolsillo"
+      }
+    }
+  }
+}

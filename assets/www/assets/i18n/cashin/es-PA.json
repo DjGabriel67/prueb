@@ -1,0 +1,160 @@
+{
+  "request-money": {
+    "home": {
+      "balance-header": {
+        "messages": {
+          "available": "Disponible",
+          "total": "Total"
+        }
+      },
+      "title": "Pide plata",
+      "buttons": {
+        "next": "Sigue"
+      },
+      "inputs": {
+        "contacts": {
+          "placeholder": "¿A quién le vas a pedir?",
+          "errors": {
+            "required": "¡Ups! Debes llenar esto.",
+            "minlength": "¡Ups! Debes poner un número de cel.",
+            "maxlength": "¡Ups! Debes poner un número de cel.",
+            "pattern": "¡Ups! Debes poner un número de cel.",
+            "number": "Este número de celular no coincide con un número",
+            "samePhone": "No puedes pedirte a ti mismo."
+          }
+        },
+        "amount": {
+          "placeholder": "¿Cuánto?",
+          "errors": {
+            "required": "¡Ups! Debes llenar esto."
+          }
+        },
+        "message": {
+          "placeholder": "Mensaje",
+          "errors": {
+            "maxlength": "¡Ups! Tu mensaje debe ser más corto para poder pedir",
+            "invalidCharacters": "¡Ups! Evita poner símbolos o caracteres especiales"
+          }
+        }
+      },
+      "alert": {
+        "header": "Ese Nequi no existe :(",
+        "message": "El número que escribiste no es de un usuario Nequi. Pídele a alguien que ya tenga su cuenta.",
+        "buttons": {
+          "accept": "Listo"
+        }
+      }
+    },
+    "modal-contacts": {
+      "selected-title": "Seleccionados {0}/{1}"
+    },
+    "your-request": {
+      "title": "Tu petición",
+      "text": "Puedes editar los valores de tu petición",
+      "contact-no-nequi": {
+        "title": "Contacto sin Nequi",
+        "message": "Estos cel no tienen Nequi :( Por eso, no puedes pedirles plata."
+      },
+      "zero-message": "A los usuarios con este valor no le pediremos :)",
+      "buttons": {
+        "next": "Pide"
+      }
+    }
+  },
+  "bottom-sheet": {
+    "title": "Opciones para recargar",
+    "options": {
+      "banistmo": {
+        "title": "Cajero (ATM)",
+        "description": "En los cajeros Banistmo y Banco Nacional de Panamá",
+        "icon": "/assets/images/use-money/cashin/atm.svg",
+        "info": {
+          "title": "Recarga en cajeros<br/> (ATM)",
+          "subtitle": "Esta opción te funciona, si tienes <strong>tarjeta Clave</strong> o <strong>tarjeta débito Banistmo</strong>.",
+          "content": [
+            {
+              "icon": "/assets/images/use-money/cashin/atm-outline.svg",
+              "title": "Cuando estés en el ATM",
+              "content": "Inserta tu tarjeta Clave o débito Banistmo."
+            },
+            {
+              "icon": "/assets/images/use-money/cashin/recharges-outline.svg",
+              "title": " Ingresa por la opción app móviles y sigue el paso a paso.",
+              "content": "El dinero se descontará de tu cuenta Banistmo y pasará a tu cuenta Nequi."
+            }
+          ],
+          "button": "Ver puntos de recarga"
+        }
+      },
+      "cash": {
+        "title": "Efectivo",
+        "description": "Punto Pago y Comercios Autorizados Banistmo",
+        "icon": "/assets/images/use-money/cashin/cash.svg",
+        "info": {
+          "title": "Recarga en efectivo",
+          "subtitle": "Recarga en los siguientes puntos físicos.",
+          "content": [
+            {
+              "title": "Punto Pago",
+              "content": "<p>1.En la pantalla, elige Nequi.</p><p>2.Escribe el número de cel de la cuenta Nequi que desees recargar.</p><p>3.Ingresa el dinero, confirma el monto y listo!</p>"
+            },
+            {
+              "title": "Comercio Autorizado Banistmo",
+              "content": "<p>1.Indícale al operador que vas a recargar Nequi.</p><p>2.Dale el número de cuenta a recargar.</p><p>3.Entrégale el dinero y listo!</p>"
+            }
+          ],
+          "button": "Ver puntos de recarga"
+        }
+      },
+      "ach": {
+        "title": "Desde otros bancos",
+        "description": "Por ACH, colocando el 507 delante del número.",
+        "icon": "/assets/images/use-money/cashin/pse.svg",
+        "info": {
+          "title": "Recarga desde otros bancos",
+          "subtitle": "Recarga tu Nequi desde cualquier banco",
+          "content": [
+            {
+              "icon": "/assets/images/use-money/cashin/laptop.svg",
+              "title": "Entra a la página web o app del otro banco"
+            },
+            {
+              "icon": "/assets/images/use-money/cashin/recharges-outline.svg",
+              "title": "Tu número de cuenta es tu número de cel",
+              "content": "Antes de tu número de cel debes poner 507."
+            },
+            {
+              "icon": "/assets/images/use-money/cashin/recharges-outline.svg",
+              "title": "Selecciona el Banco Banistmo y tipo de cuenta Ahorros."
+            }
+          ],
+          "button": "Tiempos de recargas"
+        }
+      }
+    }
+  },
+  "other-bank-info": {
+    "title": "Tus recargas desde <br /> otros bancos",
+    "ready": "Listo",
+    "times": {
+      "title": "¡Los tiempos son diferentes!",
+      "image": "/assets/images/office-withdrawal/time.svg",
+      "content": "Las recargas desde otros bancos tienen las mismas reglas que una transferencia por ACH y dependen de la entidad."
+    },
+    "business-days": {
+      "title": "En días hábiles",
+      "image": "/assets/images/icons/briefcase.svg",
+      "content": "Si mandas antes de las 12:00 del medio día, tu plata llegará antes de las 6:00 p.m.  Si lo haces después del medio día llegará al día siguiente."
+    },
+    "weekends": {
+      "title": "Viernes y fines de semana",
+      "image": "/assets/images/icons/pizza.svg",
+      "content": "Si las haces después del medio día o durante el fin de semana llegarán a tu nequi el lunes siguiente."
+    },
+    "holidays": {
+      "title": "Feriados",
+      "image": "/assets/images/icons/bicycle.svg",
+      "content": "Si haces una recarga en día feriado llegarán al siguiente día hábil. ;)"
+    }
+  }
+}

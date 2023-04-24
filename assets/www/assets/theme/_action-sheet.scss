@@ -1,0 +1,47 @@
+.nequi-action-sheet {
+    --backdrop-opacity: .9;
+    --background: var(--purple-action-sheet);
+    --color: var(--white);
+    --button-color: var(--white);
+
+    .action-sheet-button-inner {
+        justify-content: flex-end;
+        padding-right: 56px;
+        font-weight: 500;
+        font-size: 1rem;
+    }
+
+    .action-sheet-cancel {
+        .action-sheet-button-inner {
+            padding-right: 0;
+        }
+    }
+
+    .action-sheet-icon {
+        position: absolute;
+        right: 0;
+        margin: 0;
+    }
+
+    .action-sheet-group:first-child {
+        background-image: url('/assets/images/action-sheet/pattern.svg');
+        background-repeat: no-repeat;
+        background-position: bottom left;
+        background-size: 60%;
+        padding-top: 20px;
+    }
+
+    .action-sheet-button {
+        -webkit-padding-end: 30px;
+        padding-inline-end: 30px;
+    }
+
+    ion-backdrop {
+        background-color: var(--medianoche);
+    }
+
+    &__blue {
+        --background: var(--color-title-box);
+    }
+
+}

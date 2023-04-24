@@ -1,0 +1,577 @@
+{
+  "send-money-user": {
+    "title": "Envía plata",
+    "buttons": {
+      "next": "Sigue"
+    },
+    "inputs": {
+      "phone-number": {
+        "placeholder": "Cel",
+        "errors": {
+          "required": "¡Ups! Debes llenar esto.",
+          "minlength": "Este número de celular no coincide con un celular",
+          "maxlength": "Este número de celular no coincide con un celular",
+          "pattern": "Su célular debe contener solo números",
+          "number": "Este número de celular no coincide con un número",
+          "samePhone": "No puedes enviarte a ti mismo."
+        },
+        "info-message": "Revisa bien el número para enviarle a la persona correcta"
+      },
+      "amount": {
+        "placeholder": "¿Cuánto?",
+        "errors": {
+          "required": "¡Ups! Debes llenar esto.",
+          "min": "¡Ups! Debes aumentar la cantidad."
+        }
+      },
+      "message": {
+        "placeholder": "Mensaje",
+        "errors": {
+          "maxlength": "¡Ups! Tu mensaje debe ser más corto para poder enviar",
+          "invalidCharacters": "¡Ups! Evita poner símbolos o caracteres especiales"
+        }
+      },
+      "name": {
+        "placeholder": "Nombre"
+      },
+      "pocket": {
+        "placeholder": "Escoge de donde saldrá la plata",
+        "errors": {
+          "required": "¡Ups! Debes llenar esto."
+        }
+      }
+    },
+    "errors": {
+      "default": {
+        "title": "¡Ups! No se pudo",
+        "content": "No pudimos enviar dinero. Porfa intenta más tarde",
+        "buttons": {
+          "okButton": "Listo"
+        }
+      },
+      "finacle-time-out": {
+        "title": "Un momento por fa",
+        "content": "Estamos procesando el envío de la plata. Si ves que la plata no ha llegado a Nequi porfa revisa tus movimientos para validar el envío",
+        "image": "/assets/images/icons/clock-blue-two.svg",
+        "buttons": {
+          "accept": "Listo"
+        }
+      }
+    },
+    "boottom-sheet": {
+      "confirm": {
+        "title": "Confirma el número",
+        "items": {
+          "recipient": "Vas a enviar a:",
+          "phone": "Al número de celular:",
+          "amount": "¿Cuánto?",
+          "pocket": "La plata saldrá de:"
+        },
+        "buttons": {
+          "accept": "Confirma",
+          "cancel": "Corrige algo"
+        }
+      },
+      "send": {
+        "message": "Tu contacto no tiene Nequi :(",
+        "content": "Le mandamos un mensaje de texto para que lo abra. Si no lo hace antes del {0} de {1}, a las 11:59 p.m., te devolvemos la plata a tu Nequi.",
+        "image": "/assets/images/icons/send-money.svg",
+        "button": "Listo"
+      }
+    },
+    "pin-challenge": {
+      "title": "Escribe tu clave",
+      "message": "No dudamos de que seas tú... Pero es mejor confirmar ;)"
+    },
+    "message-to-share": "NEQUI: {0} hace parte de Nequi y te envió {1}. ¡Descárgala y maneja la plata a tu ritmo! http://tiendas.nequi.co",
+    "modals": {
+      "invite-contact": {
+        "header": "¡Dile que le enviaste plata por Nequi!",
+        "image": "assets/images/use-money/send/all-good.svg",
+        "message": "Así tu contacto creará su Nequi y recibirá la plata de una.",
+        "buttons": {
+          "whatsapp": "Mensaje por WhatsApp",
+          "sms": "Mensaje de texto"
+        }
+      },
+      "are-you-sure": {
+        "header": "¿Estás seguro?",
+        "image": "/assets/images/propeller/alert-salmon.svg",
+        "message": "Le vas a enviar plata al {0} {1}<br /> Si te equivocas no podemos hacer nada desde Nequi",
+        "buttons": {
+          "accept": "Si, seguro",
+          "cancel": "No, corrige el cel"
+        }
+      }
+    },
+    "social-sharing": {
+      "whatsapp-not-available": "Ups! Debes tener WhatsApp disponible en tu dispositivo para poder hacer esto"
+    },
+    "success-message": "¡Listo tu envío! Sigue usando la plata #ATuRitmo",
+    "toast": {
+      "review-information": "Revisa bien esta info, porque si le envias la plata a la persona incorrecta en Nequi no podremos recuperarla."
+    }
+  },
+  "send-money-user-from-qr": {
+    "title": "Envía a Nequi",
+    "buttons": {
+      "next": "Envía"
+    },
+    "inputs": {
+      "phone-number": {
+        "placeholder": "Cel",
+        "errors": {
+          "required": "¡Ups! Debes llenar esto.",
+          "minlength": "Este número de celular no coincide con un celular",
+          "maxlength": "Este número de celular no coincide con un celular",
+          "pattern": "Su célular debe contener solo números",
+          "number": "Este número de celular no coincide con un número",
+          "samePhone": "No puedes enviarte a ti mismo."
+        }
+      },
+      "amount": {
+        "placeholder": "Cantidad",
+        "errors": {
+          "required": "¡Ups! Debes llenar esto.",
+          "min": "¡Ups! Debes aumentar la cantidad."
+        }
+      },
+      "message": {
+        "placeholder": "Mensaje",
+        "errors": {
+          "maxlength": "¡Ups! Tu mensaje debe ser más corto para poder enviar",
+          "invalidCharacters": "¡Ups! Evita poner símbolos o caracteres especiales"
+        }
+      },
+      "name": {
+        "placeholder": "Para"
+      },
+      "pocket": {
+        "placeholder": "Escoge de donde saldrá la plata",
+        "errors": {
+          "required": "¡Ups! Debes llenar esto."
+        }
+      }
+    },
+    "errors": {
+      "default": {
+        "title": "¡Ups! No se pudo",
+        "content": "No pudimos enviar dinero. Porfa intenta más tarde",
+        "buttons": {
+          "okButton": "Listo"
+        }
+      }
+    },
+    "pin-challenge": {
+      "title": "Escribe tu clave",
+      "message": "No dudamos de que seas tú... Pero es mejor confirmar ;)"
+    },
+    "modals": {
+      "no-nequi": {
+        "title": "¡Es un Ovni!",
+        "content": "Este QR no está asociado a una cuenta Nequi, verifica e intenta nuevamente.",
+        "buttons": {
+          "accept": "Listo"
+        }
+      }
+    }
+  },
+  "send-banks": {
+    "title": "Envía a bancos",
+    "name": "Nombre de quien recibe",
+    "documentType": "Tipo de documento",
+    "documentNumber": "Documento de esa persona CC/NIT",
+    "bank": "Banco",
+    "accountType": "Tipo de cuenta",
+    "accountNumber": "Número de cuenta",
+    "amount": "¿Cuánto?",
+    "rememberInFavorites": "Recordar en favoritos",
+    "forgetInFavorites": "Olvidar de favoritos",
+    "originMoney": "¿De dónde saldrá la plata?",
+    "ready": "Listo",
+    "favorite-is-activated": "Después del envío, guardaremos esta cuenta en tus favoritos",
+    "success": "El envío se ha realizado con éxito!",
+    "document-types": {
+      "CC": "Cédula de ciudadanía",
+      "CE": "Cédula de extranjería",
+      "NIT": "NIT",
+      "TI": "Tarjeta de identidad",
+      "PA": "Pasaporte",
+      "FD": "Fideicomiso",
+      "RC": "Registro Civil"
+    },
+    "validators": {
+      "amount": {
+        "default": {
+          "required": "¡Ups! Debes llenar esto.",
+          "min": "¡Ups! Debes aumentar la cantidad.",
+          "max": "¡Ups! Debes disminuir la cantidad."
+        },
+        "cats": {
+          "max": "No puedes enviar más de {0}."
+        }
+      }
+    },
+    "confirmation": {
+      "title": "Confirma tu info",
+      "items": {
+        "name": "Nombre de quien recibe",
+        "documentType": "Tipo de documento",
+        "documentNumber": "Documento de esa persona CC/NIT",
+        "bank": "Banco",
+        "accountType": "Tipo de cuenta",
+        "accountNumber": "Número de cuenta",
+        "amount": "¿Cuánto?",
+        "originMoney": "¿De dónde saldrá la plata?",
+        "state": {
+          "label": "Estado",
+          "value": "Guardado como favorito"
+        }
+      },
+      "buttons": {
+        "confirm": "Envía",
+        "cancel": "Quiero cambiar algo"
+      }
+    },
+
+    "alert": {
+      "confirm-delete-favorite": {
+        "header": "¿Olvidar favorito?",
+        "message": "La próxima vez que quieras enviar plata a esta cuenta, deberás escribir toda la info.",
+        "buttons": {
+          "accept": "Olvida",
+          "cancel": "Cancela"
+        }
+      },
+      "error-deleting-favorite": {
+        "header": "Discúlpanos porfa...",
+        "message": "Tenemos un problema :( <br> Intenta porfa otra vez.",
+        "buttons": {
+          "accept": "Listo"
+        }
+      }
+    },
+    "toast": {
+      "bank-info": "Enviarle plata a este banco te cuesta {0} y se puede demorar hasta 1 día hábil. Si fuera a Nequi, llegaría de una ;)",
+      "bancolombia-info": "Los envíos llegan de una"
+    },
+
+    "errors": {
+      "no-balance-available": {
+        "title": "No te alcanza...",
+        "content": "Quieres enviar más plata de la que tienes :( Revisa si debes cambiar el Bolsillo. Por si algo, guardamos esta info.",
+        "buttons": {
+          "okButton": "Listo"
+        }
+      },
+      "no-balance-available-with-commission": {
+        "title": "¡Ups! Te falta un poquito",
+        "content": "Enviar plata a ese banco te cuesta ${0} y deben salir del Disponible.<br> Ponle plata de otro Bolsillo o recarga para hacer el envío. Mientras tanto te vamos a guardar esta info.",
+        "buttons": {
+          "okButton": "Listo"
+        }
+      },
+      "time-not-allowed": {
+        "title": "En este momento no podemos hacer envíos a cuentas Bancolombia",
+        "content": "Invita a tu amig@ a usar Nequi ;) pues entre Nequis podríamos hacer el envío de una.",
+        "buttons": {
+          "okButton": "Listo"
+        }
+      },
+      "document-not-match": {
+        "title": "¡Ups!",
+        "content": "El número de documento no parece coincidir con el dueño de esta cuenta.",
+        "buttons": {
+          "okButton": "Listo"
+        }
+      },
+      "account-not-match": {
+        "title": "¡Ups!",
+        "content": "Porfa valida el número de cuenta.",
+        "buttons": {
+          "okButton": "Listo"
+        }
+      }
+    },
+
+    "notification-messages": {
+      "send-to-local-bank": "¡Los envíos a Bancolombia no tienen costo y llegan de una!",
+      "send-today": "Enviar a este banco te cuesta {0} y la plata puede tardar 6 horas en llegar. ¡Si tu amigo tuviera Nequi le llegaría ya!",
+      "send-tomorrow": "Enviar a este banco te cuesta {0} y la plata llega mañana. ¡Si tu amigo tuviera Nequi le llegaría ya y sería gratis!",
+      "send-next-available-day": "Enviar a este banco te cuesta {0} y la plata llega el próximo {1} {2}. ¡Si tu amigo tuviera Nequi le llegaría ya!"
+    },
+
+    "invalid-account-length": "Esta cuenta no coincide con el banco que elegiste."
+  },
+  "favorite-account": {
+    "title": "Cuentas favoritas",
+    "searchbar-label": "Busca",
+    "empty-case": {
+      "label": "Aún no tienes cuentas favoritas... Cuando envíes plata, escoge la opción para recordar como favorito.",
+      "button": "Envía"
+    },
+    "alert": {
+      "confirm-delete-favorite": {
+        "header": "¿Olvidar favorito?",
+        "message": "La próxima vez que quieras enviar plata a esta cuenta, deberás escribir toda la info.",
+        "buttons": {
+          "accept": "Olvida",
+          "cancel": "Cancela"
+        }
+      },
+      "error-deleting-favorite": {
+        "header": "Discúlpanos porfa...",
+        "message": "Tenemos un problema :( Intenta porfa otra vez.",
+        "buttons": {
+          "accept": "Listo"
+        }
+      }
+    }
+  },
+  "your-code": {
+    "title": "Tu código",
+    "pocket-label": "Vas a sacar plata de:",
+    "contingency-label": "Puedes sacar ",
+    "content": {
+      "contingency-physical-point": "Para sacar, ve a un corresponsal Bancolombia y confirma este código a la persona encargada del Corresponsal.",
+      "atm": "Escribe este número en el cajero para sacar plata.",
+      "physicalPoint": "Para sacar, confírmale este código a la persona encargada del Corresponsal.",
+      "otp-label": "Vence a las",
+      "contingency-otp-label": "Vence en:"
+    },
+    "button": "Terminar",
+    "contingency-toast": "El saldo puede no estar actualizado mientras Nequi está caído, saca máximo {{ amount }}",
+    "card-modal-back-button": {
+      "header": "¿Segur@ quieres salir?",
+      "message": "Vas a cancelar el retiro.",
+      "buttons": {
+        "accept": "Mejor no",
+        "cancel": "Salir"
+      }
+    }
+  },
+  "home": {
+    "pin-challenge": {
+      "title": "Escribe tu clave",
+      "message": "No dudamos de que seas tú... Pero es mejor confirmar ;)"
+    }
+  },
+  "contingency-money-origin": {
+    "title": "¿De dónde saldrá la plata?",
+    "items": [
+      {
+        "icon": "assets/images/icons/thumbs-up-blue.svg",
+        "title": "La plata sale del Disponible",
+        "description": "En estos momentos la plata saldrá de tu Disponible. No podemos visualizar los Bolsillos o Metas."
+      },
+      {
+        "icon": "assets/images/icons/lock-closed.svg",
+        "title": "Saca en Corresponsales Bancolombia",
+        "description": "Mientras habilitamos todos los servicios de Nequi, puedes sacar plata en los corresponsales Bancolombia."
+      }
+    ],
+    "button": "Acepta",
+    "error-message": "¡No pudimos hacer esto! Reinténtalo en un rato..",
+    "help": {
+      "title": "Ayuda",
+      "link": "https://ayuda.nequi.com.co/hc/es/articles/12474828748045"
+    }
+  },
+  "bottom-sheet": {
+    "title": "Opciones para sacar",
+    "description": "Sacar plata te vale $0.",
+    "error-messages": {
+      "amount-not-enough": "No te alcanza :(",
+      "over-limits": "¡Uy! Superaste los topes :("
+    },
+    "options": {
+      "atm": {
+        "title": "Cajero",
+        "description": "Desde un cajero Bancolombia",
+        "message": "Saca hasta: {{maxAmount}}",
+        "icon": "assets/images/use-money/cashout/atm.svg"
+      },
+      "physical-point": {
+        "title": "Punto físico",
+        "description": "En corresponsales y Puntos Nequi",
+        "message": "Saca hasta: {{maxAmount}}",
+        "icon": "assets/images/use-money/cashout/physical-point.svg"
+      },
+      "contingency-physical-point": {
+        "title": "Punto físico",
+        "description": "En Corresponsales",
+        "message": "Saca hasta: {{maxAmount}}",
+        "icon": "assets/images/use-money/cashout/physical-point.svg"
+      },
+      "map": {
+        "title": "¿Dónde sacar plata?",
+        "icon": "assets/images/use-money/cashout/points.svg"
+      }
+    },
+    "pocket": {
+      "placeholder": "Escoge de donde saldrá la plata",
+      "info": "Porfa revisa que tengas plata en el Disponible antes de realizar tu pago, o selecciona un Bolsillo con saldo."
+    }
+  },
+  "help": "Ayuda",
+  "send-bottom-sheet": {
+    "title": "Opciones para enviar",
+    "options": {
+      "nequi": {
+        "title": "Nequi",
+        "description": "Número de cel",
+        "icon": "assets/images/use-money/send/nequi.svg"
+      },
+      "bank": {
+        "title": "Bancos",
+        "description": "Número de cuenta a bancos",
+        "icon": "assets/images/use-money/send/bank.svg"
+      },
+      "transfi-ya": {
+        "title": "Transfiya",
+        "description": "Número de cel a otros banco",
+        "icon": "assets/images/use-money/send/transfi-ya.svg"
+      }
+    }
+  },
+  "transfi-ya": {
+    "boarding-message": {
+      "title": "Envía a otros bancos por transfiya",
+      "description": "Envía plata a otros bancos solo con el número de celular. Para que tu amig@ reciba la plata, dile que entre a la App de su banco y acepte el envío antes de {{timeLimit}} horas.",
+      "image": "assets/images/send/transfi-ya.svg",
+      "help": "¿Más info?",
+      "button": "Listo"
+    },
+    "send": {
+      "title": "Envía plata transfiya",
+      "inputs": {
+        "contact": {
+          "placeholder": "Cel"
+        },
+        "amount": {
+          "placeholder": "¿Cuánto?",
+          "errors": {
+            "max": "Puedes enviar hasta {{maxAmount}} por transfiya"
+          }
+        },
+        "message": {
+          "placeholder": "Mensaje",
+          "errors": {
+            "maxlength": "¡Ups! Tu mensaje debe ser más corto para poder enviar",
+            "pattern": "¡Ups! Debes cambiar esto."
+          }
+        },
+        "pocket": {
+          "placeholder": "¿De dónde saldrá la plata?",
+          "errors": {
+            "required": "¡Ups! Debes llenar esto."
+          }
+        }
+      },
+      "info": "Los envíos por transfiya te valen {{fee}}. \nDile porfa a tu amig@ que acepte la plata desde la App de su banco antes de {{maxHoursToAccept}} horas, sino la plata regresará a tu Nequi.",
+      "buttons": {
+        "next": "Sigue"
+      },
+      "send-nequi-confirmation": {
+        "image": "assets/images/send/nequi-nequi-send.svg",
+        "title": "¡Tu amigo tiene Nequi!",
+        "content": "{{phoneNumber}} tiene Nequi. Envía directamente a su Nequi  y la plata llegará de una ;) sin necesidad de aceptar ¿Quieres envíar mejor a Nequi?",
+        "buttons": {
+          "nequi": "Envía a Nequi",
+          "transfi-ya": "Envía por transfiya"
+        }
+      },
+      "confirmation": {
+        "title": "Confirma el número",
+        "cel": "Celular",
+        "amount": "¿Cuánto?",
+        "button": "Confirma"
+      },
+      "success": {
+        "image": "assets/images/transversal/yellow-success-hand.svg",
+        "title": "Dile a tu amigo que acepte",
+        "content": "Tu amig@ debe recibir la plata desde la App de su banco antes de {{timeLimit}} horas o regresará a tu Nequi. \n Sí tu amig@ abre Nequi todo es más sencillo y la plata le llega de una.",
+        "help": "¿Más info?",
+        "button": "Listo",
+        "toast": "¡Listo tu envío por transfiya! dile a tu amigo que acepte la plata"
+      },
+      "max-allowed-transactions": {
+        "header": "Más de lo permitido",
+        "message": "Superaste lo máximo permitido para enviar por transfiya. Intenta mañana o prueba con menos plata",
+        "buttons": {
+          "accept": "Listo"
+        }
+      }
+    }
+  },
+  "bank": {
+    "first-time-message": {
+      "message": "¿Cuándo llega la plata?",
+      "content": "Si es a otros bancos, te cuesta {0} y se puede demorar hasta un día hábil. A Nequi llega de una ;)",
+      "image": "/assets/images/icons/send-to.svg",
+      "button": "Listo"
+    },
+    "information": {
+      "title": "¿Cuándo llega la plata?",
+      "button": "Listo",
+      "costs": "Los envíos a otros bancos te cuestan {0}",
+      "to-bancolombia": {
+        "title": "¡A Bancolombia llega de una!",
+        "image": "/assets/images/icons/happy-face-outline.svg",
+        "content": "A otros bancos la plata llega hasta 72 horas después."
+      },
+      "business-days": {
+        "title": "Si envías entre <b class='link-blue' >lunes y jueves,</b> llega máximo el siguiente día",
+        "image": "/assets/images/icons/partly-sunny.svg",
+        "content": "Si el día siguiente es festivo, llega al día siguiente."
+      },
+      "friday-to-sunday": {
+        "title": "Si envías entre viernes y domingo, llega el lunes",
+        "image": "/assets/images/icons/calendar-blue.svg",
+        "content": "Si el lunes es festivo, llega el martes."
+      },
+      "weekends": {
+        "title": "Si envías el finde sigues viendo la plata en tu Nequi",
+        "image": "/assets/images/icons/eye.svg",
+        "content": "Pero no la puedes usar pues esta llegará a su destino el lunes (si el lunes es festivo, llega el martes)."
+      }
+    },
+    "detail": {
+      "title": "Detalle del envío",
+      "subtitle": "Envío a banco",
+      "icon": "",
+      "fields": {
+        "for": "Para",
+        "document-number": "Número de documento",
+        "bank": "Banco",
+        "account-number": "Número de cuenta",
+        "amount": "¿Cuánto?",
+        "origin-money": "La plata salió de:"
+      },
+      "info": "El tiempo que se demora la plata en llegar, depende del banco que recibe. Si se rechaza el envío, la plata regresará a tu Nequi.",
+      "button": "Listo"
+    }
+  },
+  "sherpa": {
+    "detail": {
+      "title": "Detalle del movimiento",
+      "subtitle": "Envío Realizado",
+      "icon": "",
+      "fields": {
+        "for": "Para",
+        "phoneNumber": "Número Nequi",
+        "message": "Conversación",
+        "amount": "¿Cuánto?",
+        "date": "Fecha",
+        "reference": "Referencia",
+        "origin-money": "¿De dónde salió la plata?"
+      }
+    },
+    "bottom-sheet": {
+      "share-options": {
+        "receipt": "Comparte el comprobante",
+        "email": "Envía comprobante por correo"
+      }
+    }
+  }
+}

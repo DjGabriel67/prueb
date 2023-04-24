@@ -1,0 +1,386 @@
+{
+  "home": {
+    "title": "Recibe plata desde <div> PayPal </div>",
+    "title-with-errors": "PayPal",
+    "bottom-sheet": {
+      "link-account": {
+        "message": "¡Recibe tus dólares en Nequi!",
+        "content": "Vincula tu Nequi con PayPal para traer tu plata del exterior.<br/>¡Es fácil, rápido y seguro!<br/><br/>Para empezar, vamos a conocernos mejor ;)",
+        "icon": "/assets/images/paypal/paypal.svg",
+        "button": "Acepta"
+      },
+      "send-payPal-to-nequi": {
+        "title": "¡Tu plata en Nequi de una!",
+        "content": "<div>Tu saldo en PayPal se verá en dólares y el de Nequi en pesos.</div> <div>Puedes recibir hasta USD {0} cada mes y te cuesta el {1}% del valor que elijas, pero nunca pagarás más de USD {2} IVA Incluido.</div> <div>La tasa de cambio puede variar, según el comportamiento del mercado.</div>",
+        "button": "Aceptar",
+        "image": "assets/images/paypal/paypal.svg",
+        "reloadMessage": "Algo falló, vuelve a intentar"
+      }
+    },
+    "errors": {
+      "name-no-match-with-nequi": {
+        "header": "Confirma tu información personal ;)",
+        "message": "Tus datos personales de nombre y apellido que tienes en Nequi, deben ser los mismos de Paypal. Revísalo porfa y vuelve a intentar.",
+        "buttons": {
+          "accept": "Desvincular cuenta",
+          "cancel": "Listo"
+        }
+      },
+      "control-list": {
+        "header": "Discúlpanos porfa...",
+        "message": "No podemos seguir... <br> No cumples todas las condiciones. Perdón :(",
+        "buttons": {
+          "accept": "Listo"
+        }
+      },
+      "email": {
+        "title": "Confirma porfa tu correo",
+        "content": "Ve primero a los Ajustes de tu Nequi y confirma tu correo electrónico. Recuerda porfa que debe ser el mismo que usas en PayPal.",
+        "image": "assets/images/icons/email.svg",
+        "buttons": {
+          "accept": "Ve a Ajustes",
+          "cancel": "Ahora no"
+        }
+      },
+      "link-wrong-currency": {
+        "header": "¡Perdón!",
+        "message": "Para seguir, revisa que tu cuenta PayPal esté verificada y en dólares. Si no te da, intenta traer menos plata. <div class='margin-top-8'><a class='text--midnight link--decoration-none' href='https://ayuda.nequi.com.co/hc/es/articles/360027677331' target='_blank'>¿Cómo arreglarlo?</a></div>",
+        "buttons": {
+          "accept": "Listo"
+        }
+      },
+      "retry-registry": {
+        "header": "Vincula tu cuenta PayPal ;)",
+        "message": "Hubo un problema al conectar tu Nequi con tu cuenta PayPal. Intenta de nuevo porfa.",
+        "buttons": {
+          "accept": "Listo"
+        }
+      },
+      "unavailability": {
+        "header": "Intenta después porfa",
+        "message": "Todos los días, entre las 11 p.m. y las 4 a.m., revisamos la app para asegurarnos de que funcione bien.",
+        "buttons": {
+          "accept": "Listo"
+        }
+      },
+
+      "fail-unlink-account": {
+        "header": "¡Perdón! No lo logramos...",
+        "message": "Tuvimos un problema desvinculando tu Nequi de PayPal. Intenta otra vez porfa.",
+        "buttons": {
+          "accept": "Listo"
+        }
+      },
+
+      "limit-exceed": "¡Estamos al límite! No podrás recibir más plata este mes. Rompe tu topes :)",
+      "balance-zero": "¡Ups! No puedes recibir plata porque tienes $0 en PayPal.",
+      "withdrawal-null": "¡Perdón! Tenemos un problema. Intenta más tarde porfa.",
+
+      "general": {
+        "header": "¡Ups! No se puede",
+        "buttons": {
+          "accept": "Listo"
+        }
+      }
+    },
+    "pin-challenge": {
+      "title": "Pon tu clave",
+      "message": "No dudamos de que seas tú... Pero es mejor confirmar ;)"
+    },
+    "balance": {
+      "title": "Saldo en PayPal",
+      "symbolMoney": "USD",
+      "amount": "Has traido USD ",
+      "maxAmount": "de USD "
+    },
+    "buttons": {
+      "receiveMoney": "Recibe plata"
+    },
+    "link": {
+      "unlink": "Desvincula tus cuentas"
+    },
+    "unlink-account": {
+      "header": "¿Está seguro?",
+      "message": "Si sigues, tu Nequi no seguirá conectado a tu cuenta PayPal y no podrás traer esa plata.",
+      "buttons": {
+        "accept": "Continúa",
+        "cancel": "Mejor no"
+      },
+      "success": "¡Listo! Tu cuenta PayPal y tu Nequi ya no están vinculados."
+    },
+    "contextual-message": {
+      "defaultMessage": "Cuando llegues al máximo no podrás recibir más plata este mes o rompe topes."
+    }
+  },
+  "form": {
+    "labels": {
+      "balance": {
+        "title": "Saldo en PayPal",
+        "symbolMoney": "USD"
+      },
+      "header-title": "Recibe plata desde PayPal",
+      "title": "Recibe plata desde <div> PayPal </div>",
+      "detail": "Detalle de lo que vas a recibir",
+      "exchange-rate": {
+        "placeholder": "Tasa de cambio variable",
+        "help": "Cuando recibas la plata, esta tasa puede ser distinta. Son cosas del mercado ;)"
+      },
+      "amount-cop": "Cantidad en pesos",
+      "commission": {
+        "placeholder": "¿Cuánto cuesta?",
+        "help": "Esto es la comisión (IVA incluido). Se resta de la plata que vas a recibir."
+      },
+      "total": "Total que vas a recibir",
+      "next": "Sigue",
+      "default-money": "$-"
+    },
+    "bottom-sheet": {
+      "confirmation": {
+        "title": "Confirma",
+        "subtitle": "Info de lo que vas a recibir desde PayPal",
+        "totalAmount": "Total que vas a recibir",
+        "moneyRequested": "Lo que pediste recibir desde PayPal",
+        "exchangeRate": {
+          "label": "Tasa de cambio",
+          "info": "Cuando recibas la plata, esta tasa puede haber cambiado, son cosas del mercado :)"
+        },
+        "moneyRequestedPesos": "Lo que pediste recibir en pesos",
+        "commission": {
+          "label": "¿Cuánto te cuesta?",
+          "info": "Este valor es lo que te cuesta la comisión (IVA incluido) y se resta de lo que vas a recibir."
+        },
+        "economicActivity": "¿De dónde viene la plata?",
+        "transactionReason": "{{economicActivity}} - Formulario {{formValue}} - Nº{{formNumber}}",
+        "button": "Listo"
+      }
+    },
+    "fields": {
+      "amount": {
+        "placeholder": "¿Cuántos dólares quieres recibir?",
+        "info": "Tus dólares  en números enteros.",
+        "errors": {
+          "limit-exceeded": "¡Debe ser menos! Recuerda tus topes y tu saldo de PayPal."
+        }
+      },
+      "economic-activity": {
+        "placeholder": "¿De dónde viene la plata?"
+      }
+    },
+    "pin-challenge": {
+      "title": "Pon tu clave",
+      "message": "No dudamos de que seas tú... Pero es mejor confirmar ;)"
+    },
+    "toast": {
+      "success": "¡Yeiii! Ya tienes tu plata en Nequi :)",
+      "error": {
+        "money-not-enough": "¡Ups! No tienes plata en tu cuenta PayPal :(",
+        "paypal-async-withdrawal-account-problem": "¡Ups! No pudimos hacer esto. porfa revisa que tu cuenta PayPal no tenga problemas para traer plata."
+      }
+    },
+    "errors": {
+      "transaction-problem": {
+        "header": "Nos vamos a dar un tiempo...",
+        "message": "Tenemos un problema para hacer este movimiento. Intenta porfa más tarde.",
+        "buttons": {
+          "accept": "Listo"
+        }
+      },
+      "expired-rate": {
+        "header": "¡Refréscate!",
+        "message": "La tasa de cambio ya no es la misma... Vamos a actualizarla.",
+        "buttons": {
+          "accept": "Listo"
+        }
+      },
+      "transaction-in-process": {
+        "header": "Danos un momento",
+        "message": "Vamos a necesitar unos minutos para enviar tu plata a PayPal. Cuando terminemos te avisamos por SMS.",
+        "buttons": {
+          "accept": "Listo"
+        }
+      },
+      "unavailability": {
+        "header": "Intenta después porfa",
+        "message": "Todos los días, entre las 11 p.m. y las 4 a.m., revisamos la app para asegurarnos de que funcione bien.",
+        "buttons": {
+          "accept": "Listo"
+        }
+      },
+      "timeout-reverse-finacle": {
+        "header": "Discúlpanos porfa",
+        "message": "No recibimos tu plata. Danos unos minutos porfa para devolvértela a tu cuenta PayPal.",
+        "buttons": {
+          "accept": "Listo"
+        }
+      },
+      "paypal-withdrawal-limit": {
+        "header": "Tenemos un límite...",
+        "message": "Cada mes puedes recibir hasta USD {0} en Nequi. Intenta porfa con menos plata.",
+        "buttons": {
+          "accept": "Listo"
+        }
+      },
+      "nequi-debit-limit": {
+        "header": "¡Tu Nequi está al límite!",
+        "image": "assets/images/icons/clock-pink.svg",
+        "message": "Con este movimiento pasas el tope de tu Nequi. Intenta con menos plata o rompe tus topes ;)",
+        "buttons": {
+          "link": "Mira tus topes",
+          "accept": "Rompe topes",
+          "cancel": "Mejor no"
+        }
+      },
+      "nequi-debit-limit-commission": {
+        "header": "¡Estamos al límite!",
+        "message": "Tu tope de uso no te permite pagar la comisión de PayPal. Intenta con menos plata o rompe tus topes :) <div class='margin-top-8'><a class='text--midnight link--decoration-none' routerLink='/admin/backback/ceiling'>Mira tus topes</a></div>",
+        "buttons": {
+          "accept": "Rompe topes",
+          "cancel": "Mejor no"
+        }
+      },
+      "paypal-constraints-problem": {
+        "header": "Nos vamos a dar un tiempo...",
+        "message": "Hay un problema en el sistema de PayPal y no podemos terminar este movimiento. ¡Intenta luego!",
+        "buttons": {
+          "accept": "Listo"
+        }
+      },
+      "paypal-account-limits-problem": {
+        "header": "¡Ups! Todo tiene solución",
+        "message": "Tu cuenta PayPal está limitada y no puedes conectarla con Nequi. Pero... ¡Sabemos cómo arreglarlo! <div class='margin-top-8'><a class='text--midnight link--decoration-none' href='https://ayuda.nequi.com.co/hc/es/articles/360018818351' target='_blank'>Más info</a></div>",
+        "buttons": {
+          "cancel": "Ahora no"
+        }
+      },
+      "annual-debit-limit": {
+        "header": "Llegaste a tu tope anual",
+        "buttons": {
+          "accept": "Listo"
+        }
+      },
+      "annual-money-exchange-limit": {
+        "header": "Tenemos un límite",
+        "message": "Al parecer llegaste a los topes anuales permitidos para la compra de divisas en Bancolombia",
+        "buttons": {
+          "accept": "Listo"
+        }
+      },
+      "paypal-async-withdrawal": {
+        "header": "¡Un momento porfa!",
+        "image": "assets/images/bank-recharge/clock-icon.svg",
+        "message": "Esperamos la respuesta de PayPal. Si ves que la plata no ha llegado a Nequi: ¡Tranqui! Te avisamos cuando todo esté listo.",
+        "buttons": {
+          "accept": "Listo"
+        }
+      }
+    },
+    "costs-info": {
+      "title": "¡Así funciona el 4x1000 y nuestros costos!",
+      "rates": {
+        "title": "Nuestras tarifas explicadas",
+        "content": "Para usar PayPal con Nequi debes tener en cuenta que el pago de la comisión nos ayuda a facilitar tu experiencia en el cambio de divisas, para que sigamos existiendo para ti. Recuerda revisar la tasa de cambio por que puede variar."
+      },
+      "gmf": {
+        "title": "4x1000 (GMF)",
+        "content": "Si tienes Nequi sin topes, no significa que esté exento del 4X1.000 (GMF). Debes marcarlo como libre de este impuesto. <br/><br/> Cuando rompas tus topes, confirmamos si podemos dejar tu Nequi sin 4X1.000. Por ley, tienes derecho a una cuenta de ahorros así."
+      },
+      "buttons": {
+        "accept": "Listo"
+      }
+    },
+    "money-declaration": {
+      "title": "Declaración de fondos provenientes de turismo",
+      "subTitle": "No te queremos alarmar, pero con base  en el númeral 1530 debes cumplir con algunas exigencias del banco de la república y debes confirmarnos que cuentas con esta:",
+      "content": "No te queremos alarmar, pero con base  en el númeral 1530 debes cumplir con algunas exigencias del banco de la república y debes confirmarnos que cuentas con esta: Declaro que cuento con la certificación del contador público o revisor fiscal, donde identifico plenamente las personas con las cuales he realizado transacciones, en cumplimiento al art. 85 de la Resolución Externa 01 de 2018 del Banco de la República. En caso de que el Banco, por solicitud de autoridad competente, requiera dicho documento, me obligo a suministrarlos a la mayor brevedad posible.",
+      "buttons": {
+        "accept": "Confirmo",
+        "cancel": "Mejor no"
+      }
+    }
+  },
+  "registry": {
+    "title": "Tu info",
+    "info": {
+      "title": "PayPal",
+      "receive": {
+        "title": "Recibe tus dólares rápido, fácil y seguro.",
+        "image": "assets/images/icons/document.svg",
+        "content": {
+          "your-personal": "Tus datos personales deben ser iguales en PayPal y en Nequi",
+          "your-email": "Tu correo de PayPal debe ser igual al que tienes en Nequi.",
+          "your-paypal": "Si tu PayPal no es de Colombia, crea una cuenta nueva, pásale la plata que tienes en la otra y conéctala con Nequi.",
+          "your-account": "Tu cuenta de PayPal no debe estar conectada con otro Nequi.",
+          "your-balance": "Tu saldo en PayPal se verá en dólares y el de Nequi en pesos.",
+          "your-month": "Puedes recibir hasta USD {{ maxAllowed }} cada mes o más si rompes tus topes."
+        }
+      },
+      "payment": {
+        "title": "Pagas",
+        "image": "assets/images/one-doc-three/wallet.svg",
+        "content": "Te cuesta el {{ fee }} % del valor que elijas, pero nunca pagarás más de USD {{ tax }} IVA Incluído.  La tasa de cambio puede variar, según el comportamiento del mercado."
+      },
+      "buttons": {
+        "accept": "Listo"
+      }
+    },
+    "content": {
+      "yourDocument": {
+        "title": "Tu Documento",
+        "description": "Escanea tu documento"
+      },
+      "whereYouLive": {
+        "title": "¿Donde vives?",
+        "description": "Info de tu ubicación"
+      },
+      "whatDoYouDo": {
+        "title": "¿A qué te dedicas?",
+        "description": "Info sobre lo que haces"
+      },
+      "registry": {
+        "title": "Registro PayPal",
+        "description": "Ingresa tu usuario"
+      }
+    },
+    "url-structure": "{0}?flowEntry=lg&client_id={1}&response_type=code&scope=openid%20profile%20email%20address%20https%3A%2F%2Furi.paypal.com%2Fservices%2Fpaypalattributes%20https%3A%2F%2Furi.paypal.com%2Fservices%2Fwallet%2Fbalance-accounts%2Fread%20https%3A%2F%2Furi.paypal.com%2Ftransfers%2Fwithdrawals&newUI=Y&redirect_uri={2}&state={3}&country.x=CO",
+    "success-email-registration": {
+      "title": "Tu cuenta está conectada",
+      "content": "Ya tienes otra razón para tener Nequi. Ahora puedes recibir plata desde tu cuenta PayPal",
+      "image": "assets/images/icons/thumb-up.svg",
+      "buttons": {
+        "accept": "Listo"
+      }
+    },
+    "errors": {
+      "email-not-match": {
+        "header": "Confirma tu correo ;)",
+        "message": "El correo que tienes en Nequi, debe ser el mismo de PayPal. Revísalo porfa y vuelve a intentar.",
+        "buttons": {
+          "accept": "Listo",
+          "cancel": "Más info"
+        }
+      },
+      "invalid-country": {
+        "header": "Tu PayPal no es de este país :'(",
+        "message": "Crea primero una cuenta nueva en PayPal, pero desde el mismo país de tu Nequi.",
+        "buttons": {
+          "accept": "Listo",
+          "cancel": "Crea tu cuenta en PayPal"
+        }
+      },
+      "email-already-linked": {
+        "header": "Registro inválido",
+        "message": "Parece que la cuenta PayPal que quieres conectar está enlazada con otra cuenta Nequi.",
+        "buttons": {
+          "accept": "Listo"
+        }
+      },
+      "general": {
+        "header": "No podemos seguir...",
+        "message": "¡Ups! Algo salió mal. Intenta más tarde porfa.",
+        "buttons": {
+          "accept": "Listo"
+        }
+      }
+    }
+  }
+}

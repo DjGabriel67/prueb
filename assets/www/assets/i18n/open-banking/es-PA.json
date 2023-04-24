@@ -1,0 +1,67 @@
+{
+  "alerts": {
+    "error": {
+      "title": "¡Ups! Algo salió mal",
+      "message": "Tenemos un problema, inténtalo más tarde.",
+      "button": "Listo"
+    },
+    "unavailable-service": {
+      "title": "Intenta otra vez…",
+      "message": "¡Perdón! Tenemos un problema en la conexión con {0}. Intenta más tarde porfa ;)",
+      "button": "Listo"
+    }
+  },
+  "authorization": {
+    "information": {
+      "button": "Listo"
+    },
+    "terms": {
+      "title": "Términos y condiciones",
+      "accept-terms": "Si eliges esta opción, entendemos que leíste y aceptas los términos y condiciones.",
+      "button": "Acepta"
+    },
+    "resume": {
+      "message": "Nos diste estos permisos ;)",
+      "icon": "/assets/images/open-banking/authorization/key.svg",
+      "button": "Acepta"
+    }
+  },
+  "permission": {
+    "balance-inquiry": {
+      "title": "Consulta de saldo",
+      "empty-case": {
+        "image": "/assets/images/open-banking/permission/empty-case.svg",
+        "text": "Aún no has dado ninguna autorización para la consulta de tu saldo."
+      },
+      "retry-message": "¡Ups! Tenemos problemas de conexión. Inténtalo más tarde porfa.",
+      "delete": {
+        "header": "¿Quieres eliminar la autorización?",
+        "message": "{{ commerce }} ya no podrá ver el saldo que autorizaste a compartir de tus Bolsillos, Metas o Disponible.",
+        "buttons": {
+          "accept": "Listo",
+          "cancel": "Mejor no"
+        }
+      },
+      "delete-success-message": "¡Listo! Autorización eliminada con éxito ;)",
+      "authorization-success-message": "¡Lista tu autorización!"
+    },
+    "experiences": {
+      "title": "Los que tienen permiso",
+      "description": "Si eliminas una de estas autorizaciones, debes darle permiso otra vez al comercio para usar sus servicios desde la opción de Servicios de Nequi.",
+      "empty-case": {
+        "image": "/assets/images/open-banking/permission/empty-case.svg",
+        "text": "Aún no has dado ninguna autorización"
+      },
+      "retry-message": "Algo falló... Porfa vuelve a intentar",
+      "delete": {
+        "header": "¿Borrón y cuenta nueva?",
+        "message": "Ya no podrás entrar a la web o app de {0} desde Nequi. Si quieres volver a entrar a {0} tendrás que volver a darnos permisos.",
+        "buttons": {
+          "accept": "Listo",
+          "cancel": "Mejor no"
+        }
+      },
+      "delete-success-message": "Listo, tus autorizaciones se han cancelado."
+    }
+  }
+}

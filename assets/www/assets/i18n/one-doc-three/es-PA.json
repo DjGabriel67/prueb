@@ -1,0 +1,83 @@
+{
+  "confirmation": {
+    "title": "Confirmación de pago 1DOC3",
+    "how-much": "¿Cuánto te cuesta?",
+    "origin-money": "¿De dónde saldrá la plata?",
+    "buttons": {
+      "next": "Paga"
+    },
+    "pin-challenge": {
+      "title": "Escribe tu clave",
+      "message": "No dudamos de que seas tú... Pero es mejor confirmar ;)"
+    },
+    "bottom-sheet": {
+      "title": "Confirma",
+      "subtitle": "Info de tu pago",
+      "items": {
+        "product": {
+          "label": "Producto",
+          "name": "1DOC3"
+        },
+        "email": "Correo",
+        "amount": "Total a pagar",
+        "pocket": "La plata saldrá de:"
+      }
+    }
+  },
+  "payment-success": {
+    "icon": "/assets/images/one-doc-three/doc-confirm.svg",
+    "title": "¡Desde ahora, 1DOC3 será el encargado!",
+    "content": "Todo listo para empezar. 1DOC3 será el encargado de darte un buen servicio y de resolverte cualquier duda.",
+    "buttons": {
+      "next": "Listo"
+    }
+  },
+  "home": {
+    "title": "1DOC3",
+    "content": [
+      {
+        "icon": "assets/images/one-doc-three/chatbubbles.svg",
+        "title": "Habla con un médico",
+        "description": "- Consulta en línea con un Profesional de la salud en áreas como Medicina general, Psicología, Nutrición, Salud sexual y Veterinaria<br/> <br/>- Recibe órdenes de medicamentos y procedimientos."
+      },
+      {
+        "icon": "assets/images/one-doc-three/wallet.svg",
+        "title": "Paga con Nequi {0}",
+        "description": "Antes de iniciar el chat. Terminas la conversación cuando quieras ;) Si te sales por error, ¡tranqui! Vuelves a entrar sin pagar otra vez."
+      },
+      {
+        "icon": "assets/images/one-doc-three/heart.svg",
+        "title": "Este espacio de diálogo puede reemplazar una consulta médica"
+      }
+    ],
+    "reload-message": "Algo falló... Porfa vuelve a intentar",
+    "button-label": "Acepta",
+    "terms": "Al continuar estás aceptando los <u>Términos y condiciones de uso </u> y <u> Políticas de privacidad. </u>",
+    "bottom-sheet": {
+      "title": "Salud",
+      "image": "assets/images/one-doc-three/one-doc-three.svg",
+      "content": "En 1DOC3 consulta con un profesional de la Salud 24/7 y en menos de 1 minuto. <br/> <br/> Te acompañamos en el cuidado de tu salud física, mental, nutricional y también el cuidado de tus mascotas.",
+      "button": "Listo"
+    },
+    "modals": {
+      "pending-chat": {
+        "image": "assets/images/one-doc-three/message.svg",
+        "title": "¡Tienes un chat pendiente!",
+        "description": "La última vez que estuviste aquí no terminaste de hablar con el profesional de la salud acerca de tu caso. Tranquil@, puedes continuar tu sesión sin tener que pagar de nuevo.",
+        "button": "Listo"
+      }
+    },
+    "alerts": {
+      "unavailable-service": {
+        "title": "¡Ups! 1DOC3 tiene los chats llenos",
+        "message": "En estos momentos no hay médicos disponibles. Intenta más tarde",
+        "button": "Listo"
+      }
+    }
+  },
+  "terms": {
+    "title": "Términos y condiciones 1DOC3",
+    "accept-terms": "He leído y acepto términos y condiciones de 1DOC3",
+    "button": "Acepto"
+  }
+}

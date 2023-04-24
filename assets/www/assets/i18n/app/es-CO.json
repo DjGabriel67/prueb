@@ -1,0 +1,322 @@
+{
+  "web-update": {
+    "logo-name": "/assets/images/home/nequi-name.svg",
+    "description": "Estamos actualizando tu Nequi.<br />Espera un momento porfa.",
+    "error-message": "¡Ups! Algo falló, vuelve a intentar tocando acá"
+  },
+  "account-types": {
+    "S": "Ahorros",
+    "D": "Corriente"
+  },
+  "permissionExplanationForHardware": {
+    "RECORD_AUDIO": {
+      "rationalTitle": "Necesitamos usar tu micrófono",
+      "rationalMessage": "Nequi desea utilizar tu micrófono",
+      "rationalTxtBtn": "Listo"
+    },
+    "CAMERA": {
+      "rationalTitle": "Necesitamos usar tu camara",
+      "rationalMessage": "Necesitamos usar tu camara",
+      "rationalTxtBtn": "Aceptar"
+    },
+    "READ_CONTACTS": {
+      "rationalTitle": "Necesitamos leer tus contactos",
+      "rationalMessage": "Necesitamos leer tus contactos",
+      "rationalTxtBtn": "Aceptar"
+    },
+    "FINE_LOCATION": {
+      "rationalTitle": "Necesitamos acceder a tu ubicación",
+      "rationalMessage": "Necesitamos acceder a tu ubicación",
+      "rationalTxtBtn": "Aceptar"
+    },
+    "RECEIVE_SMS": {
+      "rationalTitle": "¡Conozcámonos mejor!",
+      "rationalMessage": "Para ofrecerte lo mejor de Nequi, vamos a pedirte unos permisos para acceder a tu info de SMS y llamadas. Así, ahorrarás tiempo digitando números largos y, podremos conocerte mejor para saber qué es lo que más necesitas.",
+      "rationalTxtBtn": "LISTO"
+    },
+    "READ_EXTERNAL_STORAGE": {
+      "rationalTitle": "Nequi quiere acceder a tus archivos ",
+      "rationalMessage": "Nequi necesita acceder a tus archivos para adjuntar lo que deseas en la aplicación.",
+      "rationalTxtBtn": "Listo"
+    }
+  },
+  "title": "nequiApp",
+  "enrollTour": {
+    "button": "Abre Nequi",
+    "label": "Salta",
+    "defaultData": {
+      "slides": [
+        {
+          "title": "Somos una plataforma financiera digital y queremos mejorar tu relación con la plata.",
+          "image": "assets/images/enroll-tour/image_step_one.svg",
+          "texture": "assets/images/enroll-tour/texture_step_one.svg"
+        },
+        {
+          "title": "Con Nequi puedes enviar, ahorrar, pagar, y organizar tu plata.",
+          "image": "assets/images/enroll-tour/image_step_two.svg",
+          "texture": "assets/images/enroll-tour/texture_step_two.svg"
+        },
+        {
+          "title": "Podrás pagar facturas, pedir préstamos, traer plata de PayPal y tener una Tarjeta para pagar en línea y puntos físicos.",
+          "image": "assets/images/enroll-tour/image_step_three.svg",
+          "texture": "assets/images/enroll-tour/texture_step_three.svg"
+        }
+      ],
+      "backgroundColor": "#ffffff",
+      "fontColor": "#210049"
+    }
+  },
+  "validators": {
+    "default": "¡Ups! Te equivocaste en algo. Vuelve a intentarlo.",
+    "general": {
+      "required": "¡Ups! Debes llenar esto.",
+      "minlength": "¡Ups! Campo muy corto.",
+      "maxlength": "¡Ups! Campo muy largo.",
+      "min": "¡Ups! Debes aumentar la cantidad.",
+      "max": "¡Ups! Debes disminuir la cantidad.",
+      "onlyAlphaNumeric": "Por favor solo ingresa letras y números",
+      "onlyAlphaEspaceNoAccentMark": "¡Ups! Caracteres no soportados.",
+      "onlyNumbers": "Por favor solo ingresa números",
+      "pattern": "¡Ups! Debes cambiar esto."
+    }
+  },
+  "errorMessages": {
+    "BackButtonPressed": "Proceso cancelado por el botón atras",
+    "timeoutBiometryFace": "Algo salió mal. ¿Quieres volverlo a intentar?",
+    "timeoutBiometryVoice": "Algo salió mal. ¿Quieres volverlo a intentar?",
+    "retryError": "Algo salió mal, inténtalo nuevamente",
+    "0": "Se ha presentado un error inesperado",
+    "1000": "No se encontro el objeto navigator.contacts para realizar la solicitud \"find\" de contactos",
+    "1001": "Ups, la conexión está fallando…",
+    "1002": "Ups, la conexión está fallando…",
+    "2001": "Aprovisionamiento fallido",
+    "2002": "¡Ups! Algo falló. Vuelve a intentar porfa.",
+    "2003": "Falló validando aprovisionamiento",
+    "2004": "Falló lectura del QR",
+    "2005": "La compra ya se realizó.",
+    "2006": "La compra no ha sido procesada.",
+    "2007": "La compra ha sido cancelada.",
+    "3001": "Error iniciando transacción. Por favor inténtelo nuevamente.",
+    "2008": "Ya te encuentras vinculado, ingresa tus datos para iniciar sesion.",
+    "2009": "Falló desencripción de código QR",
+    "2011": "Codigo Erroneo",
+    "2010": "No tienes permisos para acceder a la camara",
+    "2012": "Se canceló la verificación de cara",
+    "20": "Permisos Denegados",
+    "5000": "Permisos Denegados",
+    "5001": "Permisos Concedidos",
+    "5002": "Error Desconocido",
+    "5003": "Activity Error",
+    "5004": "No hay permisos a verificar",
+    "5005": "La aplicación no esta disponible para compartir",
+    "5006": "Elemento compartido exitosamente",
+    "4010": "Ya se está escuchando por mensajes entrantes",
+    "6000": "Algo pasó, intenta otra vez porfa",
+    "6001": "Se canceló la captura mediante el botón atras",
+    "6002": "No pudimos tomar la foto, vuelve a intentar",
+    "6003": "La camara no tiene los permisos necesarios",
+    "6004": "No pudimos tomar la foto, vuelve a intentar",
+    "6005": "No pudimos tomar la foto, vuelve a intentar",
+    "6006": "La captura del documento se encuentra en proceso",
+    "6007": "Tu dispositivo no tiene suficiente memoria cierra todas las aplicaciones y vuelve a intentar",
+    "6008": "No pudimos tomar la foto, vuelve a intentar",
+    "6009": "Se agotó el tiempo, vuelve a intentarlo",
+    "6010": "No pudimos tomar la foto, vuelve a intentar",
+    "6011": "La foto se perdió en el camino, vuelve a intentar",
+    "6012": "Algo salió mal, porfa contacta a servicio al cliente",
+    "6013": "Limite de intentos de captura superado",
+    "7010": "TagManager: El contenedor no ha sido cargado",
+    "7015": "TagManager: Error cargando el contenedor",
+    "7016": "TagManager: argumentos inválidos en trackCampain",
+    "8000": "La verificación de huella no está disponible en este dispositivo",
+    "8001": "La verificación por huella se encuentra bloqueada, deberás ingresar a Nequi con el PIN",
+    "8002": "Límite de reintentos de verificación de huella excedidos",
+    "8003": "Verificación cancelada",
+    "8004": "No cuentas con dedos enrolados, para la verificación de huella",
+    "8005": "Para acceder a la opción de verificación por huella necesitas un dispositivo con versión del sistema operativo 6 o superior",
+    "8006": "Cambios en las huellas registradas",
+    "8007": "Tienes dos intentos más, de lo contrario bloquearás tu huella",
+    "8008": "Para acceder a la verificación por huella necesitas una versión de sistema operativo igual o superior a 9",
+    "8009": "La funcionalidad de Face ID no tiene los permisos necesarios",
+    "8010": "No cuentas con Face ID registrado, para la verificación del rostro.",
+    "9000": "Se cancelo el proceso",
+    "9001": "Error al pedir permisos",
+    "10001": "Proceso cancelado por el botón atras",
+    "11001": "La funcionalidad de compartir no tiene los permisos necesarios",
+    "12001": "Parametros insuficientes para la ejecución del ChangeIconPlugin",
+    "12002": "La función a ejecutar no existe en el ChangeIconPlugin",
+    "12003": "Error al habilitar el componente en Android para el ChangeIconPlugin",
+    "12004": "Error al deshabilitar el componente en Android para el ChangeIconPlugin",
+    "12005": "La funcionalidad de cambio de icono no es soportada por esta versión del SO",
+    "12006": "El icono ya se encuentra activo",
+    "13001": "Proceso cancelado por el botón atras",
+    "13002": "Proceso de desbloqueo de vehiculo",
+    "13003": "Error desconocido",
+    "14001": "Proceso cancelado por el botón atras",
+    "14002": "Expiración de tiempo",
+    "14003": "Petición de digitalizacion de Código",
+    "14004": "Error desconocido",
+    "14005": "La camara no tiene los permisos necesarios",
+    "14006": "Redirección a los settings de la app",
+    "14007": "Se selecciona imagen desde galeria",
+    "14008": "No encuentra ningun QR en la imagen cargada desde la galeria",
+    "default-retry-error": "¡No pudimos hacer esto! Reinténtalo en un rato."
+  },
+  "break-ceiling": {
+    "header": "¡Ups! Llegaste a los topes",
+    "content": "Llegaste a los topes de tu cuenta de este mes, puedes romper topes o intentar el próximo mes.",
+    "image": "/assets/images/payment/clock.svg",
+    "buttons": {
+      "accept": "¡Rompe topes!",
+      "cancel": "Mejor no"
+    }
+  },
+  "notification-break-ceiling": {
+    "image": "/assets/images/icons/clock-pink.svg",
+    "buttons": {
+      "accept": "¡Rompe tus topes!",
+      "cancel": "Ver topes"
+    }
+  },
+  "temporally-not-break-ceiling": {
+    "image": "/assets/images/icons/sad-face.svg",
+    "title": "¡Perdón!",
+    "content": "Recuerda porfa que, por ahora, no puedes romper los topes de tu Nequi. ¡Ya casi! El Equipo Nequi trabaja para que sea rápido ;)",
+    "ready": "Listo"
+  },
+  "input-select": {
+    "search": "Busca"
+  },
+  "balance-header": {
+    "messages": {
+      "available": "Disponible",
+      "total": "Total"
+    }
+  },
+  "alerts": {
+    "inactivity": {
+      "header": "ZZZZZZZZZZ…",
+      "message": "¡Llevas mucho tiempo sin moverte!, por seguridad cerramos tu sesión.",
+      "buttons": {
+        "accept": "Entra de nuevo"
+      }
+    },
+    "token-expired": {
+      "header": "Por seguridad cerramos tu sesión",
+      "message": "Vuelve a ingresar para seguir usando Nequi.",
+      "buttons": {
+        "accept": "Listo"
+      }
+    }
+  },
+  "address": {
+    "form": {
+      "company": {
+        "placeholder": "Nombre de la empresa"
+      },
+      "country": {
+        "placeholder": "País de residencia"
+      },
+      "province": {
+        "placeholder": "Departamento"
+      },
+      "citiy": {
+        "placeholder": "Ciudad"
+      },
+      "road": {
+        "placeholder": "Dirección"
+      },
+      "location": {
+        "placeholder": "0A Sur"
+      },
+      "enumeration": {
+        "placeholder": "00-00"
+      },
+      "neighborhood": {
+        "placeholder": "Barrio"
+      },
+      "detail": {
+        "placeholder": "Detalles de tu dirección"
+      }
+    }
+  },
+  "confirm-password": {
+    "error-repeat-number": "¡Ups! No puedes usar el mismo número 3 veces.",
+    "error-confirmation": "¡Ups! Las claves deben ser iguales."
+  },
+  "origin-money": {
+    "confirmation-label": "La plata saldrá de:"
+  },
+  "features-updated": "Cambiamos {{ sourceTitle }} por {{ targetTitle }}",
+  "my-qr": {
+    "title": "Tu QR",
+    "create-qr-description": "Ahora puedes crear tu propio código QR, para que al escanearlo con Nequi, te envíen plata de una ;)",
+    "info-qr-message": "Recuerda que si cambias tu número de cel, tu QR Nequi también cambia",
+    "reports": "¿Necesitas reportes?",
+    "generate-qr-button": "Quiero mi QR",
+    "reload-text": "Vuelve a intentar :)",
+    "modal-reports": {
+      "header": "Recibe reportes de tu QR",
+      "message": "Si necesitas recibir reportes de los pagos, regístrate en Negocios Nequi y te daremos un QR especial para que tus clientes te paguen.",
+      "buttons": {
+        "accept": "Ir a Negocios Nequi",
+        "cancel": "Ahora no"
+      }
+    }
+  },
+  "qr-share": {
+    "image": {
+      "title": "Tu QR Nequi"
+    },
+    "pdf": {
+      "title": "Tu QR para imprimir",
+      "send-qr-description": "Te enviaremos tu QR en PDF a este correo. Este archivo es ideal para imprimir.",
+      "send-qr-button": "Entendido",
+      "form": {
+        "email": {
+          "placeholder": "E mail",
+          "error": {
+            "required": "Debes llenar esto",
+            "invalid": "Eso no parece un correo. Revísalo porfa."
+          }
+        }
+      },
+      "toast": {
+        "error": {
+          "something-wrong": "Algo no funciona, inténtalo otra vez más tarde.",
+          "generate-pdf": "No pudimos poner tu QR en un PDF, intenta en un rato."
+        }
+      }
+    }
+  },
+  "cropper-image": {
+    "rotate": "Rotar",
+    "undo": "Deshacer",
+    "ready": "Listo"
+  },
+  "max-retries-modal": {
+    "title": "¡Perdón! En este momento estamos presentando fallas",
+    "content": "Intenta más tarde porfa.",
+    "image": "/assets/images/icons/sad-face-guava.svg",
+    "buttons": {
+      "accept": "Listo"
+    }
+  },
+  "max-retries-modal-otp": {
+    "title": "¡Perdón! Ahora no podemos darte un código",
+    "content": "Intenta más tarde porfa.",
+    "image": "/assets/images/icons/sad-face-guava.svg",
+    "buttons": {
+      "accept": "Listo"
+    }
+  },
+  "no-balance-available": {
+    "title": "¡Ups! No te alcanza",
+    "content": "Debes tener más plata para poder hacer esto. Si la tienes en otro Bolsillo, elígelo en la pantalla anterior. Sino recarga tu Nequi.",
+    "image": "/assets/images/money-management/sad-face.svg",
+    "buttons": {
+      "accept": "Recarga",
+      "cancel": "Listo"
+    }
+  }
+}

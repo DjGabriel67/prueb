@@ -1,0 +1,751 @@
+{
+  "pages": {
+    "home": {
+      "title": "Tu Tarjeta Nequi",
+      "track": {
+        "title": "Rastrea y activa",
+        "description": "Para usar tu Tarjeta física"
+      },
+      "movements": "Movimientos de tu Tarjeta",
+      "frozen-status": {
+        "virtual": "Tarjeta digital congelada",
+        "physical": "Tarjeta física congelada",
+        "virtual-and-physical": "Tarjeta física y digital congelada"
+      },
+      "physical_card": {
+        "image": "/assets/images/card/wallet.svg",
+        "title": "¿Quieres la Tarjeta física?",
+        "content": "Úsala para comprar en negocios físicos."
+      },
+      "promos": {
+        "image": "/assets/images/card/tags.svg",
+        "title": "Promos y beneficios",
+        "content": "Ahorra plata usando tu Tarjeta"
+      },
+      "toast": {
+        "new-card-home-show": "¡Esta es tu nueva Tarjeta Nequi, disfrútala!",
+        "request-free-physical-card": "¡Solicita tu Tarjeta Física GRATIS!",
+        "available-money-loaded": "La plata de tu Disponible ya está cargada en tu Tarjeta. Si necesitas más plata, recarga tu cuenta Nequi.",
+        "not-have-money-card": "No tienes plata en tu Tarjeta para pasar a tu Disponible. La plata de tu Disponible es la misma de tu Tarjeta."
+      }
+    },
+    "selection": {
+      "title": "Pide tu Tarjeta Nequi",
+      "plans": {
+        "physical": {
+          "image": "/assets/images/card/wallet.svg",
+          "title": "En Combo (Digital+Física) {0} Único pago",
+          "titleWithoutPayment": "En Combo (Digital+Física)\nSin costo",
+          "content": "Obtienes la Tarjeta digital y adicional, la tendrás de manera física para que puedas realizar pagos por datáfono.",
+          "contentFoot": "¡Envío incluido!"
+        },
+        "digital": {
+          "image": "/assets/images/card/phone.svg",
+          "title": "Solo Digital \n{0} Único pago",
+          "titleWithoutPayment": "Sólo Digital\nSin costo",
+          "content": "Paga en comercios electrónicos nacionales e internacionales y/o suscríbete en tus plataformas favoritas.",
+          "contentFoot": "¡La tendrás de manera inmediata!"
+        },
+        "digital-disabled": {
+          "image": "/assets/images/card/phone-disable.svg",
+          "title": "Ya sacaste {0} Tarjetas Digitales en un año",
+          "content": "Después del {0} la puedes volver a pedir"
+        }
+      },
+      "messages-no-use": {
+        "withPayment": {
+          "title": "Cobro por no uso",
+          "content": "Si pasas 1 mes sin usar tu Tarjeta Nequi (en cualquier presentación) pagarás {0} por no uso. Además, para evitar que pagues de más, si dejas de usar tu Tarjeta Nequi durante tres meses, la cancelamos por ti ;)"
+        },
+        "withoutPayment": {
+          "title": "Cancelación por inactividad",
+          "content": "Si dejas de usar tu Tarjeta Nequi durante tres meses, la cancelamos por ti ;)"
+        }
+      },
+      "enrollTour": {
+        "data": {
+          "slides": [
+            {
+              "title": "#1Tarjeta2mundos",
+              "content": "Una <b>Tarjeta Digital</b> en tu cel para compras en comercios electrónicos, <b>que puedes tener de manera física</b> en tu billetera para realizar pagos por datáfono :)",
+              "image": "/assets/images/card/enroll-tour/digital-card.svg"
+            },
+            {
+              "title": "¡Gastas con lo que tienes!",
+              "content": "Pagas con la plata de tu Disponible o le cargas su propio saldo. <b>Tú decides el modo de uso</b> de tu Tarjeta.",
+              "image": "/assets/images/card/enroll-tour/available-card.svg"
+            },
+            {
+              "title": "¡Promos y descuentos!",
+              "content": "Accede a diferentes <b>promociones que te ayuden a ahorrar plata</b> por realizar tus compras con la Tarjeta Nequi. Encuéntralo en el home de la Tarjeta Nequi.",
+              "image": "/assets/images/card/enroll-tour/promo-card.svg"
+            },
+            {
+              "title": "¿Estás list@ para vivir la experiencia de la Tarjeta Nequi?",
+              "content": "Queremos mejorar <b>tu relación con la plata y acompañarte</b> en tu día a día.",
+              "image": "/assets/images/card/enroll-tour/experience-card.svg"
+            }
+          ],
+          "backgroundColor": "#ffffff",
+          "fontColor": "#210049",
+          "button": "¡Pide tu Tarjeta Nequi!"
+        }
+      }
+    },
+    "plan-info": {
+      "title": "Ten en cuenta lo siguiente: ",
+      "button": "Listo",
+      "digital": {
+        "complete-payment": {
+          "image": "/assets/images/card/plan-info/speedometer.svg",
+          "title": "Paga sin pensar en recargar",
+          "content": "La plata que tienes en tu Disponible completa tus pagos. Si prefieres recargar tu Tarjeta, ve a los ajustes."
+        },
+        "choose-color": {
+          "image": "/assets/images/card/plan-info/brush.svg",
+          "title": "El color se lo das tú",
+          "content": "Podrás elegir el color que más te gusta ;) para que tengas tu Tarjeta en el cel como tu quieras. Estás listo para pagar en línea y suscribirte."
+        },
+        "no-use": {
+          "image": "/assets/images/card/plan-info/cart.svg",
+          "title": "Cobro por no uso",
+          "content": "Usala por lo menos una vez al mes en tus compras favoritas, si no la usas pagas {{noUseAmount}} al mes."
+        }
+      },
+      "physical": {
+        "arrive-soon": {
+          "image": "/assets/images/card/plan-info/wallet.svg",
+          "title": "¡Tu Tarjeta física llegará pronto!",
+          "content": "Actívala cuando la tengas en tus manos. Mientras tanto, disfruta la digital, paga en comercios electrónicos o tus suscripciones de música y video."
+        },
+        "choose-color": {
+          "image": "/assets/images/card/plan-info/tarjeta.svg",
+          "title": "La Tarjeta física te llega morada",
+          "content": "La de tu cel la puedes tener del color que elijas, ahora te daremos las opciones ;)"
+        },
+        "debit-card": {
+          "image": "/assets/images/card/plan-info/debit-card.svg",
+          "title": "Es una tarjeta Débito",
+          "content": "Ten en cuenta esto al momento de realizar tus pagos por datáfono."
+        },
+        "card-no-money": {
+          "image": "/assets/images/card/plan-info/alert-circle.svg",
+          "title": "La tarjeta no es para sacar plata",
+          "content": "Con la Tarjeta física no podrás retirar. Para sacar plata de tu Nequi debes seguir usando la app."
+        },
+        "card-without-internet": {
+          "image": "/assets/images/card/plan-info/walk.svg",
+          "title": "Puedes usar la Tarjeta física sin internet",
+          "content": "Cuando estés sin internet o tengas tu celu sin batería, la Tarjeta física te facilitará realizar los pagos, recuerda tenerla con saldo."
+        }
+      },
+      "renew-digital": {
+        "card-change": {
+          "image": "/assets/images/card/plan-info/sync.svg",
+          "title": "Estrenar trae cambios",
+          "content": "La info de tu Tarjeta será diferente. Tu nombre no cambia ;)  La plata queda en tu Disponible."
+        },
+        "update-data": {
+          "image": "/assets/images/card/plan-info/mail-open.svg",
+          "title": "¡Actualiza la info de tu Tarjeta!",
+          "content": "Cambia los datos de tu Tarjeta Nequi en donde la tengas inscrita."
+        },
+        "no-use": {
+          "image": "/assets/images/card/plan-info/cart.svg",
+          "title": "Cobro por no uso",
+          "content": "Recuerda usarla por lo menos una vez al mes en tus compras favoritas, si no la usas pagas {{noUseAmount}} al mes."
+        }
+      }
+    },
+    "address": {
+      "title": "¿A dónde quieres que te llegue tu Tarjeta física?",
+      "button": "Sigue",
+      "link": "¿No llegamos donde estás? :("
+    },
+    "payment-summary": {
+      "title": "Confirmación de pago",
+      "digital": {
+        "subTitle": "Información de tu Tarjeta digital",
+        "items": [
+          {
+            "type": "currency",
+            "label": "¿Cuánto te cuesta?"
+          }
+        ]
+      },
+      "physical": {
+        "subTitle": "Información de tu Tarjeta física",
+        "items": [
+          {
+            "type": "currency",
+            "label": "¿Cuánto te cuesta?"
+          },
+          {
+            "type": "delivery",
+            "label": "¿Cuándo te llega?",
+            "value": "En {0} días hábiles"
+          }
+        ]
+      },
+      "originMoney": "¿De dónde saldrá la plata?",
+      "button": "Paga"
+    },
+    "contract": {
+      "title": "Condiciones de uso de tu Tarjeta",
+      "disclaimer": "Si le das aceptar igual te mandamos el contrato al correo, para que lo leas más despacio.",
+      "accept": "Acepta T&C",
+      "pin-challenge": {
+        "title": "Escribe tu clave",
+        "message": "No dudamos de que seas tú... Pero es mejor confirmar ;)"
+      }
+    },
+    "pending-charge": {
+      "title": "Resumen de pago",
+      "sub-title": "Tarjeta Nequi sin usar",
+      "label": "Lo que vas a pagar",
+      "originMoney": "¿De dónde saldrá la plata?",
+      "note": "Vas a pagar el cobro por no uso de tu Tarjeta. Recuerda, si la usas cada mes no volverás a pagar este valor ;)",
+      "button": "Paga"
+    },
+    "color": {
+      "title": "Ponle color en tu cel",
+      "disclaimer": "Tu Tarjeta Nequi física te llegará morada, pero la de tu cel la puedes tener de cualquiera de estos colores.",
+      "button": "¡Este color!"
+    },
+    "settings": {
+      "title": "Ajustes de tu Tarjeta",
+      "account": {
+        "title": "Cuentas al día",
+        "description": "Paga {0} por no uso de tu Tarjeta"
+      },
+      "payment": {
+        "title": "Modo de uso",
+        "description": {
+          "available": "Pagando con tu Disponible",
+          "independent": "Saldo independiente"
+        }
+      },
+      "color": {
+        "title": "Color",
+        "description": "Cámbiale el color a la de tu cel"
+      },
+      "freeze": {
+        "title": "Congela tu Tarjeta",
+        "description": "Bloquéala temporalmente"
+      },
+      "renew": {
+        "title": "Renueva tu Tarjeta",
+        "description": "Pide una nueva Tarjeta"
+      },
+      "cancel": {
+        "title": "¿Quieres cancelar tu Tarjeta?",
+        "description": "Por robo, pérdida o no uso"
+      },
+      "want-card": "¿Quieres la física?"
+    },
+    "activation-token": {
+      "title": "Activa tu Tarjeta",
+      "description": "Escribe los 6 números de tu<br>Tarjeta física.",
+      "description-email": "Escribe los 6 números que<br><span class='text--guayaba'>mandamos a tu correo</span>"
+    },
+    "activation-key": {
+      "title": "Escribe tu clave",
+      "description": "No dudamos de que seas tú... Pero es mejor confirmar ;)",
+      "pin-error": "Ups! Algo falló. Intenta nuevamente",
+      "forgot-password": "¿Se te olvidó?"
+    },
+    "lock-status": {
+      "title": "Congélala",
+      "digital": {
+        "subtitle": "Digital",
+        "label": "¿Congelar tu Tarjeta Digital?"
+      },
+      "physical": {
+        "subtitle": "Física",
+        "label": "¿Congelar tu Tarjeta Física?"
+      },
+      "disclaimer": "Congela tu Tarjeta para tener mayor seguridad. Recuerda que igual pagas la cuota de no uso si la tienes congelada."
+    },
+    "payment-way": {
+      "title": "Modo de uso",
+      "subtitle": "Elige la forma de usar tu Tarjeta que mejor se acomode a tus necesidades:",
+      "card": {
+        "available": {
+          "way": "Pagar con tu Disponible",
+          "description": "Pagas con la plata que tienes en tu disponible de Nequi.",
+          "disclaimer": "Recuerda tener saldo en Nequi."
+        },
+        "independent": {
+          "way": "Saldo independiente",
+          "description": "La Tarjeta tendrá su saldo propio.",
+          "disclaimer": "Recuerda cargarle plata para poder realizar tus compras."
+        }
+      },
+      "button": "¡Este modo!",
+      "toast": "¡Tu cambio en el modo de uso de tu tarjeta se ha realizado exitosamente!"
+    },
+    "promos": {
+      "title": "Promos y Beneficios",
+      "banner": [
+        {
+          "deepLink": "",
+          "urlImage": "/assets/images/card/banner/banner_store.png"
+        }
+      ]
+    },
+    "use-mode-info": {
+      "title": "Modo de uso",
+      "heading": "Paga con la plata que tengas en tu Disponible.",
+      "description": "Si quieres cambiar el modo de uso de tu Tarjeta para manejarla con su saldo independiente, ingresa en configuraciones ⚙ y modifícalo.",
+      "image": "/assets/images/card/use-mode-info.svg",
+      "button": "Siguiente"
+    }
+  },
+  "bottom-sheets": {
+    "welcome": {
+      "message": "¡Bienvenid@ a la Tarjeta Nequi!",
+      "content": "La herramienta perfecta que te ayudará a realizar todas tus compras :)",
+      "image": "/assets/images/card/virtual.svg",
+      "buttons": {
+        "accept": "Pide tu Tarjeta Nequi",
+        "next": "Conoce sobre la Tarjeta Nequi"
+      }
+    },
+    "email-validation": {
+      "title": "¿Seguro es tu correo?",
+      "description": "Confírmalo porfa o cámbialo por el que uses todo el tiempo. Una vez lo confirmes, vuelve a Nequi para que continues sacando tu Tarjeta;)",
+      "placeholder": "Escribe tu correo",
+      "button": "Confirma tu correo",
+      "invalidEmail": "Eso no parece un correo. Revísalo porfa."
+    },
+    "email-confirmation": {
+      "message": "Confirma tu correo",
+      "content": "Te enviamos un mensaje a tu correo y cuando confirmes el correo vuelve a Nequi para seguir con el proceso ;)",
+      "image": "/assets/images/card/card-email.svg",
+      "button": "Ya lo validaste"
+    },
+    "address-confirmation": {
+      "title": "Confirma tu dirección",
+      "subTitle": "¡Queremos llegar sin problema! Mira bien la dirección y asegúrate de que esté bien.",
+      "province": "Departamento",
+      "city": "Ciudad",
+      "address": "Dirección",
+      "address-format": "{0} {1} # {2}",
+      "neighborhood": "Barrio",
+      "details": "Detalles de tu dirección",
+      "buttons": {
+        "accept": "¡Está bien!",
+        "cancel": "¿Cambiar algo?"
+      }
+    },
+    "update-balance": {
+      "put-money": {
+        "title": "Ponerle plata a tu Tarjeta",
+        "input-label": "¿Cuánto vas a poner en tu Tarjeta?",
+        "description": "Puedes pasar hasta {0} de tu Disponible",
+        "amount-error": "Solo tienes {0} en tu Disponible",
+        "balance-label": "Tu Tarjeta queda con:",
+        "button": "Listo"
+      },
+      "remove-money": {
+        "title": "Quitarle plata a tu Tarjeta",
+        "input-label": "¿Cuánto vas a quitar de tu Tarjeta?",
+        "description": "Puedes quitar hasta {0} de tu Tarjeta",
+        "amount-error": "¡Ups! Puedes quitar hasta {0} de tu Tarjeta",
+        "balance-label": "Tu Tarjeta queda con:",
+        "button": "Listo"
+      }
+    },
+    "tracking": {
+      "stateList": [
+        {
+          "title": "Imprimiendo tu Tarjeta",
+          "description": "En {0} días más o menos tendrás tu Tarjeta física.",
+          "activeImageUrl": "assets/images/card/tracking/printed-active.svg",
+          "inactiveImageUrl": "assets/images/card/tracking/printed-active.svg"
+        },
+        {
+          "title": "Empacando tu Tarjeta",
+          "description": "En {0} días más o menos tendrás tu Tarjeta física. ",
+          "activeImageUrl": "assets/images/card/tracking/packed-active.svg",
+          "inactiveImageUrl": "assets/images/card/tracking/packed-inactive.svg"
+        },
+        {
+          "title": "Estás a un pelo de recibirla ;)",
+          "description": "Si ya la tienes, sigue el paso a paso para activarla.",
+          "activeImageUrl": "assets/images/card/tracking/in-transit-active.svg",
+          "inactiveImageUrl": "assets/images/card/tracking/in-transit-inactive.svg"
+        },
+        {
+          "title": "Ya te llegó, ¡Actívala!",
+          "description": "Activa tu tarjeta con el paso a paso que te llegó.",
+          "activeImageUrl": "assets/images/card/tracking/delivered-active.svg",
+          "inactiveImageUrl": "assets/images/card/tracking/delivered-inactive.svg"
+        }
+      ],
+      "button": "Activa tu Tarjeta física"
+    },
+    "activate-card": {
+      "image": "/assets/images/card/card-hand-green.svg",
+      "message": "¡Ya casi!",
+      "content": "Para seguir, necesitamos que hayas recibido tu Tarjeta física y escribas a continuación los 6 números que están en la parte de arriba, donde están tus nombres. Recuerda tu clave de Nequi para activarla.",
+      "button": "Listo"
+    }
+  },
+  "modals": {
+    "security-lock": {
+      "title": "No la puedes sacar :(",
+      "image": "/assets/images/card/finacle-lock.svg",
+      "content": "Discúlpanos porfa, pero ahora no puedes pedirla.",
+      "buttons": {
+        "accept": "Listo"
+      }
+    },
+    "email-confirmation-error": {
+      "title": "Confirma tu correo",
+      "image": "/assets/images/card/card-email-sad.svg",
+      "content": "No has confirmado tu  correo. Porfa revisalo nuevamente y confirma tu info. Una vez lo hagas regresa a Nequi y pide tu Tarjeta ;)",
+      "buttons": {
+        "accept": "Vuelve a intentar"
+      }
+    },
+    "no-arrive": {
+      "title": "Pronto tu Tarjeta Nequi será parte de tu billetera...",
+      "image": "/assets/images/card/happy-digital-card.svg",
+      "content": "Por ahora, disfruta de tu Tarjeta en el cel ;)",
+      "buttons": {
+        "accept": "Pide tu Tarjeta Digital",
+        "cancel": "Ahora no"
+      }
+    },
+    "pending-charge": {
+      "image": "/assets/images/card/pending-charge.svg",
+      "title": "¡Vamos a ponernos al día!",
+      "content": "Tienes un pago pendiente por no usar tu Tarjeta anterior de {0}. Si pagas de una, puedes sacar una  Tarjeta nueva ya ;)",
+      "buttons": {
+        "accept": "Paga de una",
+        "cancel": "En otro momento"
+      }
+    },
+    "pay-charge": {
+      "image": "/assets/images/card/pending-charge.svg",
+      "title": "¡Listo!",
+      "content": "Gracias por ponerte al día con lo que debías. Vamos por la nueva!",
+      "buttons": {
+        "accept": "Listo"
+      }
+    },
+    "activate-payment-from-available": {
+      "image": "assets/images/card/all-fine.svg",
+      "title": "Activar tus pagos con el Disponible",
+      "content": "Ahora tus pagos se hacen con lo que tienes en Nequi y no te toca meter plata en tu Tarjeta. Recuerda siempre tener saldo en Nequi ;)",
+      "buttons": {
+        "accept": "Actívalo",
+        "cancel": "Mejor no"
+      }
+    },
+    "desactivate-payment-from-available": {
+      "image": "assets/images/card/alarm-purple.svg",
+      "title": "Desactivar tus pagos con el Disponible",
+      "content": "Tendrás que meterle plata a tu Tarjeta para hacer tus pagos. Recuerda siempre tener saldo en tu Tarjeta ;)",
+      "buttons": {
+        "accept": "Desactívala",
+        "cancel": "Mejor no"
+      }
+    },
+    "get-physical-card": {
+      "image": "assets/images/card/card-hand-blue.svg",
+      "title": "Tu Tarjeta Nequi física vale {0}",
+      "content": "Danos tu dirección y tu Tarjeta física te llegará en más o menos {0} días :)",
+      "buttons": {
+        "accept": "Vamos a sacarla",
+        "cancel": "Ahora no"
+      }
+    },
+    "activated-card": {
+      "image": "assets/images/card/all-fine.svg",
+      "title": "¡Tu Tarjeta física ya está activada!",
+      "content": "Recuerda que la clave de tu Tarjeta física es la misma de Nequi :)",
+      "buttons": {
+        "accept": "Listo"
+      }
+    },
+    "token-warning": {
+      "image": "assets/images/card/card-token.svg",
+      "title": "¿Seguro pusiste el número correcto?",
+      "content": "El número que pusiste no coincide, recuerda que está en la parte de atrás de tu Tarjeta Física.",
+      "buttons": {
+        "accept": "Listo"
+      }
+    },
+    "token-email": {
+      "image": "/assets/images/card/card-email.svg",
+      "title": "Tranqui, la clave está en tu correo",
+      "content": "Enviamos tu código a tu correo. Cuando lo veas, intentalo de nuevo.",
+      "buttons": {
+        "accept": "Listo"
+      }
+    },
+    "lock-virtual": {
+      "image": "assets/images/card/frozen-digital.svg",
+      "title": "Controla tus gastos",
+      "content": "Recuerda, no podrás pagar con tu Tarjeta digital si está congelada.",
+      "buttons": {
+        "accept": "Congélala",
+        "cancel": "Mejor no"
+      }
+    },
+    "lock-physical": {
+      "image": "assets/images/card/frozen-physical.svg",
+      "title": "Controla tus gastos",
+      "content": "Recuerda, no podrás pagar con tu Tarjeta física si está congelada.",
+      "buttons": {
+        "accept": "Congélala",
+        "cancel": "Mejor no"
+      }
+    },
+    "unlock-virtual": {
+      "image": "assets/images/card/thawed-virtual.svg",
+      "title": "Saluda de nuevo a tu Tarjeta digital",
+      "content": "Así podrás volver a comprar en línea con tu Tarjeta y pagar tus suscripciones ;)",
+      "buttons": {
+        "accept": "Descongélala",
+        "cancel": "Mejor no"
+      }
+    },
+    "unlock-physical": {
+      "image": "assets/images/card/thawed-physical.svg",
+      "title": "Saluda de nuevo a tu Tarjeta física",
+      "content": "Así podrás volver a comprar en puntos físicos y seguir llevando tu Tarjeta en tu billetera ;)",
+      "buttons": {
+        "accept": "Descongélala",
+        "cancel": "Mejor no"
+      }
+    },
+    "cancel-card": {
+      "image": "assets/images/card/cancel-card.svg",
+      "title": "Tarjeta cancelada :(",
+      "content": "Tu plata quedó en tu Disponible.",
+      "buttons": {
+        "accept": "Nos vemos pronto",
+        "cancel": "¡Pide una nueva!"
+      }
+    },
+    "almost-canceled": {
+      "image": "assets/images/card/cancel-card.svg",
+      "title": "Nos falta un tris...",
+      "content": "Tu Tarjeta no puede hacer pagos. Te avisamos cuando la plata de tu Tarjeta esté en tu Disponible ",
+      "buttons": {
+        "accept": "Listo"
+      }
+    },
+    "movements": {
+      "image": "/assets/images/card/happy-digital-yellow-card.svg",
+      "title": "Acá puedes ver tus movimientos",
+      "content": "Puedes entrar a cada uno de los movimientos y tener más detalle de cada uno o reportar un problema ;)",
+      "buttons": {
+        "accept": "Listo"
+      }
+    },
+    "check-address": {
+      "image": "/assets/images/card/checked-address-update.svg",
+      "title": "Estamos teniendo problemas para encontrar tu dirección",
+      "content": "Necesitamos que porfa nos vuelvas a dar tu dirección con todos los detalles y que la revises bien para que te llegue tu Tarjeta :)",
+      "buttons": {
+        "accept": "Revisa tu dirección"
+      }
+    },
+    "not-found-address": {
+      "image": "/assets/images/card/virtual.svg",
+      "title": "No podemos llegar a tu dirección en este momento",
+      "content": "Escribe la dirección de un familiar o conocido de confianza donde puedas reclamar tu Tarjeta. En este momento tenemos inconvenientes en llegar donde estás.",
+      "buttons": {
+        "accept": "Listo"
+      }
+    },
+    "successful-new-address": {
+      "image": "/assets/images/card/success-new-address.svg",
+      "title": "¡Lista tu nueva dirección!",
+      "content": "Te invitamos a reastrear tu Tarjeta física hasta que esté en tus manos, recuerda activarla cuando la recibas.<br/><br/>Mientras tanto puedes hacer tus compras en línea con tu Tarjeta digital.",
+      "buttons": {
+        "accept": "Listo"
+      }
+    },
+    "renew-new-card": {
+      "image": "assets/images/card/renew-new.svg",
+      "title": "¡Renueva tu Tarjeta Nequi!",
+      "content": "Esta será completamente nueva ;) Recuerda que puedes tener máximo 2 Tarjetas Nequi digitales en el año.",
+      "buttons": {
+        "accept": "Renueva tu Tarjeta",
+        "cancel": "Ahora no"
+      }
+    },
+    "renew-old-card": {
+      "image": "assets/images/card/renew-old.svg",
+      "title": "Ya casi se vence tu Tarjeta Nequi",
+      "content": "Renuévala antes de que esto pase. Tú decides si quieres llevar tu Tarjeta Nequi solo en tu cel o también en tu billetera y disfrutar #1Tarjeta2Mundos ;)",
+      "buttons": {
+        "accept": "Renueva tu Tarjeta",
+        "cancel": "Ahora no"
+      }
+    },
+    "almost-reissue": {
+      "image": "assets/images/card/happy-digital-yellow-card.svg",
+      "title": "¡Estamos renovando tu Tarjeta Nequi!",
+      "content": " En estos momentos estamos trabajando para que tengas tu Tarjeta lista. Intenta de nuevo más tarde ;)",
+      "buttons": {
+        "accept": "Listo"
+      }
+    },
+    "pin-error": {
+      "image": "assets/images/transversal/pink-face-biometry.svg",
+      "title": "Recupera tu clave para tu Tarjeta Nequi.",
+      "content": "Tranqui, solo es una foto para saber que eres tú. Vuelve cuando termines ;)",
+      "buttons": {
+        "accept": "Tómate la foto",
+        "cancel": "Ahora no"
+      }
+    },
+    "renew-physical-card": {
+      "image": "/assets/images/card/card-hand-blue.svg",
+      "title": "Tu Tarjeta Nequi física vale {0}",
+      "content": "Al hacer esto tu número de Tarjeta cambiará para que lo tengas en cuenta y lo cambies donde la tienes registrada.",
+      "buttons": {
+        "accept": "Vamos a sacarla",
+        "cancel": "Ahora no"
+      }
+    }
+  },
+  "alerts": {
+    "defaultError": {
+      "title": "Ha ocurrido un error",
+      "content": "Por favor inténtalo más tarde",
+      "buttons": {
+        "accept": "Listo"
+      }
+    },
+    "timeoutPayment": {
+      "title": "¡Aquí vamos de nuevo!",
+      "content": "No logramos crear tu Tarjeta... :) Pide otra vez porfa tu Tarjeta. Tu plata está en el Disponible.",
+      "image": "assets/images/card/card-sad.svg",
+      "buttons": {
+        "accept": "Vuelve a intentar",
+        "cancel": "Ahora no"
+      }
+    },
+    "preassignedPhysics": {
+      "title": " ¡Ya casi!",
+      "content": "Te avisamos cuando la de tu cel esté lista y la física se esté imprimiendo.",
+      "image": "assets/images/card/physics.svg",
+      "buttons": {
+        "accept": "Listo"
+      }
+    },
+    "preassignedDigital": {
+      "title": " ¡Ya casi!",
+      "content": "Estamos preparando tu Tarjeta en el cel. Te avisamos cuando esté lista. ",
+      "image": "assets/images/card/virtual.svg",
+      "buttons": {
+        "accept": "Listo"
+      }
+    },
+    "no-balance-available": {
+      "title": "¡Uuuy! No te alcanza",
+      "content": "Para hacer este pago debes tener al menos {0} en tu Disponible.",
+      "buttons": {
+        "okButton": "Listo"
+      }
+    },
+    "cancel-physical": {
+      "header": "¿Seguro quieres cancelar tu Tarjeta Nequi?",
+      "message": "Ten en cuenta porfa que  cancelaremos la digital y la física.",
+      "buttons": {
+        "cancel": "Mejor no",
+        "accept": "Acepta"
+      }
+    },
+    "cancel-digital": {
+      "header": "¿Seguro quieres cancelar tu Tarjeta Nequi?",
+      "message": "Recuerda que solo puedes sacar {0} digitales al año. Tu plata quedará en tu Disponible.",
+      "buttons": {
+        "cancel": "Mejor no",
+        "accept": "Acepta"
+      }
+    },
+    "cancel-last-digital": {
+      "header": "¿Seguro quieres cancelar tu Tarjeta Nequi?",
+      "message": "Si quieres sacar solo la Tarjeta Digital debes esperar hasta {0}. Cuando quieras puedes volver a pedir la Física + Digital.",
+      "buttons": {
+        "cancel": "Mejor no",
+        "accept": "Acepta"
+      }
+    }
+  },
+  "toast": {
+    "email-error": "¡Ups! Algo salió mal :( No pudimos confirmar tu correo electrónico. Vuelve a intentarlo porfa ;)",
+    "reload": "Lo sentimos, inténtalo de nuevo, error interno.",
+    "address-already-exists": "A esta dirección tratamos de enviarte la tarjeta y no pudimos llegar, porfa revísala bien.",
+    "copy-clipboard": "¡Número de Tarjeta copiado en el portapapeles!"
+  },
+  "address": {
+    "form": {
+      "company": {
+        "placeholder": "Nombre de la empresa"
+      },
+      "province": {
+        "placeholder": "Departamento"
+      },
+      "citiy": {
+        "placeholder": "Ciudad"
+      },
+      "road": {
+        "placeholder": "Dirección"
+      },
+      "location": {
+        "placeholder": "0A Sur"
+      },
+      "enumeration": {
+        "placeholder": "00-00"
+      },
+      "neighborhood": {
+        "placeholder": "Barrio"
+      },
+      "detail": {
+        "placeholder": "Detalles de tu dirección",
+        "validators": {
+          "required": "¡Ups! Debes llenar esto.",
+          "minlength": "¡Ups! Campo muy corto.",
+          "maxlength": "¡Ups! Campo muy largo.",
+          "pattern": "¡Ups! Este campo no permite tildes ni caracteres especiales (+*-:;)."
+        }
+      }
+    }
+  },
+
+  "debit-card-component": {
+    "your-balance": "Tu saldo",
+    "available-only": "(En tu Disponible)",
+    "more-available-card": "(Tarjeta + Tu Disponible)",
+    "expiration": "Fecha de expiración",
+    "code": "Código de seguridad"
+  },
+  "couchmark-component": {
+    "header": {
+      "exit": "Salir",
+      "jump": "Saltar",
+      "next": "Siguiente"
+    },
+    "step-one": {
+      "title": "Al girar tu Tarjeta ves:",
+      "option-one": "Tu número de Tarjeta",
+      "option-two": "Los datos para pagar en línea"
+    },
+    "step-two": {
+      "title": "Acá puedes ver, compartir o reportar tus movimientos de tu Tarjeta Nequi ;) ↓ "
+    },
+    "step-three": {
+      "title": "Solucionar tus dudas o preguntas en el signo❔de arriba",
+      "content": "En ⚙️ congelas tu Tarjeta, seleccionas el modo de uso de tu Tarjeta, cambias el color y la dejas como te gusta ;)"
+    }
+  }
+}

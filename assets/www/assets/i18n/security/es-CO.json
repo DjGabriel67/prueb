@@ -1,0 +1,111 @@
+{
+  "pinChallenge": {
+    "attemptsAlert": {
+      "title": "¡Te queda un intento!",
+      "description": "Otro error y tu cuenta será bloqueada. Puedes elegir entre estas opciones:",
+      "okAction": "Recupera tu clave",
+      "cancelAction": "Vuelve a intentarlo",
+      "image": ""
+    }
+  },
+  "request-otp": {
+    "title": "Escribe el código",
+    "description": "Te lo enviamos en un mensaje de texto al",
+    "spinner-countdown-message": "¿No te llegó? ¡Podemos llamarte!",
+    "call-button": "Pídelo aquí",
+    "alert": {
+      "info": {
+        "get-voice-otp": {
+          "header": "¿Mejor una llamada?",
+          "message": "Uno de nuestros robots te puede llamar al <span class='text--guayaba'>{0}</span> para darte el código.",
+          "buttons": {
+            "accept": "Listo"
+          }
+        }
+      },
+      "error": {
+        "request-token-context-exceeded-attemps": {
+          "header": "¿Mejor una llamada?",
+          "message": "Escribiste muchas veces el código incorrecto.<br/>Pide otro porfa por llamada :)",
+          "buttons": {
+            "accept": "Acepta"
+          }
+        },
+        "invalid": {
+          "header": "¡Discúlpanos porfa!",
+          "message": "Escribiste mal el código :(<br/>Usa siempre el último código que te llegó.",
+          "buttons": {
+            "accept": "Listo"
+          }
+        },
+        "without": {
+          "header": "¡Pasó mucho tiempo! :(",
+          "message": "El código que escribiste es demasiado viejo...<br/>Usa siempre el último código que te llegó.",
+          "buttons": {
+            "accept": "Acepta"
+          }
+        },
+        "request-token-context": {
+          "header": "¿Mejor una llamada?",
+          "message": "Los códigos que has introducido no son correctos.<br/>Debes pedir otro.",
+          "buttons": {
+            "accept": "Acepta"
+          }
+        },
+        "request-token-context-cancel": {
+          "header": "¿Mejor una llamada?",
+          "message": "Los códigos que has introducido no son correctos.<br/>Debes pedir otro.",
+          "buttons": {
+            "accept": "Acepta",
+            "cancel": "Cancelar"
+          }
+        }
+      }
+    },
+    "modals": {
+      "info": {
+        "back-button-before-time-over": {
+          "header": "¡Ya casi!",
+          "message": "El mensaje de texto se puede demorar un poco para llegar.<br/>Escribe porfa el código que pediste al cel <span class='text--guayaba'>{0}</span>",
+          "buttons": {
+            "accept": "Listo",
+            "cancel": "Cambia el cel"
+          }
+        },
+        "back-button-after-time-over": {
+          "header": "¿Mejor una llamada?",
+          "message": "Uno de nuestros robots te puede llamar al <span class='text--guayaba'>{0}</span> para darte el código",
+          "buttons": {
+            "accept": "Prefieres la llamada",
+            "cancel": "Cambia el cel"
+          }
+        }
+      }
+    }
+  },
+  "fingerPrint": {
+    "errorMessages": {
+      "8000": "La funcionalidad de huella / Face ID no está disponible en este dispositivo.",
+      "8001": "La verificación por huella / Face ID se encuentra bloqueada. Deberás ingresar a Nequi con tu clave.",
+      "8002": "Límite de reintentos de verificación de huella / Face ID excedidos.",
+      "8003": "Verificación cancelada.",
+      "8004": "No tienes creada tu huella en tu celular para la verificación.",
+      "8005": "Para usar esto necesitas un dispositivo con versión del sistema operativo 6 o superior.",
+      "8006": "Cambios en las huellas registradas.",
+      "8007": "Te quedan 2 intentos más. Sino te reconocemos, solo podrás usar tu clave para entrar.",
+      "8008": "Para usar esto necesitas una versión de sistema operativo igual o superior a 9.",
+      "8009": "La funcionalidad de Face ID no tiene los permisos necesarios.",
+      "8010": "No cuentas con Face ID registrado, para la verificación del rostro."
+    },
+    "alertError": {
+      "header": "¡Ups algo falló!",
+      "buttonLabel": "Listo"
+    },
+    "cardModalError": {
+      "image": "./assets/images/nequi-images/finger-print-blocked.svg",
+      "title": "¿Cambiaste de huella o Face ID en tu cel?",
+      "content": "Detectamos que hubo un cambio en el registro de la configuración de tu dispositivo, para aceptar el cambio y saber que eres tú ingresa esta vez con tu clave.",
+      "buttonLabel": "Acepta"
+    }
+  }
+}

@@ -1,0 +1,115 @@
+.nequi-toast {
+  --start: 4px;
+  --end: 4px;
+  --border-radius: 8px;
+  --color: var(--white);
+  --button-color: var(--white);
+  padding-top: 12px;
+
+  &--error {
+    --background: var(--zanahoria);
+  }
+
+  &--info {
+    --background: var(--bilbao);
+  }
+
+  &--connection {
+    --background: var(--gray-70);
+  }
+
+  &--solutioned {
+    --background: var(--color-title-box);
+  }
+
+  &--midnight {
+    --background: var(--medianoche);
+  }
+
+  &--success {
+    --background: var(--guanabana);
+  }
+
+  &__icon {
+    &::part(container)::before {
+      content: '';
+      width: 35px;
+      height: 35px;
+      position: absolute;
+      margin-left: 12px;
+      background-repeat: no-repeat;
+      background-position: center;
+    }
+
+    &::after {
+      content: '';
+      position: absolute;
+      width: 25px;
+      height: 25px;
+      clip-path: polygon(50% 50%, 0 0, 100% 0);
+      left: 0;
+      right: 0;
+      bottom: 5px;
+      margin: auto;
+      z-index: 10;
+    }
+
+    &--show-arrow-bottom {
+      margin-top: -40px;
+
+      &::after {
+        background-color: var(--bilbao);
+      }
+    }
+
+    &::part(message) {
+      margin-left: 40px;
+    }
+
+    &--remove::after {
+      display: none;
+    }
+
+    &--info {
+      --background: var(--bilbao);
+
+      &::part(container)::before {
+        background-image: url('/assets/images/icons/toast/info.svg');
+      }
+
+      &-save-button {
+        margin-top: 40px;
+        max-height: 100px;
+        --min-height: 82px;
+
+        &::after {
+          bottom: initial;
+          margin: auto;
+          margin-left: auto;
+          margin-right: 12px;
+          clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+        }
+
+        &--remove-after::after {
+          display: none;
+        }
+      }
+    }
+
+    &--error {
+      --background: var(--zanahoria);
+
+      &::part(container)::before {
+        background-image: url('/assets/images/icons/toast/error.svg');
+      }
+    }
+
+    &--success {
+      --background: var(--guanabana);
+
+      &::part(container)::before {
+        background-image: url('/assets/images/icons/toast/success.svg');
+      }
+    }
+  }
+}

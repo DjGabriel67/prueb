@@ -1,0 +1,143 @@
+/** Nequi Colors **/
+:root {
+  /** Basics **/
+  --white: #fff;
+  --whitergb: 255, 255, 255;
+  --loading-white: rgba(255, 255, 255, 0.9);
+  --translucent-white: rgba(255, 255, 255, 0.5);
+  --translucent-white-rgb: 255, 255, 255, 0.5;
+  --black: #000;
+  --transparent: rgba(0, 0, 0, 0);
+  --transparent-rgb: 0, 0, 0, 0;
+  --white12: rgba(255, 255, 255, 0.12);
+  --white12-rgb: 255, 255, 255, 0.12;
+  --white-opacity-15: rgba(255, 255, 255, 0.15);
+  --black-opacity-24: rgba(0, 0, 0, 0.25);
+
+  /** Greens **/
+  --text-in-form: #30b2bd;
+  --info-card-shadow: #80ebe3;
+  --progress-bar-light: #50e3c2;
+  --bubble-text-green: #46d993;
+  --pocket-green: #34c634;
+  --pocket-darkGreen: #16b580;
+  --guanabana: #43cea2;
+  --guanabana-10: #ecfaf6;
+
+  /** Pinks **/
+  --guayaba: #ff2f73;
+  --guayabargb: 255, 47, 115;
+  --guayaba-90: rgba(255, 47, 115, 0.9);
+  --sangre: #f50057;
+  --chicle: #f8bbd0;
+  --pink-shadow: #ffc7d8;
+  --chicle-rgb: 248, 187, 208;
+  --error-input: #feede9;
+  --error-input-rgb: 254, 237, 233;
+  --zanahoria: #ff585f;
+  --zanahoria-rgb: 255, 88, 95;
+  --bubble-text-pink: #ff598f;
+  --pocket-skin: #f26d6d;
+  --pocket-pink: #bf2691;
+  --progress-bar-75: #d820a0;
+  --guayaba-10: #ffeaf1;
+  --card-pink: #e70f56;
+  --button-pink: #ffd5e3;
+
+  /** Purples **/
+  --medianoche: #210049;
+  --medianoche-rgb: 33, 0, 73;
+  --medianoche-90: rgba(33, 0, 73, 0.9);
+  --medianoche-80: rgba(33, 0, 73, 0.8);
+  --medianoche-81: rgba(33, 0, 73, 0.81);
+  --medianoche-16: rgba(33, 0, 73, 0.16);
+  --medianoche-25: rgba(33, 0, 73, 0.25);
+  --darkpurple: #140f38;
+  --darkpurplergb: 20, 15, 56;
+  --darkpurple-70: rgba(20, 15, 56, 0.7);
+  --ultravioleta: #8400ff;
+  --ultravioletargb: 132, 0, 255;
+  --purple-action-sheet: #4c1fa4;
+  --progress-bar-progress: #9013fe;
+  --pocket-purple: #502aad;
+  --pocket-darkPurple: #35117c;
+  --input-purple: #742fe1;
+  --progress-bar-50: #ad10d1;
+  --link-purple: #7b39e2;
+  --purple-box-shadow: 0px -2px 8px rgba(33, 0, 73, 0.25);
+  --tab-selected: #e9e6ed;
+
+  /** Grays **/
+  --gray-alert-message: #a2b0b7;
+  --gray-alert-button-group: #eaeaea;
+  --gray-inputs-divide: #e7e9ea;
+  --gray-inputs-divide-rgb: 231, 233, 234;
+  --nequi-box-shadow: rgba(60, 129, 133, 0.15);
+  --card-modal-text: #717171;
+  --gray-60: #8e8e8e;
+  --gray-70: #6e6e6e;
+  --gray-70-rgb: 110, 110, 110;
+  --progress-bar-text: #dadada;
+  --pocket-card-subtitle: #605e5e;
+  --pocket-card-subtitle-rgb: rgba(96, 94, 94, 0.4);
+  --gray-card-bg-placeholder: #d8d8d8;
+  --gray-text-color: #9b9b9b;
+  --background-field-gray: #f8f8fa;
+  --calendar-icon-placeholder: #979797;
+  --goal-card-ellipse: #e0e0e0;
+  --toggle-background: #d8d8d8;
+  --gray-placeholder: #4f4f4f;
+  --background-gray: #c4c4c4;
+  --gray-icon-color: #bdbdbd;
+  --gray-color-step-700: #b3b3b3;
+  --box-shadow-a-015: rgba(60, 129, 133, 0.15);
+  --border-radius-a-01: rgba(151, 151, 151, 0.1);
+  --white-smoke: #f5f5f5;
+  --gray-border: #eaeaea;
+  --divisor-line: #e9e8ee;
+  --gray-80: #4b4b4b;
+  --gray-10: var(--white-smoke);
+  --border-gray-20: rgba(151, 151, 151, 0.2);
+  --box-shadow-card-015: rgba(60, 133, 127, 0.15);
+  --gray-50: var(--gray-color-step-700);
+  --gray-50-rgb: rgba(179, 179, 179, 1);
+  --gray-40: #cacaca;
+
+  /** Blues **/
+  --aguamarica: #c8f7f3;
+  --aguamaricargb: 200, 247, 243;
+  --aguamarica-deep: #86e5d0;
+  --background-title-box: #eefcfb;
+  --background-title-box-rgb: 238, 252, 251;
+  --color-title-box: #2fcad7;
+  --color-title-box-rgb: 47, 202, 215;
+  --link-blue: #4276ff;
+
+  --pocket-blue: #2aa0d3;
+  --pocket-darkBlue: #16619e;
+  --background-field-aguamarica: #e7fbfa;
+  --blue-sum-button: #59d4de;
+  --aguamarica-light: #e9fbfa;
+  --aguamarica-border: #26bbbf;
+
+  /** Okidoki **/
+  --okidoki: var(--color-title-box);
+  --okidokirgb: 47, 202, 215;
+  --okidoki-40: #aceaef;
+  --background-okidoki: #22b4c0;
+
+  /** bilbao **/
+  --bilbao: #4376ff;
+  --bilbaorgb: 67, 118, 255;
+  --bilbao-40: #b4c8ff;
+  --bilbao-black: #6991ff;
+
+  /** Yellows **/
+  --pocket-yellow: #f9d641;
+  --pocket-orange: #f7a543;
+  --chip-yellow: #ffffbb;
+  --chip-yellow-text: #cda40b;
+
+  /** Reds **/
+  --error-message: #f03738;
+}

@@ -1,0 +1,17 @@
+{
+  "lifeguard": {
+    "title": "Condiciones de tu Salvavidas",
+    "checkbox": "Marca esta opción si aceptas pagarle el préstamo a Nequi con estas condiciones.",
+    "button": "Acepta"
+  },
+  "propeller": {
+    "title": "Condiciones del Propulsor",
+    "checkbox": "Aceptas pagarle el préstamo a Nequi con estas condiciones.",
+    "button": "Acepta"
+  },
+  "lifeguard-recharged": {
+    "title": "Condiciones de tu Salvavidas",
+    "checkbox": "Aceptas pagarle el préstamo a Nequi con estas condiciones.",
+    "button": "Acepta"
+  }
+}

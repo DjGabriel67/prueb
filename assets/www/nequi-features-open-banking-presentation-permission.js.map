@@ -1,0 +1,1 @@
+{"version":3,"sources":["./libs/features/open-banking/src/presentation/permission/index.ts"],"names":[],"mappings":";;;;;;;;;;AAAA;AAAA;AAAA;AAAA;AAA6D","file":"nequi-features-open-banking-presentation-permission.js","sourcesContent":["export { PermissionModule } from './pages/permission.module';\n"],"sourceRoot":"webpack:///"}

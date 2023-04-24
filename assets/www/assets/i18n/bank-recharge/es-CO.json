@@ -1,0 +1,239 @@
+{
+  "home": {
+    "title": "Plata al toque",
+    "message": "Con Plata al toque puedes recargar hasta {{dailyLimit}} cada día y máximo {{monthlyLimit}} cada mes.",
+    "link-account": "Enlaza otra cuenta",
+    "help-url": "https://ayuda.nequi.com.co/hc/es/articles/115001866792-Transferir-plata-desde-Bancolombia-a-Nequi",
+    "buttons": {
+      "next": "Sigue",
+      "add-account": "Enlazar otra cuenta",
+      "help": "Ayuda"
+    },
+    "account": {
+      "types": {
+        "savings": "Ahorros",
+        "current": "Corriente"
+      }
+    },
+    "inputs": {
+      "account": {
+        "placeholder": "Número de cuenta Bancolombia"
+      },
+      "amount": {
+        "placeholder": "¿Cuánto quieres recargar?",
+        "errors": {
+          "max": "Puedes recargar hasta {{dailyLimit}} cada día."
+        }
+      }
+    },
+    "modals": {
+      "no-accounts": {
+        "title": "La magia está hecha",
+        "image": "assets/images/bank-recharge/no-accounts-to-link.svg",
+        "content": "Ya tienes todas tus cuentas Bancolombia enlazadas con Nequi",
+        "okButton": "Listo"
+      }
+    },
+    "confirmation": {
+      "title": "Recarga desde Bancolombia",
+      "items": {
+        "account": "Número de cuenta",
+        "account-type": "Tipo de cuenta",
+        "amount": "Valor"
+      },
+      "buttons": {
+        "confirm": "Confirma",
+        "cancel": "Quiero cambiar algo"
+      }
+    },
+    "errors": {
+      "default": {
+        "title": "¡Ups! No se pudo",
+        "content": "No pudimos recargar tu cuenta. Porfa intenta más tarde",
+        "buttons": {
+          "okButton": "Listo"
+        }
+      },
+      "locked-account": {
+        "title": "¡Ups! No se pudo",
+        "content": "Parece que hay un problema con tu cuenta Bancolombia",
+        "buttons": {
+          "okButton": "Listo"
+        }
+      },
+      "limits-reached": {
+        "title": "¡Ups! Deseo denegado",
+        "content": "Con esa cantidad te pasas de lo que puedes traer al día con Plata al Toque.",
+        "buttons": {
+          "okButton": "Listo"
+        }
+      },
+      "monthly-limits-reached": {
+        "title": "¡Ups! Deseo denegado",
+        "content": "Esta cantidad supera el máximo que puedes traer al mes. Intenta con {{remaining}}",
+        "buttons": {
+          "okButton": "Listo"
+        }
+      },
+      "nequi-account-locked": {
+        "title": "¡Ups! Deseo denegado",
+        "content": "Tu cuenta Nequi está bloqueada y no puedes usar plata al toque.",
+        "buttons": {
+          "okButton": "Listo"
+        }
+      },
+      "unavailable-account": {
+        "title": "Se fue la magia",
+        "content": "Esa cuenta Bancolombia ya no existe, la vamos a desenlazar.",
+        "buttons": {
+          "okButton": "Acepta"
+        }
+      },
+      "exceeds-ceiling": {
+        "title": "¡Ups! Deseo denegado",
+        "content": "Llegaste a los topes de tu Nequi del mes, intenta con menos plata o romper topes",
+        "buttons": {
+          "okButton": "Rompe topes",
+          "cancelButton": "Ahora no"
+        }
+      },
+      "no-balance-available": {
+        "title": "Magia agotada",
+        "content": "No tienes saldo suficiente en tu cuenta Bancolombia.",
+        "buttons": {
+          "okButton": "Listo"
+        }
+      }
+    }
+  },
+  "link-bank-account": {
+    "title": "Enlazar cuenta",
+    "account-type": "Tipo de cuenta",
+    "account-number": "Número de cuenta",
+    "description": "La cuenta debe ser Bancolombia y estar a nombre tuyo",
+    "continue": "Sigue",
+    "account-types": {
+      "S": "Ahorros",
+      "D": "Corriente"
+    },
+    "error-messages": {
+      "account-number": {
+        "required": "¡Ups! Debes llenar esto.",
+        "minlength": "Este número de cuenta no coincide con una cuenta Bancolombia",
+        "maxlength": "Este número de cuenta no coincide con una cuenta Bancolombia",
+        "pattern": "Este número de cuenta no coincide con una cuenta Bancolombia",
+        "number": "Este número de cuenta no coincide con una cuenta Bancolombia"
+      }
+    },
+    "is-linked-modal": {
+      "title": "La magia ya está hecha",
+      "content": "Esta cuenta Bancolombia ya la tienes enlazada y puedes recargar cuando quieras",
+      "ready": "Listo"
+    },
+    "is-unlinked-alert": {
+      "title": "¡Ups! Revisa la cuenta",
+      "content": "No te encontramos, recuerda que la cuenta Bancolombia debe estar a tu nombre",
+      "ready": "Listo"
+    },
+    "token-modal": {
+      "title": "Queremos estar más seguros",
+      "content": "Para enlazar debes generar la Clave Dinámica en tu App Bancolombia.",
+      "ready": "Listo",
+      "helpLinkText": "Quiero saber cómo",
+      "helpLink": "https://www.grupobancolombia.com/wps/portal/preguntas-frecuentes/preguntas/como-generar-clave-dinamica"
+    }
+  },
+  "token-validation": {
+    "title": "Clave Dinámica",
+    "description": "Escribe la Clave Dinámica que generaste en tu App Bancolombia",
+    "how-to-do-it-modal": {
+      "title": "¿No sabes cómo generar esta clave?",
+      "content": "Para liberar el genio con seguridad ve a la App Bancolombia por tu clave dinámica.",
+      "exit": "Salir",
+      "helpLinkText": "Ver como",
+      "helpLink": "https://www.grupobancolombia.com/wps/portal/preguntas-frecuentes/preguntas/como-generar-clave-dinamica"
+    },
+    "confirm-bottom-sheet": {
+      "title": "Cuenta a enlazar",
+      "confirm": "Confirma",
+      "cancel": "Quiero cambiar algo",
+      "accountType": "Tipo de cuenta",
+      "accountNumber": "Número de cuenta"
+    },
+    "isThatYourKey": {
+      "title": "¿Esa es tu Clave Dinámica?",
+      "content": "Escribiste mal tu Clave Dinámica. Intenta con la última que generaste. Te quedan {0} intentos.",
+      "leftButton": "Listo"
+    },
+    "exceededTokenAttempts": {
+      "title": "Muchos códigos",
+      "content": "Has agotado la cantidad de códigos en el día.  Vuelve a pedir otro en 24 horas.<br>Espera mientras llega el último código que pediste.",
+      "leftButton": "Salir",
+      "rightButton": "Esperar código"
+    },
+    "wrongToken": {
+      "title": "¡Lo sentimos!",
+      "content": "Escribiste mal el código<br>Recuerda siempre introducir el último código que te enviamos.",
+      "leftButton": "Listo"
+    },
+    "expiredToken": {
+      "title": "¡Lo sentimos!",
+      "content": "Este código esta vencido.<br>Recuerda siempre introducir el último código que te enviamos.",
+      "leftButton": "Listo",
+      "rightButton": "Pide otro"
+    },
+    "noNotificationsInscribed": {
+      "title": "No hay magia",
+      "content": "Recuerda que debes estar activo en alertas y notificaciones de Bancolombia",
+      "leftButton": "Ahora no",
+      "rightButton": "Quiero activarlo"
+    },
+    "askForAnotherToken": {
+      "title": "¿No recibiste el código?",
+      "content": "Revisa antes tu correo electrónico y tu celular, a veces los códigos se demoran en llegar.<br>Escribe únicamente el último código que enviamos",
+      "leftButton": "Listo",
+      "rightButton": "Pide otro"
+    },
+    "blockedByAttemptsBlock": {
+      "title": "Intenta porfa más tarde",
+      "content": "Ya no te quedan intentos para escribir tu Clave Dinámica. Intenta otra vez porfa en {0} horas.",
+      "leftButton": "Listo"
+    },
+    "weLackMagic": {
+      "title": "Nos falta magia :(",
+      "content": "Tu Clave Dinámica no está disponible. Comunícate porfa con Bancolombia para arreglarlo.",
+      "leftButton": "Listo"
+    },
+    "geniusNotAvailable": {
+      "title": "Genio no disponible",
+      "content": "Tenemos un problema y ya lo estamos arreglando ;) Intenta porfa en un momento.",
+      "leftButton": "Listo"
+    },
+    "andTheMagicKey": {
+      "title": "¿Y la llave mágica?",
+      "content": "Para liberar al genio debes generar tu Clave Dinámica en la App Bancolombia.",
+      "leftButton": "Listo"
+    },
+    "blockedGenius": {
+      "title": "Genio no disponible",
+      "content": "Tenemos un problema y no puedes liberar al genio.",
+      "leftButton": "Listo"
+    },
+    "linkAccountSuccess": {
+      "title": "¡Lista tu Plata al Toque!",
+      "content": "Ya puedes recargar tu Nequi desde tu cuenta Bancolombia con solo un toque. Si quieres desenlazar tu cuenta, ve a los Ajustes.",
+      "ready": "Listo"
+    },
+    "linkAccountFail": {
+      "header": "¡Perdón! No se pudo...",
+      "message": "Intenta más tarde porfa ;)",
+      "buttons": {
+        "accept": "Listo"
+      }
+    },
+    "pin-challenge": {
+      "title": "Escribe tu clave",
+      "message": "No dudamos de que seas tú... Pero es mejor confirmar ;)"
+    }
+  }
+}

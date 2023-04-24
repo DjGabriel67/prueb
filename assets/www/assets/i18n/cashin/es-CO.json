@@ -1,0 +1,100 @@
+{
+  "request-money": {
+    "home": {
+      "balance-header": {
+        "messages": {
+          "available": "Disponible",
+          "total": "Total"
+        }
+      },
+      "title": "Pide plata",
+      "buttons": {
+        "next": "Sigue"
+      },
+      "inputs": {
+        "contacts": {
+          "placeholder": "¿A quién le vas a pedir?",
+          "errors": {
+            "required": "¡Ups! Debes llenar esto.",
+            "minlength": "¡Ups! Debes poner un número de cel.",
+            "maxlength": "¡Ups! Debes poner un número de cel.",
+            "pattern": "¡Ups! Debes poner un número de cel.",
+            "number": "Este número de celular no coincide con un número",
+            "samePhone": "No puedes pedirte a ti mismo."
+          }
+        },
+        "amount": {
+          "placeholder": "¿Cuánto?",
+          "errors": {
+            "required": "¡Ups! Debes llenar esto."
+          }
+        },
+        "message": {
+          "placeholder": "Mensaje",
+          "errors": {
+            "maxlength": "¡Ups! Tu mensaje debe ser más corto para poder pedir",
+            "invalidCharacters": "¡Ups! Evita poner símbolos o caracteres especiales"
+          }
+        }
+      },
+      "alert": {
+        "header": "Ese Nequi no existe :(",
+        "message": "El número que escribiste no es de un usuario Nequi. Pídele a alguien que ya tenga su cuenta.",
+        "buttons": {
+          "accept": "Listo"
+        }
+      }
+    },
+    "modal-contacts": {
+      "selected-title": "Seleccionados {0}/{1}"
+    },
+    "your-request": {
+      "title": "Tu petición",
+      "text": "Puedes editar los valores de tu petición",
+      "contact-no-nequi": {
+        "title": "Contacto sin Nequi",
+        "message": "Estos cel no tienen Nequi :( Por eso, no puedes pedirles plata."
+      },
+      "zero-message": "A los usuarios con este valor no le pediremos :)",
+      "buttons": {
+        "next": "Pide"
+      }
+    }
+  },
+  "bottom-sheet": {
+    "title": "Opciones para recargar",
+    "options": {
+      "bancolombia": {
+        "title": "Plata al toque",
+        "description": "Desde tu cuenta Bancolombia",
+        "icon": "assets/images/use-money/cashin/bank.svg"
+      },
+      "cash": {
+        "title": "Con efectivo",
+        "description": "En corresponsales",
+        "icon": "assets/images/use-money/cashin/cash.svg",
+        "info": {
+          "title": "Recarga en efectivo",
+          "content": [
+            {
+              "content": "Por Corresponsales Bancolombia y Corresponsales Nequi.<br/> <p>1. Dile al encargado que vas a recargar tu Nequi. El número es el mismo de cel.</p><p>2. Por si te preguntan, el número de convenio es: 63703</p><p>3. El tipo de pago es un recaudo manual o pago de factura.</p><p>Puedes recargar a partir de $5.000.</p>"
+            }
+          ],
+          "button": "Ver puntos de recarga"
+        }
+      },
+      "pse": {
+        "title": "Desde otro banco",
+        "description": "Usa PSE",
+        "icon": "assets/images/use-money/cashin/pse.svg",
+        "info": {
+          "message": "¿Por qué PSE?",
+          "content": "Es un medio de pago rápido y seguro, que te permite recargar Nequi desde cualquier cuenta bancaria.",
+          "icon": "assets/images/use-money/cashin/pse-logo.svg",
+          "button": "Listo"
+        }
+      }
+    }
+  },
+  "help": "Ayuda"
+}

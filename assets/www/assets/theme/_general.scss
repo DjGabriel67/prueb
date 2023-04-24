@@ -1,0 +1,179 @@
+html {
+  font-size: 16px;
+}
+
+.link {
+  &--decoration-none {
+    text-decoration: none;
+  }
+
+  &-purple {
+    text-decoration: none;
+    color: var(--link-purple);
+  }
+
+  &-blue {
+    text-decoration: none;
+    color: var(--link-blue);
+  }
+}
+
+.text {
+  &-description {
+    color: var(--gray-alert-message);
+    font-size: 14px;
+    line-height: 16px;
+  }
+
+  &-secondary {
+    font-size: 14px;
+    color: var(--gray-70);
+  }
+
+  &__truncated {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  &__medium {
+    font-weight: 500;
+  }
+
+  &__align-right {
+    text-align: right;
+  }
+
+  &--guayaba {
+    color: var(--guayaba);
+  }
+
+  &--midnight {
+    color: var(--medianoche);
+  }
+
+  &--purple {
+    color: var(--input-purple);
+  }
+}
+
+.no-padding-top {
+  padding-top: 0;
+}
+
+.padding-8 {
+  padding: 8px;
+}
+
+.padding-vertical-4 {
+  padding: 4px 0px 4px 0px;
+}
+
+.padding-bottom-4 {
+  padding-bottom: 4px;
+}
+
+.no-margin-bottom {
+  margin-bottom: 0;
+}
+
+.margin-bottom-4 {
+  margin-bottom: 4px;
+}
+
+.margin-bottom-8 {
+  margin-bottom: 8px;
+}
+
+.margin-top-8 {
+  margin-top: 8px;
+}
+
+.margin-bottom-16 {
+  margin-bottom: 16px;
+}
+
+.margin-bottom-24 {
+  margin-bottom: 24px;
+}
+
+.margin-top-16 {
+  margin-top: 16px;
+}
+
+.margin-horizontal-8 {
+  margin: 0px 8px;
+}
+
+.margin-horizontal-16 {
+  margin: 0px 16px;
+}
+
+.margin-vertical-16 {
+  margin: 16px 0px;
+}
+
+.qr-container--rounded > svg {
+  border-radius: 12px;
+}
+
+.negative-prefix {
+  color: red;
+  .nequi-item__input::before {
+    content: '-';
+    width: 8px;
+    height: 23px;
+    position: relative;
+  }
+}
+
+.card-contract {
+  table {
+    max-width: 100% !important;
+    table {
+      border: 0 !important;
+      max-width: 100% !important;
+      tbody > tr > td {
+        padding: 0 !important;
+
+        br:first-child {
+          display: none;
+        }
+
+        table {
+          font-family: var(--ion-font-family, inherit) !important;
+          font-size: 16px !important;
+          max-width: 100% !important;
+
+          tbody > tr > td {
+            text-align: left !important;
+            font-size: 16px !important;
+          }
+        }
+      }
+    }
+  }
+}
+
+.full-registry-contract {
+  table {
+    max-width: 100% !important;
+    font-family: var(--ion-font-family, inherit) !important;
+    font-size: 16px !important;
+    max-width: 100% !important;
+    border: 0 !important;
+
+    td,
+    strong {
+      font-size: 16px !important;
+    }
+
+    td {
+      padding: 0 !important;
+    }
+
+    tbody > tr:first-child > td:first-child > table > tbody > tr:first-child > td:first-child {
+      padding-bottom: 16px !important;
+    }
+  }
+}

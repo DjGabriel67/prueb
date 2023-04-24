@@ -1,0 +1,47 @@
+{
+  "home": {
+    "title": "Actualiza tu saldo",
+    "image-description": "Acerca tu Cívica a la parte de atrás de tu cel",
+    "page-description-initial": "¡No despegues la Cívica de tu cel! Oprime el botón cuando estés listo.",
+    "page-description-reading": "¿Ya sonó 2 veces tu cel? Despega la Cívica solo cuando eso pase. Igual, te avisamos apenas esté listo ;)",
+    "read-card": "¡Ya! Cívica y cel juntos",
+    "cancel-button": "Ahora no",
+    "toast": "¡Hora de leer tu NFC! No despegues la Cívica de tu cel hasta que suene 2 veces ;)",
+    "card-error-message": {
+      "not-valid-card": "Esta Cívica no es válida :( Confirma porfa que tenga tres puntos en el respaldo.",
+      "blocked-card": "Tu Cívica está bloqueada :( Ve a un Punto de Atención al Cliente Metro para que te digan qué pasa y cómo arreglarlo.",
+      "nfc-not-supported": "Parece que tu cel no tiene NFC :( Confirma porfa en sus configuraciones.",
+      "nfc-not-activated": "¡Ups! Para seguir, activa el NFC de tu cel, desde sus configuraciones.",
+      "no-accreditation": "No te queda saldo pendiente por validar en la Tarjeta.",
+      "default": "Ups! No pudimos leer tu Cívica. Porfa inténtalo más tarde. "
+    }
+  },
+  "first-time-modal-info": {
+    "title": "Cívica siempre lista ;)",
+    "content": "Actualiza tu saldo si tu cel cuenta con tecnología NFC. <br/> <br/ >Ten en cuenta: <br/> <ul><li class='ion-padding-bottom'><b>Esta función no está presente para tarjetas Bancolombia Cívica</b></li><li><b>Tu Cívica debe tener tres puntos en el respaldo, a la izquierda.</b></li></ul> <br/>¡Es súper fácil! Acerca la Cívica a la parte de atrás de tu cel y listo ;).",
+    "image-path": "assets/images/nfc-civica/nfc-card-connect.svg",
+    "ready-button-label": "Listo",
+    "more-info-link-label": "¿Más info?"
+  },
+  "confirmation": {
+    "title": "Así quedó tu Cívica",
+    "balance-label": "Saldo actual (validado en la tarjeta)",
+    "balance-description": "El saldo que ahora tienes en tu Cívica, después de validarla con tu cel.",
+    "card-number-label": "Número de Cívica",
+    "pending-balance-label": "Lo que debes",
+    "pending-balance-description": "Esto es lo que debes si hiciste algún viaje y no tenías saldo suficiente.",
+    "pending-balance-footer-description": "Tienes un saldo pendiente en tu Cívica. Para que estes al día, recárgala ya con Nequi ;)",
+    "finish-button-label": "Termina",
+    "recharge-button-label": "Recarga Cívica",
+    "card-modal": {
+      "title": "¡Todo listo!",
+      "content": "Activaste tu saldo exitosamente",
+      "button-label": "Listo"
+    },
+    "pending-card-modal": {
+      "title": "¡Ups! Debes plata en tu Cívica",
+      "content": "Para que estemos al día, recárgala ya con Nequi ;)",
+      "button-label": "Listo"
+    }
+  }
+}

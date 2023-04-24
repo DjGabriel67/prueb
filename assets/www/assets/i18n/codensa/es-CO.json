@@ -1,0 +1,111 @@
+{
+  "home": {
+    "title": "Enel - Codensa",
+    "button": "Consulta",
+    "value": "Valor",
+    "link": {
+      "scan-code": "Escanea el código"
+    },
+    "bottom-sheet": {
+      "welcome": {
+        "message": "Tu factura: ¡al día!",
+        "content": "Aquí puedes pagar tu factura de Enel - Codensa. <p>Escanear el código de barras o escribe el número de cuenta.</p>",
+        "image": "/assets/images/codensa/enel.svg",
+        "button": "Listo"
+      },
+      "confirm": {
+        "title": "Confirma",
+        "subtitle": "Info del pago",
+        "type": "Tipo de documento",
+        "amount": "¿Cuánto?",
+        "accountNumber": "Número de cuenta",
+        "customerName": "Nombre",
+        "address": "Dirección",
+        "expirationAt": "Fecha de vencimiento",
+        "email": "Correo",
+        "pocket": "La plata saldrá de:",
+        "button": "Confirma"
+      }
+    },
+    "modals": {
+      "without-pending-bills": {
+        "header": "¡Estás al día!",
+        "content": "No tienes cuentas por pagar. Revisa porfa que el número esté bien escrito.",
+        "image": "/assets/images/transversal/yellow-sun.svg",
+        "buttons": {
+          "accept": "Listo"
+        }
+      },
+      "success-payment": {
+        "image": "/assets/images/transversal/yellow-sun.svg",
+        "header": "¡Qué bien!",
+        "content": "Brillas por tu luz y buena energía.<br>Enviaremos el comprobante a tu correo",
+        "buttons": {
+          "accept": "Listo"
+        }
+      },
+      "paid-bill-error": {
+        "header": "¡Perdón! No se puede...",
+        "content": "Parece que ya habías hecho antes este movimiento. Confirma porfa.",
+        "buttons": {
+          "accept": "Listo"
+        }
+      },
+      "bill-with-payment-in-transit-error": {
+        "header": "¡Perdón! No se puede...",
+        "content": "Parece que tu factura está en proceso de pago en otra parte. Revisa porfa ;)",
+        "buttons": {
+          "accept": "Listo"
+        }
+      },
+      "user-with-problems-in-codensa-error": {
+        "header": "¡Perdón! No se puede...",
+        "content": "¡Algo no está bien! Comunícate porfa con Enel - Codensa para saber qué pasa. <div class='margin-top-8'><a class='text--bilbao link--decoration-none' href='https://www.enel.com.co/es/canales-de-atencion.html' target='_blank'>Habla con Enel -Codensa</a></div>",
+        "buttons": {
+          "accept": "Listo"
+        }
+      }
+    },
+    "form": {
+      "account-number": "Número cuenta",
+      "email": "Correo"
+    },
+    "controls-errors": {
+      "account-number": {
+        "required": "¡Ups! Debes llenar esto.",
+        "wrong-account": "¡Ups! Revisa porfa que este sí sea el número.",
+        "info": "Escribe los 7 números que identifican tu factura, sin la cifra que hay después del guión.",
+        "help": "Es el número de 7 cifras que encuentras arriba, a la derecha, en tu factura."
+      },
+      "email": {
+        "required": "¡Ups! Debes llenar esto.",
+        "wrong-email": "No parece un correo. Revísalo porfa."
+      }
+    },
+    "bill-type": {
+      "01": "Factura",
+      "02": "Comprobante",
+      "04": "Ajuste",
+      "03": "Convenio",
+      "80": "Nota débito"
+    },
+    "barcode-reader": {
+      "view": {
+        "title": "Escanea código",
+        "content": "Encuentra el código de barras de tu factura y escanéalo con tu cel",
+        "imageName": ""
+      },
+      "errors": {
+        "invalid-barcode": "¡No reconocemos este código! Intenta otra vez porfa.",
+        "14001": "Proceso cancelado por el botón atras",
+        "14002": "Expiración de tiempo",
+        "14003": "Petición de digitalizacion de Código",
+        "14004": "Error desconocido",
+        "14005": "La camara no tiene los permisos necesarios",
+        "14006": "Redirección a los settings de la app",
+        "14007": "Se selecciona imagen desde galeria",
+        "14008": "No encuentra ningun QR en la imagen cargada desde la galeria"
+      }
+    }
+  }
+}

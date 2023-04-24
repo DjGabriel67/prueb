@@ -1,0 +1,40 @@
+@font-face {
+  font-family: 'RedHatDisplay';
+  src: url('/assets/fonts/RedHatText-Regular.eot') format('embedded-opentype'),
+    url('/assets/fonts/RedHatText-Regular.ttf') format('truetype'),
+    url('/assets/fonts/RedHatText-Regular.woff') format('woff'),
+    url('/assets/fonts/RedHatText-Regular.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'RedHatDisplay';
+  src: url('/assets/fonts/RedHatText-Medium.eot') format('embedded-opentype'),
+    url('/assets/fonts/RedHatText-Medium.ttf') format('truetype'),
+    url('/assets/fonts/RedHatText-Medium.woff') format('woff'),
+    url('/assets/fonts/RedHatText-Medium.svg') format('svg');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'RedHatDisplay';
+  src: url('/assets/fonts/RedHatDisplay-Bold.eot') format('embedded-opentype'),
+    url('/assets/fonts/RedHatDisplay-Bold.ttf') format('truetype'),
+    url('/assets/fonts/RedHatDisplay-Bold.woff') format('woff'),
+    url('/assets/fonts/RedHatDisplay-Bold.svg') format('svg');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'sherpafont';
+  src: url(/assets/fonts/sherpafont.eot);
+  src: url(/assets/fonts/sherpafont.eot?#iefix) format('embedded-opentype'),
+    url(/assets/fonts/sherpafont.woff) format('woff'),
+    url(/assets/fonts/sherpafont.ttf) format('truetype'),
+    url(/assets/fonts/sherpafont.svg#sherpafont) format('svg');
+  font-weight: normal;
+  font-style: normal;
+}

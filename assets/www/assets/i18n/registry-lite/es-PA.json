@@ -1,0 +1,281 @@
+{
+  "cancel-registration": {
+    "personal-info-pending": {
+      "header": "¡Te falta info!",
+      "message": "Si te sales de Nequi, no podemos recuperar la info que ya nos diste. Mejor sigue para que manejes la plata #ATuRitmo",
+      "buttons": {
+        "accept": "Sigue",
+        "cancel": "Salir"
+      }
+    },
+    "password-pending": {
+      "header": "Ya casi terminamos",
+      "message": "Solo te falta crear tu clave y tu reconocimiento facial. Tu cuenta ya está creada pero quedará bloqueada.",
+      "buttons": {
+        "accept": "Sigue",
+        "cancel": "Salir"
+      }
+    },
+    "biometry-pending": {
+      "header": "Ya casi terminamos",
+      "message": "Cuando vuelvas a ingresar a Nequi, te pediremos hacer el reconocimiento facial para poder usar tu plata.",
+      "buttons": {
+        "accept": "Sigue",
+        "cancel": "Salir"
+      }
+    }
+  },
+  "full-name": {
+    "title": "Tu info",
+    "name-description": "Tu nombre",
+    "nickname-description": "¿Cómo quieres que te llamemos?",
+    "country-description": "¿En dónde vives?",
+    "country": "País de residencia",
+    "first-name": "Primer nombre",
+    "second-name": "Segundo nombre (opcional)",
+    "first-last-name": "Primer apellido",
+    "second-last-name": "Segundo apellido (opcional)",
+    "nickname": "Nombre de usuari@ (opcional)",
+    "next-button": "Sigue",
+    "errors": {
+      "maxlength": "¡Ups! No puede ser tan largo"
+    }
+  },
+  "document-type": {
+    "title": "Tu documento de identidad",
+    "footer-link": "Tengo otro documento",
+    "types": {
+      "CC": "Cédula de ciudadanía",
+      "TI": "Tarjeta de identidad",
+      "CN": "Contraseña",
+      "CE": "Cédula de extranjería"
+    },
+    "alert-by-password": {
+      "header": "¿Tu documento es una contraseña?",
+      "message": "¡Tranqui! Crea tu Nequi con tu tarjeta de identidad.",
+      "buttons": {
+        "accept": "Listo"
+      }
+    }
+  },
+  "document-data": {
+    "titles": {
+      "CC": "Tu cédula de<br/>ciudadanía",
+      "TI": "Tu tarjeta de<br/>identidad",
+      "CN": "Tu tarjeta de<br/>identidad",
+      "CE": "Tu cédula de<br/>extranjería"
+    },
+    "message": "Recuerda porfa que tu fecha de nacimiento es diferente a la de expedición de tu documento ;)",
+    "placeholders": {
+      "input-document": "Número de identificación",
+      "input-birthdate": "Fecha de nacimiento",
+      "input-expedition": "Fecha de expedición"
+    },
+    "input-error-messages": {
+      "document": {
+        "required": "¡Ups! Debes llenar esto.",
+        "minlength": "No parece un documento válido",
+        "maxlength": "No parece un documento válido",
+        "invalidRange": "No parece un documento válido",
+        "pattern": "No parece un documento válido"
+      },
+      "date": {
+        "required": "¡Ups! Debes llenar esto."
+      }
+    },
+    "continue-button": "Listo",
+    "alerts": {
+      "default": {
+        "header": "Ha ocurrido un problema",
+        "message": "Prueba más tarde.",
+        "buttons": {
+          "accept": "Listo"
+        }
+      },
+      "existentUserWithoutBiometryAlert": {
+        "header": "¡Termina de abrir tu cuenta Nequi!",
+        "message": "Ya empezaste un registro con un celu terminado en **{{phoneNumber}}. Inicia sesión con ese número.",
+        "buttons": {
+          "accept": "Listo",
+          "cancel": "Cancela"
+        }
+      },
+      "existent-user-alert": {
+        "header": "¿Nuevo cel?",
+        "message": "Al parecer ya tienes Nequi ¿Cambiaste tu número de celular?",
+        "buttons": {
+          "accept": "Si",
+          "cancel": "No"
+        }
+      },
+      "data-inconsistency": {
+        "header": "Algo no nos cuadra",
+        "button": "Listo"
+      },
+      "canNotGoOn": {
+        "header": "No podemos continuar :(",
+        "message": "Ya existe una cuenta con este número de documento.",
+        "button": "Listo"
+      },
+      "errorAccountCAT": {
+        "header": "",
+        "button": "Acepta"
+      }
+    },
+    "toast": {
+      "error": {
+        "document-number": ":O Tu # de celular y tu cédula están iguales. Revisa porfa.",
+        "toas-wifi-recommendation": "Te recomendamos conectarte a un wifi para que todo salga perfecto.",
+        "invalid-document-range": "¿Escribiste bien tu documento? Revisa porfa e intenta otra vez"
+      }
+    },
+    "modal": {
+      "confirm-info": {
+        "title": "Confirma tu info",
+        "name": "Nombre",
+        "document": {
+          "CC": "Cédula de ciudadanía",
+          "TI": "Tarjeta de identidad",
+          "CE": "Cédula de extranjería"
+        },
+        "birth-date": "Fecha de nacimiento",
+        "expedition-date": "Fecha de expedición",
+        "confirm-button": "Quedó bien"
+      },
+      "max-age-ti": {
+        "title": "¿Y tu cédula?...",
+        "image": "/assets/images/organisms/modals/age-document.svg",
+        "message": "Ya eres mayor de edad y debes crear tu Nequi con la info de tu cédula de ciudadanía.",
+        "button": "Listo"
+      },
+      "min-age": {
+        "title": "Aún no cumples 13 años...",
+        "image": "/assets/images/organisms/modals/age-kite.svg",
+        "message": "¡Vamos a esperar un poco porfa! Cuando cumplas 13 años, aquí estaremos para acompañarte y que manejes la plata #ATuRitmo",
+        "button": "Listo"
+      },
+      "lastNameNotMatchError": {
+        "header": "¡Ups! No podemos seguir",
+        "message": "Mira que tu apellido esté bien escrito e intenta otra vez porfa",
+        "img": "/assets/images/organisms/modals/thumb-down-pink.svg",
+        "button": "Listo"
+      },
+      "cancelProccessAlert": {
+        "img": "images/Asset_Ahorro.svg",
+        "title": "¡No es más que un hasta luego!",
+        "description": "Esperamos que más adelante puedas unirte a Nequi. Mientras tanto, te invitamos a conocer más de nosotros…"
+      },
+      "canNotGoOn": {
+        "header": "¡Ups! No podemos seguir",
+        "img": "/assets/images/document/change-document.svg",
+        "message": "Tu número de documento ya está registrado con Tarjeta de Identidad. <b>Entra a esa cuenta y actualiza la info del tipo de documento</b>.",
+        "button": "Listo"
+      },
+      "controlListError": {
+        "header": "No puedes abrir Nequi :(",
+        "message": "No logramos confirmar la info que debemos verificar para abrir tu Nequi, de acuerdo con las condiciones y políticas que tenemos como Entidad Financiera.",
+        "img": "/assets/images/organisms/modals/thumb-down-pink.svg",
+        "button": "Listo"
+      },
+      "ask-want-to-be-nequi": {
+        "header": "¡Queremos acompañarte!",
+        "img": "/assets/images/icons/thumb-up.svg",
+        "message": "Tienes Bancolombia a la Mano y por ley, solo puedes tener uno de los dos.<br><br> Queremos acompañarte para que mejores tu relación con la plata. Pero, ¡tú decides! Si te quedas con Nequi, cancelaremos Bancolombia a la mano y trasladaremos tu saldo.",
+        "buttons": {
+          "accept": "Abrir Nequi",
+          "cancel": "Sigo con Bancolombia a la mano"
+        }
+      },
+      "cancel-to-be-nequi": {
+        "header": "¡No es más que un hasta luego!",
+        "message": "Esperamos que más adelante puedas unirte a Nequi. Mientras tanto, te invitamos a conocer más de nosotros…",
+        "img": "/assets/images/organisms/modals/hand-bye.svg",
+        "button": "Listo"
+      },
+      "client-high-risk": {
+        "title": "No puedes abrir Nequi :(",
+        "image": "/assets/images/organisms/modals/thumb-down-pink.svg",
+        "content": "No logramos confirmar tu info para seguir las normas que, como entidad financiera, debemos cumplir ante la Superintendencia Financiera de Colombia.",
+        "buttons": {
+          "accept": "Listo"
+        }
+      }
+    }
+  },
+  "email": {
+    "title": "Tu correo electrónico",
+    "send-email-text": "Te enviaremos a tu correo el contrato de tu Nequi y la confirmación de creación.",
+    "email-importance-text": "Es súper importante que pongas el correo que usas ahora, porque por ahí nos comunicamos todo el tiempo. También te servirá para recuperar tu clave y otra info importante de tu Nequi.",
+    "form": {
+      "email": {
+        "placeholder": "Escribe tu correo",
+        "error": {
+          "required": "No parece un correo válido",
+          "pattern": "No parece un correo válido"
+        }
+      },
+      "email-confirm": {
+        "placeholder": "Repite tu correo",
+        "error": {
+          "required": "No parece un correo válido",
+          "pattern": "No parece un correo válido",
+          "match": "Los correos deben ser iguales"
+        }
+      }
+    },
+    "toast": {
+      "error": {
+        "try-again": "¡Ups! Intenta con otro correo ;)"
+      }
+    },
+    "modal": {
+      "error": {
+        "check-your-email": {
+          "header": "Revisa porfa tu correo",
+          "message": "El correo electrónico que escribiste ya está registrado en Nequi... Intenta otra vez porfa :)",
+          "buttons": {
+            "accept": "Listo"
+          }
+        }
+      }
+    },
+    "footer-button": "Sigue"
+  },
+  "contract": {
+    "title": "Contrato de tu Nequi",
+    "version": "Versión del contrato",
+    "contract-reload-message": "¡Perdón! Tenemos un problema. Toca aquí e intenta otra vez porfa.",
+    "footer-button": "Acepta",
+    "download-button": "Descarga el contrato completo"
+  },
+  "password": {
+    "title": "Crea tu clave",
+    "description": "Fácil de recordar, pero secreta... No se la dices ni al espejo.",
+    "error-repeat-number": "¡Ups! No puedes usar el mismo número 3 veces.",
+    "confirmation": {
+      "error": "¡Ups! Las claves deben ser iguales.",
+      "description": "Confirma tu clave."
+    },
+    "toast": {
+      "info": "¡Recuerda! La clave de tu Nequi no debe ser la misma para desbloquear tu cel ;)",
+      "confirm": "Vuelve a escribir tu clave para confirmarla"
+    }
+  },
+  "start": {
+    "title": "Completa tu info",
+    "nav-buttons": {
+      "personal-info": {
+        "title": "Info personal",
+        "description": "Para conocerte mejor"
+      },
+      "create-password": {
+        "title": "Crea tu clave",
+        "description": "Ultrasecreta y solo tuya"
+      },
+      "facial-recognition": {
+        "title": "Reconocimiento facial",
+        "description": "Más seguridad"
+      }
+    }
+  }
+}
